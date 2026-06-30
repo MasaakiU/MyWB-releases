@@ -1,0 +1,37 @@
+MyWB Proprietary Software License
+
+Copyright (c) 2026 Masaaki Uematsu. All rights reserved.
+
+Permission is granted to download, install, and use MyWB for lawful
+personal, academic, and internal research purposes, free of charge.
+
+You may copy MyWB only as necessary to install, use, or back up the
+software for your own permitted use.
+
+You may not:
+- modify, translate, adapt, distribute, sublicense, rent, lease, sell,
+  re-host, or otherwise make MyWB available to third parties;
+- remove copyright, license, or third-party notices;
+- use the MyWB name or logo to imply endorsement or affiliation;
+- reverse engineer, decompile, disassemble, or attempt to derive source
+  code from MyWB, except to the extent such restriction is prohibited by
+  applicable law or required by licenses applicable to included
+  third-party components.
+
+You may share the official MyWB release page, but may not redistribute
+copies of the application.
+
+Third-party components included with MyWB are governed by their own
+license terms. See THIRD_PARTY_NOTICES.txt.
+Nothing in this license limits rights granted under applicable third-party
+licenses for those third-party components.
+
+The software is provided "AS IS", without warranty of any kind.
+To the maximum extent permitted by law, the copyright holder is not liable
+for any claim, damages, data loss, research loss, or other liability arising
+from use of the software.
+
+MyWB is intended for research use only. It is not designed, validated, or
+intended for clinical, diagnostic, therapeutic, or safety-critical use.
+
+Users retain all rights to their own input data and output files.

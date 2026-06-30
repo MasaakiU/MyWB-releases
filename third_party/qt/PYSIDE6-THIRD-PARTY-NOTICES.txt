@@ -1,0 +1,22 @@
+Qt for Python / PySide6 Third-Party Software Notices
+====================================================
+
+This release bundles Qt for Python components including PySide6, shiboken6,
+PySide6_Essentials, and PySide6_Addons.
+
+Bundled versions:
+- PySide6 6.11.1
+- shiboken6 6.11.1
+- PySide6_Essentials 6.11.1
+- PySide6_Addons 6.11.1
+
+Qt for Python contains or adapts some source material that is licensed by its
+original authors under separate open-source license terms. Only the licenses
+of third-party components actually shipped with MyWB apply to this release.
+
+Full Qt for Python third-party notices are published by The Qt Company at:
+https://doc.qt.io/qtforpython-6/licenses.html
+
+The Python Software Foundation license text referenced by Qt for Python is
+also included in this release at:
+third_party/python/LICENSE.txt

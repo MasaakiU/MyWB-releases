@@ -1,0 +1,18 @@
+Font Awesome SVG Icons
+======================
+
+MyWB includes SVG icons from Font Awesome.
+
+MyWB includes modified and combined Font Awesome Free SVG icons.
+Font Awesome Free uses separate license terms for icons, fonts, and code.
+MyWB ships SVG icon assets only; those icons are licensed under the Creative
+Commons Attribution 4.0 International License.
+
+Copyright Fonticons, Inc.
+
+Some icons have been modified or combined for use in MyWB. Copyright notices
+embedded in the SVG files are retained in the distributed icon files where
+present.
+
+License text:
+CC-BY-4.0.txt

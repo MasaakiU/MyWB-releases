@@ -1,0 +1,26 @@
+Qt Third-Party Software Notices
+===============================
+
+This release bundles Qt libraries and plugins through Qt for Python/PySide6.
+Qt libraries and plugins may include third-party code that is licensed by
+its original authors under separate open-source license terms.
+
+Bundled Qt version: 6.11.1
+
+Qt modules bundled in the current macOS standalone build include:
+- QtCore
+- QtDBus
+- QtGui
+- QtOpenGL
+- QtOpenGLWidgets
+- QtSvg
+- QtWidgets
+
+Only the licenses of third-party Qt components actually shipped with MyWB
+apply to this release.
+
+MyWB's Qt-related third-party component index is included at:
+third_party/qt/QT-SHIPPED-THIRD-PARTY-COMPONENTS.txt
+
+Full Qt third-party notices for Qt 6.11 are published by The Qt Company at:
+https://doc.qt.io/qt-6/licenses-used-in-qt.html

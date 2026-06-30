@@ -1,0 +1,91 @@
+Qt Artifacts Shipped with MyWB
+==============================
+
+This file identifies the Qt artifacts observed in the current MyWB macOS
+standalone app bundle. It is an inventory of shipped Qt files, not a complete
+copy of the upstream Qt third-party notices.
+
+Bundled Qt version: 6.11.1
+
+Full Qt third-party notices for Qt 6.11 are published by The Qt Company at:
+https://doc.qt.io/qt-6/licenses-used-in-qt.html
+
+Only Qt artifacts actually shipped with MyWB apply to this release. Platform-
+specific upstream notices for Qt components that are not present in this app
+bundle, such as Windows D3D/Wintab components or X11/XCB components, are not
+included in this inventory.
+
+Python Binding Modules
+----------------------
+
+- PySide6/QtCore.abi3.so
+- PySide6/QtDBus.abi3.so
+- PySide6/QtGui.abi3.so
+- PySide6/QtOpenGL.abi3.so
+- PySide6/QtOpenGLWidgets.abi3.so
+- PySide6/QtSvg.abi3.so
+- PySide6/QtWidgets.abi3.so
+
+Qt Frameworks
+-------------
+
+- PySide6/Qt/lib/QtCore.framework
+- PySide6/Qt/lib/QtDBus.framework
+- PySide6/Qt/lib/QtGui.framework
+- PySide6/Qt/lib/QtOpenGL.framework
+- PySide6/Qt/lib/QtOpenGLWidgets.framework
+- PySide6/Qt/lib/QtSvg.framework
+- PySide6/Qt/lib/QtWidgets.framework
+
+Qt Framework Symlinks
+---------------------
+
+- QtCore
+- QtDBus
+- QtGui
+- QtOpenGL
+- QtOpenGLWidgets
+- QtSvg
+- QtWidgets
+
+Qt Plugins
+----------
+
+Icon engines:
+- PySide6/Qt/plugins/iconengines/libqsvgicon.dylib
+
+Image formats:
+- PySide6/Qt/plugins/imageformats/libqgif.dylib
+- PySide6/Qt/plugins/imageformats/libqicns.dylib
+- PySide6/Qt/plugins/imageformats/libqico.dylib
+- PySide6/Qt/plugins/imageformats/libqjpeg.dylib
+- PySide6/Qt/plugins/imageformats/libqmacheif.dylib
+- PySide6/Qt/plugins/imageformats/libqmacjp2.dylib
+- PySide6/Qt/plugins/imageformats/libqsvg.dylib
+- PySide6/Qt/plugins/imageformats/libqtga.dylib
+- PySide6/Qt/plugins/imageformats/libqtiff.dylib
+- PySide6/Qt/plugins/imageformats/libqwbmp.dylib
+- PySide6/Qt/plugins/imageformats/libqwebp.dylib
+
+Platform plugins:
+- PySide6/Qt/plugins/platforms/libqcocoa.dylib
+- PySide6/Qt/plugins/platforms/libqminimal.dylib
+- PySide6/Qt/plugins/platforms/libqoffscreen.dylib
+
+Styles:
+- PySide6/Qt/plugins/styles/libqmacstyle.dylib
+
+Relevant Upstream Notice Areas
+------------------------------
+
+The shipped artifacts above correspond primarily to the Qt Core, Qt D-Bus,
+Qt GUI, Qt OpenGL, Qt SVG, and Qt Widgets upstream notice areas. The bundled
+image format plugins may also correspond to upstream Qt image-format notice
+areas such as JPEG, PNG, TIFF, WebP, SVG, and macOS-specific image handlers.
+
+Excluded Qt Areas
+-----------------
+
+The current MyWB standalone build excludes Qt Network, Qt PDF, Qt QML,
+Qt Quick, Qt Test, and Qt Virtual Keyboard Python modules and plugins.
+

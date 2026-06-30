@@ -1,0 +1,105 @@
+Third-Party Software Notices
+============================
+
+MyWB includes third-party software components and assets. Those components
+are governed by their own license terms, which are separate from the MyWB
+Proprietary Software License.
+
+The complete license texts, copyright notices, and applicable third-party
+attributions included with this release are provided in the third_party/
+directory.
+
+Qt for Python / PySide6 and Qt
+------------------------------
+MyWB uses Qt for Python (PySide6), shiboken6, and Qt libraries.
+
+PySide6 version: 6.11.1
+shiboken6 version: 6.11.1
+Qt version: 6.11.1
+
+Qt for Python and applicable Qt components are distributed under the
+GNU Lesser General Public License version 3.0 (LGPL-3.0), unless otherwise
+noted by the Qt Project.
+
+Corresponding source code for Qt for Python and Qt components can be obtained
+from the Qt Project's public source repositories.
+
+License text:
+third_party/qt/LGPL-3.0.txt
+
+Third-party notices:
+third_party/qt/QT-THIRD-PARTY-NOTICES.txt
+third_party/qt/PYSIDE6-THIRD-PARTY-NOTICES.txt
+
+Python
+------
+This distribution includes Python runtime components licensed under the
+Python Software Foundation License.
+
+License text:
+third_party/python/LICENSE.txt
+
+NumPy
+-----
+This distribution includes NumPy, licensed under BSD-style and other
+permissive open-source license terms described by the NumPy project.
+
+License texts:
+third_party/numpy/
+
+Pillow
+------
+This distribution includes Pillow, licensed under the MIT-CMU License.
+
+License text:
+third_party/pillow/LICENSE
+
+pyqtgraph
+---------
+This distribution includes pyqtgraph, licensed under the MIT License.
+
+License texts:
+third_party/pyqtgraph/LICENSE.txt
+third_party/pyqtgraph/colors/
+
+natsort
+-------
+This distribution includes natsort, licensed under the MIT License.
+
+License text:
+third_party/natsort/LICENSE
+
+defusedxml
+----------
+This distribution includes defusedxml, licensed under the Python Software
+Foundation License.
+
+License text:
+third_party/defusedxml/LICENSE
+
+PyInstaller
+-----------
+MyWB standalone builds are created with PyInstaller and include the
+PyInstaller bootloader. PyInstaller is licensed under the GNU General Public
+License version 2.0 or later.
+
+The PyInstaller bootloader exception permits the compiled bootloader and
+related files to be embedded in programs and distributed as part of those
+programs without imposing PyInstaller's GPL terms on the program as a whole.
+MyWB is distributed under the MyWB Proprietary Software License.
+
+License text:
+third_party/pyinstaller/COPYING.txt
+
+Font Awesome SVG Icons
+----------------------
+MyWB includes modified and combined Font Awesome Free SVG icons.
+Font Awesome Free uses separate license terms for icons, fonts, and code.
+MyWB ships SVG icon assets only; those icons are licensed under the Creative
+Commons Attribution 4.0 International License.
+
+Notice:
+third_party/fontawesome/NOTICE.txt
+
+License text:
+third_party/fontawesome/CC-BY-4.0.txt
