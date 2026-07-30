@@ -3,103 +3,196 @@ Third-Party Software Notices
 
 MyWB includes third-party software components and assets. Those components
 are governed by their own license terms, which are separate from the MyWB
-Proprietary Software License.
+Proprietary Software License. Nothing in the MyWB license limits rights
+granted by an applicable third-party license.
 
-The complete license texts, copyright notices, and applicable third-party
-attributions included with this release are provided in the third_party/
-directory.
+This notice describes the MyWB 0.4.0 macOS application for arm64 and x86_64
+produced by the Nuitka build. Other platforms or later releases may contain a
+different set of components. License texts, source-code offers, relinking
+instructions, copyright notices, and attribution materials are included in
+the third_party/ directory.
 
 Qt for Python / PySide6 and Qt
 ------------------------------
-MyWB uses Qt for Python (PySide6), shiboken6, and Qt libraries.
 
-PySide6 version: 6.11.1
-shiboken6 version: 6.11.1
-Qt version: 6.11.1
+MyWB uses dynamically linked Qt for Python and Qt libraries:
 
-Qt for Python and applicable Qt components are distributed under the
-GNU Lesser General Public License version 3.0 (LGPL-3.0), unless otherwise
-noted by the Qt Project.
+- PySide6 6.11.1
+- shiboken6 6.11.1
+- Qt 6.11.1
 
-Corresponding source code for Qt for Python and Qt components can be obtained
-from the Qt Project's public source repositories.
+Qt for Python and the Qt components used by this release are distributed
+under the GNU Lesser General Public License version 3.0 (LGPL-3.0), unless a
+component's included notice states otherwise. MyWB uses the LGPL option for
+these components.
 
-License text:
+You may modify or replace the LGPL-covered libraries and may reverse engineer
+MyWB to the extent necessary to debug those modifications. The MyWB
+application code remains under the MyWB Proprietary Software License.
+
+License texts:
+
+third_party/qt/GPL-3.0.txt
 third_party/qt/LGPL-3.0.txt
 
-Third-party notices:
+Written source offer and replacement instructions:
+
+third_party/qt/SOURCE-CODE-OFFER.txt
+third_party/qt/RELINKING-INSTRUCTIONS.txt
+
+Component and third-party notices:
+
 third_party/qt/QT-THIRD-PARTY-NOTICES.txt
 third_party/qt/PYSIDE6-THIRD-PARTY-NOTICES.txt
+third_party/qt/QT-SHIPPED-THIRD-PARTY-COMPONENTS.txt
+
+Nuitka
+------
+
+MyWB is compiled with Nuitka 4.1.3. The Nuitka compiler itself is not included
+in the application bundle. Nuitka-generated target code uses the Nuitka
+Runtime Library under an exception that permits proprietary target code to be
+distributed under terms chosen by the application author.
+
+Notice and runtime exception:
+
+third_party/nuitka/NOTICE.txt
+third_party/nuitka/LICENSE-RUNTIME.txt
 
 Python
 ------
-This distribution includes Python runtime components licensed under the
-Python Software Foundation License.
+
+This distribution includes Python 3.12.13 runtime components licensed under
+the Python Software Foundation License.
 
 License text:
+
 third_party/python/LICENSE.txt
+
+Python native runtime libraries
+-------------------------------
+
+The Nuitka bundle includes native libraries used by Python, Pillow, and
+extension modules. These include the Python runtime; bzip2, Expat, libffi,
+XZ Utils/liblzma, OpenSSL, and zlib; and Pillow's AVIF, JPEG, Little CMS,
+OpenJPEG, TIFF, WebP/SharpYUV, Xau, XCB, and zlib-ng dependencies.
+
+Exact filename inventory, license mapping, and license texts:
+
+third_party/native/
 
 NumPy
 -----
-This distribution includes NumPy, licensed under BSD-style and other
+
+This distribution includes NumPy 2.5.0, licensed under BSD-style and other
 permissive open-source license terms described by the NumPy project.
 
 License texts:
+
 third_party/numpy/
 
 Pillow
 ------
-This distribution includes Pillow, licensed under the MIT-CMU License.
 
-License text:
+This distribution includes Pillow 12.3.0, licensed under the MIT-CMU License.
+Pillow's license file also reproduces the notices and license texts for native
+image-codec and support libraries shipped in the Pillow wheel and copied into
+the Nuitka bundle.
+
+License and bundled-component notices:
+
 third_party/pillow/LICENSE
 
 pyqtgraph
 ---------
-This distribution includes pyqtgraph, licensed under the MIT License.
+
+This distribution includes pyqtgraph 0.15.0.dev0 from commit
+93ddf0ee1899f4d5c777c28a72e742e5be7e6d11, licensed under the MIT License.
+The bundled CET color-map data is licensed under the Creative Commons
+Attribution 4.0 International License. The viridis, magma, plasma, inferno,
+and cividis color-map data is dedicated to the public domain under CC0 1.0
+Universal.
 
 License texts:
+
 third_party/pyqtgraph/LICENSE.txt
-third_party/pyqtgraph/colors/
+third_party/pyqtgraph/colors/CC-BY license - applies to CET color map data.txt
+third_party/pyqtgraph/colors/CC0 legal code - applies to virids, magma, plasma, inferno and cividis.txt
+
+Colorama
+--------
+
+This distribution includes Colorama 0.4.6, licensed under the BSD 3-Clause
+License.
+
+License text:
+
+third_party/colorama/LICENSE.txt
 
 natsort
 -------
-This distribution includes natsort, licensed under the MIT License.
+
+This distribution includes natsort 8.4.0, licensed under the MIT License.
 
 License text:
+
 third_party/natsort/LICENSE
 
 defusedxml
 ----------
-This distribution includes defusedxml, licensed under the Python Software
-Foundation License.
+
+This distribution includes defusedxml 0.7.1, licensed under the Python
+Software Foundation License.
 
 License text:
+
 third_party/defusedxml/LICENSE
 
-PyInstaller
------------
-MyWB standalone builds are created with PyInstaller and include the
-PyInstaller bootloader. PyInstaller is licensed under the GNU General Public
-License version 2.0 or later.
+truststore
+----------
 
-The PyInstaller bootloader exception permits the compiled bootloader and
-related files to be embedded in programs and distributed as part of those
-programs without imposing PyInstaller's GPL terms on the program as a whole.
-MyWB is distributed under the MyWB Proprietary Software License.
+This distribution includes truststore 0.10.4, licensed under the MIT License.
 
 License text:
-third_party/pyinstaller/COPYING.txt
+
+third_party/truststore/LICENSE
+
+cryptography
+------------
+
+This distribution includes cryptography 49.0.0, licensed under either the
+Apache License 2.0 or the BSD 3-Clause License.
+
+License texts:
+
+third_party/cryptography/
+
+CFFI
+----
+
+This distribution includes CFFI 2.1.0, licensed under the MIT No Attribution
+License.
+
+License text:
+
+third_party/cffi/LICENSE
 
 Font Awesome SVG Icons
 ----------------------
-MyWB includes modified and combined Font Awesome Free SVG icons.
-Font Awesome Free uses separate license terms for icons, fonts, and code.
-MyWB ships SVG icon assets only; those icons are licensed under the Creative
-Commons Attribution 4.0 International License.
 
-Notice:
+MyWB includes modified and combined Font Awesome Free SVG icons. Font Awesome
+Free uses separate license terms for icons, fonts, and code. MyWB ships SVG
+icon assets only; those icons are licensed under the Creative Commons
+Attribution 4.0 International License.
+
+Notice and license text:
+
 third_party/fontawesome/NOTICE.txt
-
-License text:
 third_party/fontawesome/CC-BY-4.0.txt
+
+Excluded build-time tools
+-------------------------
+
+The Nuitka application described by this notice does not include the
+PyInstaller bootloader. GNU Readline is not used by MyWB and is explicitly
+excluded from the Nuitka application bundle.

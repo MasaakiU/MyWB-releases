@@ -1,0 +1,18 @@
+Nuitka
+======
+
+MyWB is compiled with Nuitka.
+
+Nuitka version: 4.1.3
+
+Nuitka is developed by Kay Hayen.
+Copyright (c) 2008-2026 Kay Hayen.
+All rights reserved.
+
+The Nuitka compiler is licensed separately from MyWB. The Nuitka compiler is
+not included in the MyWB application bundle. Nuitka-generated target code
+uses the Nuitka Runtime Library under the additional permission reproduced in
+LICENSE-RUNTIME.txt. That exception permits target code, including
+proprietary applications, to be conveyed under terms chosen by the
+application author.
+

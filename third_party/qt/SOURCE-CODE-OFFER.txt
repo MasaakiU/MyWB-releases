@@ -1,0 +1,55 @@
+Written Offer for Qt and Qt for Python Corresponding Source Code
+================================================================
+
+This offer applies to the copy of MyWB with which it is distributed.
+
+MyWB 0.4.0 for macOS includes dynamically linked components from Qt 6.11.1
+and Qt for Python 6.11.1, including PySide6 and shiboken6, under the GNU
+Lesser General Public License version 3.0 (LGPL-3.0).
+
+Masaaki Uematsu offers every recipient who possesses the corresponding MyWB
+object code a complete machine-readable copy of the corresponding source code
+for those LGPL-covered components. The offered material includes the source
+code for the exact library versions distributed with MyWB, any modifications
+made for MyWB, and the scripts and configuration information controlled by
+the distributor that are needed to build the libraries.
+
+No modifications have been made to the Qt, PySide6, or shiboken6 source code
+for this release.
+
+This offer is valid until the later of:
+
+- July 28, 2029; and
+- three years after the last distribution of this MyWB release by the
+  copyright holder.
+
+To request the source, open an issue at:
+
+https://github.com/MasaakiU/MyWB-releases/issues
+
+Use the title "LGPL corresponding source request" and identify the MyWB
+version, build ID, platform, and architecture shown in the application's
+About window. Do not include private research data or license tokens.
+
+The source will be provided electronically without charge. If physical media
+is requested and reasonably available, the requester may be charged no more
+than the reasonable cost of physically performing the distribution.
+
+The corresponding upstream source archives covered by this offer are:
+
+- qtbase-everywhere-src-6.11.1.tar.xz
+  SHA-256:
+  d9594a31228aa23ad6b531719a29b45f0f3989fe6c136d45767ea179f233c1ac
+- qtsvg-everywhere-src-6.11.1.tar.xz
+  SHA-256:
+  7f3cf02f4824bf03c2c5859ea6db173bf1482a1daf24e6cdf7bc78cfa26a8a94
+- qtimageformats-everywhere-src-6.11.1.tar.xz
+  SHA-256:
+  b2bf6c6845ac175ed7f819145483ba4676f617aaa6a5012c8efee63c8bbac413
+- pyside-setup-everywhere-src-6.11.1.tar.xz
+  SHA-256:
+  6ffd9835bb0dd2c56f061d62f1616bb1707cfc0202b80e3165d6be087f3965e2
+
+These hashes identify the exact upstream material. This written offer is
+made and controlled by the MyWB distributor and does not depend on the
+upstream project continuing to host those files.

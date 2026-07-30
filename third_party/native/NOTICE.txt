@@ -1,0 +1,58 @@
+Native Runtime Libraries
+========================
+
+The current MyWB 0.4.0 macOS Nuitka bundles for the supported arm64 and
+x86_64 architectures include the native libraries listed below. The
+release-integrity check compares the selected application bundle against this
+inventory before distribution.
+
+Python runtime dependencies
+---------------------------
+
+- libpython3.12.dylib: Python 3.12.13, PSF License
+- libbz2.dylib: bzip2 1.0.8, bzip2 license
+- libexpat.1.dylib: Expat 2.8.1, MIT license
+- libffi.8.dylib: libffi 3.5.2, MIT license
+- liblzma.5.dylib: XZ Utils 5.8.3, 0BSD license
+- libcrypto.3.dylib and libssl.3.dylib: OpenSSL 3.6.3,
+  Apache License 2.0
+- libz.1.dylib: zlib 1.3.2, zlib license
+
+The Python license is at third_party/python/LICENSE.txt. The other applicable
+license texts are included in this directory.
+
+Pillow native dependencies
+--------------------------
+
+Pillow's wheel supplies image-codec and support libraries that Nuitka copies
+into the application bundle:
+
+- libavif.16.4.2.dylib: libavif and its AV1 codec dependencies
+- libjpeg.62.4.0.dylib: libjpeg-turbo
+- liblcms2.2.dylib: Little CMS
+- libopenjp2.2.5.4.dylib: OpenJPEG
+- libtiff.6.dylib: libtiff
+- libwebp.7.dylib, libwebpdemux.2.dylib, libwebpmux.3.dylib, and
+  libsharpyuv.0.dylib: libwebp and SharpYUV
+- libXau.6.dylib: Xau
+- libxcb.1.1.0.dylib: XCB
+- libz.1.3.1.zlib-ng.dylib: zlib-ng
+
+These components use permissive BSD, MIT, IJG, libpng, libtiff, zlib, or
+similarly permissive terms, as applicable. The Pillow wheel's complete
+bundled-component copyright notices and license texts are reproduced at:
+
+third_party/pillow/LICENSE
+
+Qt native libraries and plugins
+-------------------------------
+
+Qt, PySide6, shiboken6, and the Qt plugins are inventoried separately at:
+
+third_party/qt/QT-SHIPPED-THIRD-PARTY-COMPONENTS.txt
+
+Their license texts, corresponding-source offer, relinking instructions, and
+third-party notices are under third_party/qt/.
+
+GNU Readline and the unused Qt PDF library/plugin are explicitly excluded
+from the Nuitka bundle.

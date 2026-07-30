@@ -1,0 +1,84 @@
+Replacing Qt and Qt for Python Libraries in MyWB on macOS
+=========================================================
+
+MyWB uses Qt, PySide6, and shiboken6 through shared libraries. You may replace
+the LGPL-covered libraries with modified, ABI-compatible versions for the
+purpose of exercising rights granted by the LGPL. The MyWB license does not
+prohibit reverse engineering when it is required by an applicable
+third-party license.
+
+These instructions apply to MyWB 0.4.0 for macOS arm64 and x86_64, built with
+Qt 6.11.1 and Qt for Python 6.11.1. Later releases may use different paths or
+versions.
+
+1. Work on a copy
+-----------------
+
+Copy MyWB.app to a writable location. Keep the original copy so it can be
+restored if an incompatible library prevents startup.
+
+2. Obtain or build compatible libraries
+---------------------------------------
+
+Request the exact corresponding source under SOURCE-CODE-OFFER.txt, or use
+another complete source copy for the same versions.
+
+Build dynamic, ABI-compatible libraries for the architecture and minimum
+macOS version identified by the MyWB release's About window and build
+summary. Preserve the library install names expected by the application. The
+Qt libraries in this release are loaded from:
+
+MyWB.app/Contents/MacOS/
+
+The PySide6 extension modules and Qt plugins are loaded from:
+
+MyWB.app/Contents/MacOS/PySide6/
+
+The shiboken6 extension module is loaded from:
+
+MyWB.app/Contents/MacOS/shiboken6/
+
+3. Replace the LGPL-covered files
+---------------------------------
+
+Replace only the corresponding Qt, PySide6, shiboken6, or plugin files in the
+copied application bundle. Keep the same relative paths and filenames.
+
+The Qt shared libraries use install names such as:
+
+@executable_path/QtCore
+@executable_path/QtGui
+@executable_path/QtWidgets
+
+If a replacement uses different install names, adjust the replacement with
+Apple's install_name_tool or rebuild it with compatible install names.
+
+4. Re-sign the modified local copy
+----------------------------------
+
+Replacing a library invalidates the original application signature. Sign the
+modified files and application locally with an ad hoc signature. From
+Terminal, with /path/to/MyWB.app replaced by the actual path, run:
+
+codesign --force --deep --sign - /path/to/MyWB.app
+codesign --verify --deep --strict --verbose=2 /path/to/MyWB.app
+
+An ad hoc signature is sufficient for local testing. It does not recreate the
+developer's notarized release signature.
+
+5. Run and debug
+----------------
+
+Launch the modified local copy normally. If macOS reports a missing library,
+inspect the replacement and its dependencies with:
+
+otool -L /path/to/replacement-library
+
+The replacement must remain ABI-compatible with the linked Qt for Python
+extension modules. If PySide6 or shiboken6 is modified, replace the matching
+set of binding libraries and extension modules together.
+
+No MyWB application source code is required merely to replace the dynamically
+linked LGPL-covered libraries. These instructions do not provide permission
+to bypass MyWB Premium access controls; they apply to modification and
+debugging of the LGPL-covered components.

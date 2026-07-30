@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="510.21875px" height="114.0px" viewBox="-220.0 -55.0 510.21875 114.0" role="img" aria-label="Table line span sample label layout example using the Default SVG style preset">
+  <defs>
+    <pattern id="wb-hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#e6e6e6" />
+      <line x1="0" y1="0" x2="0" y2="8" stroke="#bdbdbd" stroke-width="2" />
+    </pattern>
+    <style>.wb-placeholder{fill:url(#wb-hatch);}</style>
+  </defs>
+  <rect x="-220.0" y="-55.0" width="510.21875" height="114.0" fill="#f6f8fa" aria-hidden="true" />
+  <g id="layer1">
+    <rect class="wb-placeholder" width="250.0" height="50.0" x="0" y="0" id="image17" />
+    <text style="font-size:20.0px;font-family:'Helvetica','Arial','Liberation Sans','DejaVu Sans',sans-serif;text-anchor:middle" x="125.0" y="32.0" id="wb-image-label">wb image</text>
+    <line x1="250.0" y1="17.0" x2="258.0" y2="17.0" style="stroke:#000000;stroke-width:2.0;stroke-linecap:butt" id="marker-tick1" />
+    <text style="font-size:20.0px;font-family:'Helvetica','Arial','Liberation Sans','DejaVu Sans',sans-serif;text-anchor:start" x="260.0" y="24.0" id="text1">37</text>
+    <line x1="250.0" y1="41.0" x2="258.0" y2="41.0" style="stroke:#000000;stroke-width:2.0;stroke-linecap:butt" id="marker-tick2" />
+    <text style="font-size:20.0px;font-family:'Helvetica','Arial','Liberation Sans','DejaVu Sans',sans-serif;text-anchor:start" x="260.0" y="48.0" id="text2">25</text>
+    <g id="annotation-text" xml:space="preserve">
+      <text style="font-size:30.0px;font-family:'Helvetica','Arial','Liberation Sans','DejaVu Sans',sans-serif;text-anchor:start" x="-205.0" y="14.0" id="annotation-text-line-1">Table</text>
+      <text style="font-size:30.0px;font-family:'Helvetica','Arial','Liberation Sans','DejaVu Sans',sans-serif;text-anchor:start" x="-205.0" y="48.0" id="annotation-text-line-2">(line span)</text>
+    </g>
+    <text style="font-size:20.0px;font-family:'Helvetica','Arial','Liberation Sans','DejaVu Sans',sans-serif;text-anchor:end" x="-0.0" y="-30.0" id="sample-table-row-label-1">genotype</text>
+    <text style="font-size:20.0px;font-family:'Helvetica','Arial','Liberation Sans','DejaVu Sans',sans-serif;text-anchor:middle" x="64.475" y="-30.0" id="sample-table-cell-1-span-1">WT</text>
+    <line x1="6.2" y1="-26.0" x2="122.75" y2="-26.0" style="stroke:#000000;stroke-width:1.0;stroke-linecap:butt" id="sample-table-span-line-1-1" />
+    <text style="font-size:20.0px;font-family:'Helvetica','Arial','Liberation Sans','DejaVu Sans',sans-serif;text-anchor:middle" x="184.875" y="-30.0" id="sample-table-cell-1-span-2">KO</text>
+    <line x1="126.75" y1="-26.0" x2="243.0" y2="-26.0" style="stroke:#000000;stroke-width:1.0;stroke-linecap:butt" id="sample-table-span-line-1-2" />
+    <text style="font-size:20.0px;font-family:'Helvetica','Arial','Liberation Sans','DejaVu Sans',sans-serif;text-anchor:end" x="-0.0" y="-8.0" id="sample-table-row-label-2">replicate</text>
+    <text style="font-size:20.0px;font-family:'Helvetica','Arial','Liberation Sans','DejaVu Sans',sans-serif;text-anchor:middle" x="24.3" y="-8.0" id="sample-table-cell-2-span-1">1</text>
+    <text style="font-size:20.0px;font-family:'Helvetica','Arial','Liberation Sans','DejaVu Sans',sans-serif;text-anchor:middle" x="64.5" y="-8.0" id="sample-table-cell-2-span-2">2</text>
+    <text style="font-size:20.0px;font-family:'Helvetica','Arial','Liberation Sans','DejaVu Sans',sans-serif;text-anchor:middle" x="104.675" y="-8.0" id="sample-table-cell-2-span-3">3</text>
+    <text style="font-size:20.0px;font-family:'Helvetica','Arial','Liberation Sans','DejaVu Sans',sans-serif;text-anchor:middle" x="144.825" y="-8.0" id="sample-table-cell-2-span-4">1</text>
+    <text style="font-size:20.0px;font-family:'Helvetica','Arial','Liberation Sans','DejaVu Sans',sans-serif;text-anchor:middle" x="184.95" y="-8.0" id="sample-table-cell-2-span-5">2</text>
+    <text style="font-size:20.0px;font-family:'Helvetica','Arial','Liberation Sans','DejaVu Sans',sans-serif;text-anchor:middle" x="225.0" y="-8.0" id="sample-table-cell-2-span-6">3</text>
+    <path style="fill:none;stroke:#000000;stroke-width:1.0;stroke-linejoin:miter" d="M -0.5,-0.5 H 250.5 V 50.5 H -0.5 Z" id="rect0" />
+  </g>
+</svg>

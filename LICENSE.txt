@@ -1,37 +1,177 @@
-MyWB Proprietary Software License
+MyWB Proprietary Software License and Premium Access Terms
+
+License version 2.0
+Effective date: July 28, 2026
 
 Copyright (c) 2026 Masaaki Uematsu. All rights reserved.
 
-Permission is granted to download, install, and use MyWB for lawful
-personal, academic, and internal research purposes, free of charge.
+By downloading, installing, or using the copy of MyWB distributed with this
+license (the "Software"), you agree to these terms. If you do not agree, do
+not install or use that copy.
 
-You may copy MyWB only as necessary to install, use, or back up the
-software for your own permitted use.
+1. Version-specific terms
+
+This license applies only to the copy of the Software with which it is
+distributed. A copy distributed with an earlier license remains governed by
+that earlier license. Publishing this or a later license does not
+retroactively amend the terms supplied with an earlier copy.
+
+2. Definitions
+
+"Basic Features" means every function included in this copy of the Software
+other than Quantification. This includes, without limitation, Marker/Blot
+View, SVG Preview, and the normal ability to open and save supported MyWB
+files. A Basic Feature in this copy will not later be redesignated as a
+Premium Feature for this copy.
+
+"Premium Features" means functions for which Premium Access is required.
+Quantification is the only Premium Feature in this copy of the Software.
+
+"Premium Access" means a current authorization to use one or more Premium
+Features, whether provided at no charge or through a separately agreed paid
+subscription or other paid license.
+
+3. License grant
+
+Subject to these terms, permission is granted to download, install, and use
+the Basic Features for lawful personal, academic, and internal research
+purposes without a license fee.
+
+While the Software has valid Premium Access, permission is also granted to use
+the Premium Features covered by that authorization for the same permitted
+purposes. Premium Access provided at no charge grants the same permission for
+its covered Premium Features as paid Premium Access. Paid Premium Access is
+subject to the separately agreed paid terms.
+
+You may copy the Software only as necessary to install, use, or back up the
+Software for your own permitted use. No other rights are granted.
+
+4. Premium designation and advance notice
+
+Premium Access for Quantification is currently provided without a subscription
+fee. No end date for this access at no charge is scheduled as of the effective
+date of this license. If the copyright holder schedules an end to access to
+Quantification at no charge for this copy, the copyright holder will provide
+at least 90 days' advance notice before paid Premium Access is required.
+
+A function first introduced in a later release may be identified as a Premium
+Feature from the time it is introduced. A later release may also be offered
+under different license terms. Before a function that is a Basic Feature in
+this copy is changed into a Premium Feature in a later release, the copyright
+holder will provide at least 90 days' advance notice. Such a change does not
+alter the status of that function as a Basic Feature in this copy.
+
+The notice will identify the affected feature, the effective date, and the
+available means of continued access. Notice will be published on the official
+MyWB release page and may also be delivered through the Software when it
+connects to an online service.
+
+The official MyWB release page is:
+https://github.com/MasaakiU/MyWB-releases
+
+5. Effect of unavailable Premium Access
+
+If Premium Access is invalid, expires, or does not cover a Premium Feature,
+the Software may disable the affected Premium interface and access through
+that interface to its saved state.
+
+Loss of Premium Access does not disable the Basic Features. It does not
+delete, encrypt, remotely modify, or transfer your local files. The basic
+ability to open and save supported MyWB files remains available, although
+Premium-specific data or controls may remain unavailable until Premium Access
+is restored.
+
+6. License verification and privacy
+
+A successful online verification is required before Premium Features can be
+used for the first time and at least once every 30 days afterward to maintain
+uninterrupted access. After a successful verification, the Software may cache
+an authorization that permits offline use for up to 30 days. That period may
+be shorter if a previously announced change to access takes effect sooner. If
+the cached authorization expires before verification succeeds, Premium
+Features may remain unavailable until a new authorization is obtained.
+
+Information processed in connection with license verification is described in
+the Privacy Policy distributed with the Software.
+
+7. Paid subscriptions and automatic renewal
+
+Premium Access provided at no charge does not, by itself, enroll you in a paid
+subscription or authorize any charge. Accepting this license or using Premium
+Access at no charge is not consent to future billing.
+
+The copyright holder may separately offer an automatically renewing
+subscription for Premium Access. A paid subscription may begin only after you
+are shown the total price, including applicable taxes where required, billing
+interval, first charge date, automatic-renewal terms, cancellation method, and
+the effect of cancellation, and you separately and affirmatively agree to those
+paid terms through a purchase action that clearly communicates the obligation
+to pay.
+
+After that agreement, the subscription may renew and charges may recur until
+you cancel in accordance with the paid subscription terms. If a separately
+offered free trial will convert to a paid subscription, the first charge date
+and price must be disclosed and agreed to when that trial is accepted.
+
+For an online subscription, a reasonably accessible online cancellation
+method and a retainable confirmation of the agreed paid terms will be
+provided. A record of the paid-terms version, consent date and time, displayed
+price, and billing interval will be maintained. Applicable consumer rights and
+mandatory law are not limited by this license.
+
+8. Restrictions
 
 You may not:
+
 - modify, translate, adapt, distribute, sublicense, rent, lease, sell,
-  re-host, or otherwise make MyWB available to third parties;
-- remove copyright, license, or third-party notices;
+  re-host, or otherwise make the Software available to third parties;
+- remove copyright, license, privacy, or third-party notices;
 - use the MyWB name or logo to imply endorsement or affiliation;
-- reverse engineer, decompile, disassemble, or attempt to derive source
-  code from MyWB, except to the extent such restriction is prohibited by
-  applicable law or required by licenses applicable to included
-  third-party components.
+- bypass, disable, tamper with, or interfere with license verification or
+  Premium access controls;
+- forge, alter, share without authorization, or misuse an authorization,
+  entitlement, or license token;
+- gain unauthorized access to, disrupt, or abuse a MyWB licensing service; or
+- reverse engineer, decompile, disassemble, or attempt to derive source code
+  from the Software, except to the extent such restriction is prohibited by
+  applicable law or required by licenses applicable to included third-party
+  components.
 
-You may share the official MyWB release page, but may not redistribute
-copies of the application.
+You may share the official MyWB release page, but may not redistribute copies
+of the Software.
 
-Third-party components included with MyWB are governed by their own
-license terms. See THIRD_PARTY_NOTICES.txt.
-Nothing in this license limits rights granted under applicable third-party
-licenses for those third-party components.
+9. User data and output files
 
-The software is provided "AS IS", without warranty of any kind.
-To the maximum extent permitted by law, the copyright holder is not liable
-for any claim, damages, data loss, research loss, or other liability arising
-from use of the software.
+As between you and the copyright holder, you retain the rights you hold in
+your own input data and output files. The Software does not acquire ownership
+of those materials. Ending access at no charge, cancelling a subscription, or
+losing Premium Access does not transfer ownership of those materials.
+
+10. Third-party components
+
+Third-party components included with the Software are governed by their own
+license terms. See THIRD_PARTY_NOTICES.txt. Nothing in this license limits
+rights granted under applicable third-party licenses for those components.
+
+11. Termination and later releases
+
+A material violation of this license terminates the permissions granted by
+this license to the extent permitted by applicable law. Ending access at no
+charge or losing Premium Access does not by itself terminate permission to use
+the Basic Features.
+
+A later release of MyWB may be offered under different terms. Installing or
+using a later release may require acceptance of the license distributed with
+that release. The copyright holder may stop distributing or supporting an
+earlier release without changing the license previously granted for that copy.
+
+12. Disclaimer
+
+The Software is provided "AS IS", without warranty of any kind. To the maximum
+extent permitted by law, the copyright holder is not liable for any claim,
+damages, data loss, research loss, or other liability arising from use of or
+inability to use the Software. Nothing in this license excludes or limits
+liability that cannot lawfully be excluded or limited.
 
 MyWB is intended for research use only. It is not designed, validated, or
 intended for clinical, diagnostic, therapeutic, or safety-critical use.
-
-Users retain all rights to their own input data and output files.
