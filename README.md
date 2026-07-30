@@ -1,4 +1,4 @@
-# MyWB Standalone App
+# MyWB App
 
 MyWB is a desktop app for western blot image alignment, labeling, SVG export, and quantification.
 
@@ -58,6 +58,8 @@ Choose from a variety of sample-label layouts—with more to come!
 <p align="center"><img src=".github/assets/sample_label_layout_table_bracket_span.svg" alt="Table sample-label layout with bracket spans" width="510"></p>
 
 ## How to Install
+
+Download the latest version from the [GitHub Releases page](https://github.com/MasaakiU/MyWB-releases/releases).
 
 ### macOS
 
