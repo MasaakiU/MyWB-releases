@@ -60,7 +60,7 @@ From image preparation to analysis and presentation, every step stays within eas
     </tr>
     <tr>
       <td valign="middle" nowrap="nowrap">
-        <a href="#powerpoint-workflow" aria-label="Copy SVG for PowerPoint"><picture><source media="(prefers-color-scheme: dark)" srcset=".github/assets/copy_to_powerpoint_gray20.svg"><img src=".github/assets/copy_to_powerpoint.svg" alt="" width="28" height="28" align="middle"></picture></a>&nbsp;<a href="#powerpoint-workflow"><strong>Copy&nbsp;SVG&nbsp;for&nbsp;PowerPoint</strong></a>
+        <a href="#powerpoint-workflow" aria-label="Copy SVG for PowerPoint"><picture><source media="(prefers-color-scheme: dark)" srcset=".github/assets/copy_to_powerpoint_gray20.svg"><img src=".github/assets/copy_to_powerpoint.svg" alt="" width="28" height="28" align="middle"></picture></a>&nbsp;<a href="#powerpoint-workflow"><strong>Copy&nbsp;SVG&nbsp;for&nbsp;PowerPoint</strong></a>&nbsp;&nbsp;
       </td>
       <td valign="middle">More than a simple image copy—preserve MyWB metadata for future traceability.</td>
     </tr>
