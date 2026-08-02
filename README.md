@@ -41,28 +41,28 @@ From image preparation to analysis and presentation, every step stays within eas
   </thead>
   <tbody>
     <tr>
-      <td>
-        <a href="#from-blot-to-figure" aria-label="Marker/blot view"><picture><source media="(prefers-color-scheme: dark)" srcset=".github/assets/table-columns-solid_gray20.svg"><img src=".github/assets/table-columns-solid.svg" alt="" width="28" height="28"></picture></a>&nbsp;<a href="#from-blot-to-figure"><strong>Marker/blot view</strong></a>
+      <td valign="middle" nowrap="nowrap">
+        <a href="#from-blot-to-figure" aria-label="Marker/blot view"><picture><source media="(prefers-color-scheme: dark)" srcset=".github/assets/table-columns-solid_gray20.svg"><img src=".github/assets/table-columns-solid.svg" alt="" width="28" height="28" align="middle"></picture></a>&nbsp;<a href="#from-blot-to-figure"><strong>Marker/blot&nbsp;view</strong></a>
       </td>
-      <td>Adjust marker and blot images, select an ROI, and add labels.</td>
+      <td valign="middle">Adjust marker and blot images, select an ROI, and add labels.</td>
     </tr>
     <tr>
-      <td>
-        <a href="#from-blot-to-figure" aria-label="SVG preview"><picture><source media="(prefers-color-scheme: dark)" srcset=".github/assets/eye-solid_gray20.svg"><img src=".github/assets/eye-solid.svg" alt="" width="28" height="28"></picture></a>&nbsp;<a href="#from-blot-to-figure"><strong>SVG preview</strong></a>
+      <td valign="middle" nowrap="nowrap">
+        <a href="#from-blot-to-figure" aria-label="SVG preview"><picture><source media="(prefers-color-scheme: dark)" srcset=".github/assets/eye-solid_gray20.svg"><img src=".github/assets/eye-solid.svg" alt="" width="28" height="28" align="middle"></picture></a>&nbsp;<a href="#from-blot-to-figure"><strong>SVG&nbsp;preview</strong></a>
       </td>
-      <td>Review the SVG output and edit its styles before saving.</td>
+      <td valign="middle">Review the SVG output and edit its styles before saving.</td>
     </tr>
     <tr>
-      <td>
-        <a href="#quantification-access" aria-label="Quantification"><picture><source media="(prefers-color-scheme: dark)" srcset=".github/assets/square-minus-regular_WB_gray20.svg"><img src=".github/assets/square-minus-regular_WB.svg" alt="" width="28" height="28"></picture></a>&nbsp;<a href="#quantification-access"><strong>Quantification</strong></a>
+      <td valign="middle" nowrap="nowrap">
+        <a href="#quantification-access" aria-label="Quantification"><picture><source media="(prefers-color-scheme: dark)" srcset=".github/assets/square-minus-regular_WB_gray20.svg"><img src=".github/assets/square-minus-regular_WB.svg" alt="" width="28" height="28" align="middle"></picture></a>&nbsp;<a href="#quantification-access"><strong>Quantification</strong></a>
       </td>
-      <td>Analyze lanes in the selected ROI (Premium feature).</td>
+      <td valign="middle">Analyze lanes in the selected ROI (Premium feature).</td>
     </tr>
     <tr>
-      <td>
-        <a href="#powerpoint-workflow" aria-label="Copy SVG for PowerPoint"><picture><source media="(prefers-color-scheme: dark)" srcset=".github/assets/copy_to_powerpoint_gray20.svg"><img src=".github/assets/copy_to_powerpoint.svg" alt="" width="28" height="28"></picture></a>&nbsp;<a href="#powerpoint-workflow"><strong>Copy SVG for PowerPoint</strong></a>
+      <td valign="middle" nowrap="nowrap">
+        <a href="#powerpoint-workflow" aria-label="Copy SVG for PowerPoint"><picture><source media="(prefers-color-scheme: dark)" srcset=".github/assets/copy_to_powerpoint_gray20.svg"><img src=".github/assets/copy_to_powerpoint.svg" alt="" width="28" height="28" align="middle"></picture></a>&nbsp;<a href="#powerpoint-workflow"><strong>Copy&nbsp;SVG&nbsp;for&nbsp;PowerPoint</strong></a>
       </td>
-      <td>More than a simple image copy—preserve MyWB metadata for future traceability.</td>
+      <td valign="middle">More than a simple image copy—preserve MyWB metadata for future traceability.</td>
     </tr>
   </tbody>
 </table>
