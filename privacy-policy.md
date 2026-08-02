@@ -1,6 +1,6 @@
 # MyWB Privacy Policy
 
-Effective date: July 28, 2026
+Effective date: July 31, 2026
 
 MyWB is a local desktop application for research use. It is designed to run
 on your computer and process files that you choose to open, create, or save.
@@ -45,18 +45,38 @@ occasional internet connection.
 
 ### Update Checks
 
-When MyWB starts, it may check GitHub Releases for information about a newer
-version of the application. This request is made to retrieve publicly
-available release information.
+When MyWB starts, or when you select Check for Updates, it may make an HTTPS
+GET request to a MyBioApps-operated update service delivered through
+Cloudflare. This request retrieves the version number of the latest stable
+MyWB release. MyWB identifies its application name and version in the
+User-Agent header.
 
-MyWB does not intentionally send your files, file contents, images, research
-data, settings, annotations, or authentication credentials as part of an
-update check.
+The update-check request has no request body and does not include:
 
-As with other connections to an online service, GitHub may receive standard
-technical information associated with the request, such as your IP address,
-request time, and HTTP request information. GitHub's handling of this
-information is governed by GitHub's own privacy policies.
+- a Cookie or Authorization header;
+- an account, device, or installation identifier;
+- a hardware fingerprint; or
+- your files, file contents, file names, file paths, images, research data,
+  settings, labels, annotations, or measurements.
+
+Cloudflare processes the standard technical request information described
+below when delivering the update service. The update service makes a separate
+request with fixed application headers to GitHub's public Releases API. It does
+not copy the application's incoming User-Agent, Cookie, Authorization header,
+or other application-supplied request headers into that request. Cloudflare may
+add network headers to the outbound request as part of its service operation;
+under Cloudflare's documented behavior, those headers may contain the
+visitor's IP address. GitHub may therefore process that IP address and other
+standard technical information when the service retrieves public release
+information.
+
+If MyWB reports that an update is available, choosing its release-page action
+opens a fixed public GitHub repository address in your default browser. When
+you visit that repository, GitHub receives the standard technical information
+associated with your browser's direct connection. A latest-download link may
+first contact the MyBioApps update service and then temporarily redirect your
+browser to the versioned DMG asset hosted by GitHub. GitHub receives a direct
+request from your browser when that redirect is followed.
 
 MyWB does not automatically download or install updates unless this
 functionality is explicitly added in a future release.
@@ -123,19 +143,20 @@ may include:
 The developer may be able to see aggregate request counts and short-lived
 operational logs.
 
-The developer may use de-identified aggregate license-service request totals
-to understand overall service activity and app-version adoption. These totals
-are not used to identify or link users, devices, installations, or activity
-across different days.
+The developer may use de-identified aggregate update- and license-service
+request totals to understand overall service activity and app-version
+adoption. These totals are not used to identify or link users, devices,
+installations, or activity across different days.
 
-If a license check is made near application startup, those counts may provide
-an approximate indication of check frequency. They are not an exact count of
-application launches or days of use because authorization may be cached,
-requests may be retried, and some use may occur offline.
+If an update or license check is made near application startup, those counts
+may provide an approximate indication of check frequency. They are not an
+exact count of application launches or days of use because checks may be
+cached or skipped, requests may be retried, and some use may occur offline.
 
 MyWB does not send a separate per-launch or daily-activity analytics event.
 
-The licensing service may use Cloudflare for hosting, security, and delivery.
+The update and licensing services may use Cloudflare for hosting, security,
+and delivery.
 
 Developer-accessible Cloudflare Workers logs, when enabled for security,
 reliability, troubleshooting, or creation of the de-identified aggregate totals
@@ -162,8 +183,11 @@ by you voluntarily and is used only to respond to your request.
 
 MyWB includes third-party software components. Their license terms are
 described in the third-party notices and license materials included with MyWB.
-Online update and licensing requests may be processed by GitHub and Cloudflare,
-respectively, under those providers' privacy policies.
+Online update and licensing requests may be processed by Cloudflare. The
+update service separately retrieves public release information from GitHub,
+and GitHub processes direct requests when you visit the public repository or
+follow a download redirect. Those providers' handling of information is
+governed by their own privacy policies.
 
 ## Changes
 

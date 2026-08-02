@@ -7,7 +7,7 @@ purpose of exercising rights granted by the LGPL. The MyWB license does not
 prohibit reverse engineering when it is required by an applicable
 third-party license.
 
-These instructions apply to MyWB 0.4.0 for macOS arm64 and x86_64, built with
+These instructions apply to MyWB 0.4.1 for macOS arm64 and x86_64, built with
 Qt 6.11.1 and Qt for Python 6.11.1. Later releases may use different paths or
 versions.
 
@@ -63,8 +63,8 @@ Terminal, with /path/to/MyWB.app replaced by the actual path, run:
 codesign --force --deep --sign - /path/to/MyWB.app
 codesign --verify --deep --strict --verbose=2 /path/to/MyWB.app
 
-An ad hoc signature is sufficient for local testing. It does not recreate the
-developer's notarized release signature.
+An ad hoc signature is sufficient for local testing. It does not make the
+modified copy Developer ID-signed or notarized.
 
 5. Run and debug
 ----------------
