@@ -1,14 +1,21 @@
 # MyWB App
 
-MyWB is a desktop app for western blot image alignment, labeling, SVG export, and quantification.
+MyWB is an end-to-end desktop app for processing and analyzing western blot images (and other gel images, too).
+
+### Do any of these challenges sound familiar?
+
+<p align="center"><img src=".github/assets/challenges-comic.webp" alt="Common challenges in western blot figure preparation" width="600"></p>
+
+Leave the back-and-forth behind. MyWB unites everything from source images to analysis and presentation in one seamless workflow, where you can align, rotate, tune intensity, crop, label, quantify, and export. It also lays the groundwork for easier figure traceability in PowerPoint.
+
+<p align="center"><strong>Download the latest version</strong></p>
 
 <p align="center">
-  <a href="https://download.mybioapps.com/mywb/download/latest/macos/arm64"><img src=".github/assets/download-macos-arm64.svg" alt="Download MyWB for Apple silicon Macs (arm64)" height="68"></a>
-  &nbsp;
-  <a href="https://download.mybioapps.com/mywb/download/latest/macos/x86_64"><img src=".github/assets/download-macos-x86_64.svg" alt="Download MyWB for Intel Macs (x86_64)" height="68"></a>
+  <a href="https://download.mybioapps.com/mywb/download/latest/macos/arm64"><img src=".github/assets/download-macos-arm64.svg" alt="Download the latest version of MyWB for Apple silicon Macs (arm64)" height="68"></a>
+  <a href="https://download.mybioapps.com/mywb/download/latest/macos/x86_64"><img src=".github/assets/download-macos-x86_64.svg" alt="Download the latest version of MyWB for Intel Macs (x86_64)" height="68"></a>
 </p>
 
-<p align="center"><a href="https://github.com/MasaakiU/MyWB-releases/releases">Previous versions</a></p>
+<p align="center"><a href="https://github.com/MasaakiU/MyWB-releases/releases">Release notes and previous versions</a></p>
 
 ## Contents
 
@@ -21,12 +28,6 @@ MyWB is a desktop app for western blot image alignment, labeling, SVG export, an
 - [Legal and Privacy](#legal-and-privacy)
 
 ## Features
-
-### Do any of these challenges sound familiar?
-
-<p align="center"><img src=".github/assets/challenges-comic.webp" alt="Common challenges in western blot figure preparation" width="600"></p>
-
-MyWB streamlines western blot figure preparation by bringing image alignment, rotation, intensity adjustment, labeling, cropping, and export into one workflow—and is laying the groundwork for easier figure traceability in PowerPoint.
 
 ### Four Controls, One Workflow
 
@@ -60,7 +61,7 @@ From image preparation to analysis and presentation, every step stays within eas
     </tr>
     <tr>
       <td valign="middle" nowrap="nowrap">
-        <a href="#powerpoint-workflow" aria-label="Copy SVG for PowerPoint"><picture><source media="(prefers-color-scheme: dark)" srcset=".github/assets/copy_to_powerpoint_gray20.svg"><img src=".github/assets/copy_to_powerpoint.svg" alt="" width="28" height="28" align="middle"></picture></a>&nbsp;<a href="#powerpoint-workflow"><strong>Copy&nbsp;SVG&nbsp;for&nbsp;PowerPoint</strong></a>&nbsp;&nbsp;
+        <a href="#powerpoint-workflow" aria-label="Copy SVG for PowerPoint"><picture><source media="(prefers-color-scheme: dark)" srcset=".github/assets/copy_to_powerpoint_gray20.svg"><img src=".github/assets/copy_to_powerpoint.svg" alt="" width="28" height="28" align="middle"></picture></a>&nbsp;<a href="#powerpoint-workflow"><strong>Copy&nbsp;for&nbsp;PowerPoint</strong></a>&nbsp;&nbsp;
       </td>
       <td valign="middle">More than a simple image copy—preserve MyWB metadata for future traceability.</td>
     </tr>
@@ -85,10 +86,10 @@ Choose from a variety of sample-label layouts—with more to come!
 
 ### macOS
 
-Download the version that matches your Mac. To check which type of Mac you have, open the Apple menu and select `About This Mac`.
+Download the latest version for your Mac. To check which type of Mac you have, open the Apple menu and select `About This Mac`.
 
-- **[Download for Apple silicon (`arm64`)](https://download.mybioapps.com/mywb/download/latest/macos/arm64)** — for Macs with an Apple M-series chip. The downloaded file ends in `-macos-arm64.dmg`.
-- **[Download for Intel (`x86_64`)](https://download.mybioapps.com/mywb/download/latest/macos/x86_64)** — for Macs with an Intel processor. The downloaded file ends in `-macos-x86_64.dmg`.
+- **[Download the latest version for Apple silicon (`arm64`)](https://download.mybioapps.com/mywb/download/latest/macos/arm64)** — for Macs with an Apple M-series chip. The downloaded file ends in `-macos-arm64.dmg`.
+- **[Download the latest version for Intel (`x86_64`)](https://download.mybioapps.com/mywb/download/latest/macos/x86_64)** — for Macs with an Intel processor. The downloaded file ends in `-macos-x86_64.dmg`.
 
 For release notes, checksums, or previous versions, see the [GitHub Releases page](https://github.com/MasaakiU/MyWB-releases/releases).
 
