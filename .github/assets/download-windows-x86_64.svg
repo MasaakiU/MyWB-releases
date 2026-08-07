@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="230" height="68" viewBox="0 0 230 68" role="img" aria-labelledby="title description" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <title id="title">Download the latest version of MyWB for Windows x86_64</title>
+  <desc id="description">Open the MyWB release page to download the latest Windows x86_64 Setup</desc>
+  <rect x="1" y="1" width="228" height="66" rx="10" fill="#0969da" stroke="#0550ae" stroke-width="2"/>
+  <!-- Font Awesome Free 7.3.1, CC BY 4.0, Copyright Fonticons, Inc. -->
+  <path d="M96 157.7L279.6 132.4L279.6 309.8L96 309.8L96 157.7zM96 482.3L279.6 507.6L279.6 332.4L96 332.4L96 482.3zM299.8 510.3L544 544L544 332.4L299.8 332.4L299.8 510.3zM299.8 129.7L299.8 309.8L544 309.8L544 96L299.8 129.7z" transform="translate(6 8) scale(.08)" fill="#ffffff" aria-hidden="true"/>
+  <g fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+    <path d="M 186,12 V 56" stroke-width="1" opacity="0.3"/>
+    <path d="m 208,16.66 v 26.798182 m -7.8,-7.881818 7.8,7.881818 7.8,-7.881818 M 197.86,51.34 h 20.28" stroke-width="2.6"/>
+  </g>
+  <g fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="58" y="29" font-size="17" font-weight="600">Windows</text>
+    <text x="58" y="50" font-size="12">x86_64</text>
+  </g>
+</svg>

@@ -13,6 +13,7 @@ Leave the back-and-forth behind. MyWB unites everything from source images to an
 <p align="center">
   <a href="https://download.mybioapps.com/mywb/download/latest/macos/arm64"><img src=".github/assets/download-macos-arm64.svg" alt="Download the latest version of MyWB for Apple silicon Macs (arm64)" height="68"></a>
   <a href="https://download.mybioapps.com/mywb/download/latest/macos/x86_64"><img src=".github/assets/download-macos-x86_64.svg" alt="Download the latest version of MyWB for Intel Macs (x86_64)" height="68"></a>
+  <a href="https://download.mybioapps.com/mywb/download/latest/windows/x86_64"><img src=".github/assets/download-windows-x86_64.svg" alt="Download the latest version of MyWB for Windows x86_64" height="68"></a>
 </p>
 
 <p align="center"><a href="https://github.com/MasaakiU/MyWB-releases/releases">Release notes and previous versions</a></p>
@@ -88,10 +89,8 @@ Choose from a variety of sample-label layouts—with more to come!
 
 Download the latest version for your Mac. To check which type of Mac you have, open the Apple menu and select `About This Mac`.
 
-- **[Download the latest version for Apple silicon (`arm64`)](https://download.mybioapps.com/mywb/download/latest/macos/arm64)** — for Macs with an Apple M-series chip. The downloaded file ends in `-macos-arm64.dmg`.
-- **[Download the latest version for Intel (`x86_64`)](https://download.mybioapps.com/mywb/download/latest/macos/x86_64)** — for Macs with an Intel processor. The downloaded file ends in `-macos-x86_64.dmg`.
-
-For release notes, checksums, or previous versions, see the [GitHub Releases page](https://github.com/MasaakiU/MyWB-releases/releases).
+- **[Apple silicon (`arm64`)](https://download.mybioapps.com/mywb/download/latest/macos/arm64)** — for Macs with an Apple M-series chip. The downloaded file ends in `-macos-arm64.dmg`.
+- **[Intel (`x86_64`)](https://download.mybioapps.com/mywb/download/latest/macos/x86_64)** — for Macs with an Intel processor. The downloaded file ends in `-macos-x86_64.dmg`.
 
 Once you have downloaded the appropriate version:
 
@@ -111,6 +110,16 @@ The current MyWB release is not signed with a Developer ID certificate and has n
 `Open Anyway` is available for about one hour after the first launch attempt. Only override the warning if you downloaded MyWB using the official links above. Do not override an alert saying that the app will damage your computer or is damaged; download the DMG again and report the problem if it continues.
 
 For more information, see [Apple's instructions for opening an app from an unidentified developer](https://support.apple.com/102445).
+
+### Windows (x86_64)
+
+**[Download the latest Windows x86_64 Setup](https://download.mybioapps.com/mywb/download/latest/windows/x86_64)**. The downloaded file ends in `-windows-x86_64.exe`. Windows 11 on Arm devices can run the x86_64 version through Windows' built-in
+emulation. A native Arm build is not currently available.
+
+1. Open the downloaded Setup file.
+2. If Windows displays a Microsoft Defender SmartScreen warning, select **More info**, then select **Run anyway** only when you downloaded the file from the official link above.
+3. Follow the Setup prompts. MyWB installs for your current user and does not require administrator access.
+4. Start MyWB from the Start menu or the optional desktop shortcut.
 
 ## From Blot to Figure
 
