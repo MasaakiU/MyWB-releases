@@ -1,7 +1,7 @@
 Qt Artifacts Shipped with MyWB
 ==============================
 
-This file identifies the Qt artifacts expected in the MyWB 0.4.1 macOS
+This file identifies the Qt artifacts expected in the MyWB 0.5.0 macOS
 Nuitka application bundles for the supported arm64 and x86_64 architectures.
 The release-integrity check verifies this inventory against the selected
 application before distribution.

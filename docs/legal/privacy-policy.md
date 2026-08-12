@@ -1,6 +1,6 @@
 # MyWB Privacy Policy
 
-Effective date: July 31, 2026
+Effective date: August 10, 2026
 
 MyWB is a local desktop application for research use. It is designed to run
 on your computer and process files that you choose to open, create, or save.
@@ -26,6 +26,9 @@ Images, MyWB files, SVG exports, settings, labels, measurements, and other
 user-created data remain on your computer unless you choose to share them.
 
 MyWB may read files that you open and may write files that you save or export.
+When you use PowerPoint-to-MyWB paste (`Paste MyWB from PowerPoint`), copied
+SVG data is read from the local clipboard and is not transmitted as part of
+license verification.
 
 Some MyWB SVG files may contain embedded image data and MyWB session metadata.
 This allows a session to be reopened later.
@@ -60,23 +63,19 @@ The update-check request has no request body and does not include:
   settings, labels, annotations, or measurements.
 
 Cloudflare processes the standard technical request information described
-below when delivering the update service. The update service makes a separate
-request with fixed application headers to GitHub's public Releases API. It does
-not copy the application's incoming User-Agent, Cookie, Authorization header,
-or other application-supplied request headers into that request. Cloudflare may
-add network headers to the outbound request as part of its service operation;
-under Cloudflare's documented behavior, those headers may contain the
-visitor's IP address. GitHub may therefore process that IP address and other
-standard technical information when the service retrieves public release
-information.
+below when delivering the update service. The update service reads release
+information bundled into its deployed configuration. It does not contact
+GitHub while answering an update-check request and does not forward the
+application's incoming User-Agent, Cookie, Authorization header, or other
+application-supplied request headers to another service.
 
 If MyWB reports that an update is available, choosing its release-page action
 opens a fixed public GitHub repository address in your default browser. When
 you visit that repository, GitHub receives the standard technical information
 associated with your browser's direct connection. A latest-download link may
 first contact the MyBioApps update service and then temporarily redirect your
-browser to the versioned DMG asset hosted by GitHub. GitHub receives a direct
-request from your browser when that redirect is followed.
+browser to the versioned release asset hosted by GitHub. GitHub receives a
+direct request from your browser when that redirect is followed.
 
 MyWB does not automatically download or install updates unless this
 functionality is explicitly added in a future release.
@@ -88,12 +87,14 @@ periodically afterward, including when a locally cached authorization is due
 for renewal, near expiry, or expired. The check may also retrieve service
 notices, including advance notice of licensing changes.
 
-Quantification requires a successful online verification before first use and
-at least once every 30 days afterward to remain continuously available. A
-successful check permits offline use for up to 30 days. That period may be
-shorter if a previously announced change to access takes effect sooner. If the
-cached authorization expires before verification succeeds, Quantification
-remains unavailable until a new authorization is obtained.
+Quantification and PowerPoint-to-MyWB paste (`Paste MyWB from PowerPoint`)
+require a successful online verification before first use of a Premium Feature
+and at least once every 30 days afterward to remain continuously available. A
+successful check permits offline use of both Premium Features for up to 30
+days. That period may be shorter if a previously announced change to access
+takes effect sooner. If the cached authorization expires before verification
+succeeds, the Premium Features remain unavailable until a new authorization is
+obtained.
 
 The licensing design uses locally cached authorization. It is not intended to
 contact the service on every application launch.
@@ -184,10 +185,10 @@ by you voluntarily and is used only to respond to your request.
 MyWB includes third-party software components. Their license terms are
 described in the third-party notices and license materials included with MyWB.
 Online update and licensing requests may be processed by Cloudflare. The
-update service separately retrieves public release information from GitHub,
-and GitHub processes direct requests when you visit the public repository or
-follow a download redirect. Those providers' handling of information is
-governed by their own privacy policies.
+update service does not contact GitHub while answering an update-check request.
+GitHub processes direct requests when you visit the public repository or follow
+a download redirect. Those providers' handling of information is governed by
+their own privacy policies.
 
 ## Changes
 

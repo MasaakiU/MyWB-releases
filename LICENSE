@@ -1,7 +1,7 @@
 MyWB Proprietary Software License and Premium Access Terms
 
-License version 2.0
-Effective date: July 28, 2026
+License version 2.1
+Effective date: August 6, 2026
 
 Copyright (c) 2026 Masaaki Uematsu. All rights reserved.
 
@@ -19,13 +19,15 @@ retroactively amend the terms supplied with an earlier copy.
 2. Definitions
 
 "Basic Features" means every function included in this copy of the Software
-other than Quantification. This includes, without limitation, Marker/Blot
-View, SVG Preview, and the normal ability to open and save supported MyWB
-files. A Basic Feature in this copy will not later be redesignated as a
-Premium Feature for this copy.
+other than Quantification and PowerPoint-to-MyWB paste (the "Paste MyWB from
+PowerPoint" function). This includes, without limitation, Marker/Blot View,
+SVG Preview, Copy SVG for PowerPoint, and the normal ability to open and save
+supported MyWB files. A Basic Feature in this copy will not later be
+redesignated as a Premium Feature for this copy.
 
 "Premium Features" means functions for which Premium Access is required.
-Quantification is the only Premium Feature in this copy of the Software.
+Quantification and PowerPoint-to-MyWB paste are the only Premium Features in
+this copy of the Software.
 
 "Premium Access" means a current authorization to use one or more Premium
 Features, whether provided at no charge or through a separately agreed paid
@@ -48,11 +50,12 @@ Software for your own permitted use. No other rights are granted.
 
 4. Premium designation and advance notice
 
-Premium Access for Quantification is currently provided without a subscription
-fee. No end date for this access at no charge is scheduled as of the effective
-date of this license. If the copyright holder schedules an end to access to
-Quantification at no charge for this copy, the copyright holder will provide
-at least 90 days' advance notice before paid Premium Access is required.
+Premium Access for Quantification and PowerPoint-to-MyWB paste is currently
+provided without a subscription fee. No end date for this access at no charge
+is scheduled as of the effective date of this license. If the copyright holder
+schedules an end to access to either Premium Feature at no charge for this
+copy, the copyright holder will provide at least 90 days' advance notice before
+paid Premium Access is required.
 
 A function first introduced in a later release may be identified as a Premium
 Feature from the time it is introduced. A later release may also be offered
