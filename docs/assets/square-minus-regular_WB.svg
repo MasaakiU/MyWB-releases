@@ -3,7 +3,7 @@
    viewBox="0 0 640 640"
    version="1.1"
    id="svg1"
-   sodipodi:docname="square-minus-regular.svg"
+   sodipodi:docname="square-minus-regular_WB.svg"
    inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -20,18 +20,18 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="0.72"
-     inkscape:cx="303.47222"
-     inkscape:cy="241.66667"
-     inkscape:window-width="1480"
-     inkscape:window-height="731"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="355.67471"
+     inkscape:cy="287.79246"
+     inkscape:window-width="1680"
+     inkscape:window-height="992"
      inkscape:window-x="0"
-     inkscape:window-y="672"
-     inkscape:window-maximized="0"
+     inkscape:window-y="30"
+     inkscape:window-maximized="1"
      inkscape:current-layer="svg1" />
   <!--!Font Awesome Free 7.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.-->
   <path
-     id="path1"
+     id="path3"
      style="stroke-width:1"
-     d="m 221.6,276.8 h 196.8 c 23.94,0 43.2,19.26 43.2,43.2 0,23.94 -19.26,43.2 -43.2,43.2 H 221.6 c -23.94,0 -43.2,-19.26 -43.2,-43.2 0,-23.94 19.26,-43.2 43.2,-43.2 z M 160,96 c -35.3,0 -64,28.7 -64,64 v 320 c 0,35.3 28.7,64 64,64 h 320 c 35.3,0 64,-28.7 64,-64 V 160 c 0,-35.3 -28.7,-64 -64,-64 z m 0,48 h 320 c 8.8,0 16,7.2 16,16 v 320 c 0,8.8 -7.2,16 -16,16 H 160 c -8.8,0 -16,-7.2 -16,-16 V 160 c 0,-8.8 7.2,-16 16,-16 z" />
+     d="M 160 96 C 124.7 96 96 124.7 96 160 L 96 480 C 96 515.3 124.7 544 160 544 L 480 544 C 515.3 544 544 515.3 544 480 L 544 160 C 544 124.7 515.3 96 480 96 L 160 96 z M 221.59961 276.80078 L 418.40039 276.80078 C 442.34039 276.80078 461.59961 296.06 461.59961 320 C 461.59961 343.94 442.34039 363.19922 418.40039 363.19922 L 221.59961 363.19922 C 197.65961 363.19922 178.40039 343.94 178.40039 320 C 178.40039 296.06 197.65961 276.80078 221.59961 276.80078 z " />
 </svg>

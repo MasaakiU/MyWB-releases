@@ -22,14 +22,11 @@ Leave the back-and-forth behind. MyWB unites everything from source images to an
   <a href="docs/installation.md#system-requirements">System requirements</a>
 </p>
 
-## Contents
+## Documentation
 
-- [Features](#features)
-- [System requirements](docs/installation.md#system-requirements)
 - [Installation](docs/installation.md)
 - [User Guide](docs/user-guide.md)
 - [Troubleshooting](docs/troubleshooting.md)
-- [Legal and Privacy](#legal-and-privacy)
 
 ## Features
 
