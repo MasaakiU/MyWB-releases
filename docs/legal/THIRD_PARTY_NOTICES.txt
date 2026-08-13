@@ -6,8 +6,8 @@ are governed by their own license terms, which are separate from the MyWB
 Proprietary Software License. Nothing in the MyWB license limits rights
 granted by an applicable third-party license.
 
-This notice describes the MyWB 0.5.0 macOS application for arm64 and x86_64
-produced by the Nuitka build. Other platforms or later releases may contain a
+This notice applies to the accompanying MyWB macOS application. It covers the
+arm64 and x86_64 Nuitka builds; other platforms or builds may contain a
 different set of components. License texts, source-code offers, relinking
 instructions, copyright notices, and attribution materials are included in
 the third_party/ directory.

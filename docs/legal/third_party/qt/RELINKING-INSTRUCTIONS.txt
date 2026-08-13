@@ -7,9 +7,9 @@ purpose of exercising rights granted by the LGPL. The MyWB license does not
 prohibit reverse engineering when it is required by an applicable
 third-party license.
 
-These instructions apply to MyWB 0.5.0 for macOS arm64 and x86_64, built with
-Qt 6.11.1 and Qt for Python 6.11.1. Later releases may use different paths or
-versions.
+These instructions apply to the accompanying MyWB macOS application for the
+supported arm64 and x86_64 builds, using Qt 6.11.1 and Qt for Python 6.11.1.
+Other builds may use different paths or versions.
 
 1. Work on a copy
 -----------------

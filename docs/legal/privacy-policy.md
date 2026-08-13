@@ -1,6 +1,6 @@
 # MyWB Privacy Policy
 
-Effective date: August 10, 2026
+Effective date: August 11, 2026
 
 MyWB is a local desktop application for research use. It is designed to run
 on your computer and process files that you choose to open, create, or save.
@@ -26,9 +26,11 @@ Images, MyWB files, SVG exports, settings, labels, measurements, and other
 user-created data remain on your computer unless you choose to share them.
 
 MyWB may read files that you open and may write files that you save or export.
-When you use PowerPoint-to-MyWB paste (`Paste MyWB from PowerPoint`), copied
-SVG data is read from the local clipboard and is not transmitted as part of
-license verification.
+When you use PowerPoint-to-MyWB import, SVG data is read either from the local
+clipboard by `Paste MyWB from PowerPoint` or from the `.pptx` file you select
+by `Import MyWB from PowerPoint File`. The selected PowerPoint file, its file
+name and path, and the imported SVG data are processed locally and are not
+transmitted as part of license verification.
 
 Some MyWB SVG files may contain embedded image data and MyWB session metadata.
 This allows a session to be reopened later.
@@ -74,8 +76,8 @@ opens a fixed public GitHub repository address in your default browser. When
 you visit that repository, GitHub receives the standard technical information
 associated with your browser's direct connection. A latest-download link may
 first contact the MyBioApps update service and then temporarily redirect your
-browser to the versioned release asset hosted by GitHub. GitHub receives a
-direct request from your browser when that redirect is followed.
+browser to the versioned DMG asset hosted by GitHub. GitHub receives a direct
+request from your browser when that redirect is followed.
 
 MyWB does not automatically download or install updates unless this
 functionality is explicitly added in a future release.
@@ -87,14 +89,14 @@ periodically afterward, including when a locally cached authorization is due
 for renewal, near expiry, or expired. The check may also retrieve service
 notices, including advance notice of licensing changes.
 
-Quantification and PowerPoint-to-MyWB paste (`Paste MyWB from PowerPoint`)
-require a successful online verification before first use of a Premium Feature
-and at least once every 30 days afterward to remain continuously available. A
-successful check permits offline use of both Premium Features for up to 30
-days. That period may be shorter if a previously announced change to access
-takes effect sooner. If the cached authorization expires before verification
-succeeds, the Premium Features remain unavailable until a new authorization is
-obtained.
+Quantification and PowerPoint-to-MyWB import (`Paste MyWB from PowerPoint` and
+`Import MyWB from PowerPoint File`) require a successful online verification
+before first use of a Premium Feature and at least once every 30 days afterward
+to remain continuously available. A successful check permits offline use of
+both Premium Features for up to 30 days. That period may be shorter if a
+previously announced change to access takes effect sooner. If the cached
+authorization expires before verification succeeds, the Premium Features
+remain unavailable until a new authorization is obtained.
 
 The licensing design uses locally cached authorization. It is not intended to
 contact the service on every application launch.

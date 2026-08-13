@@ -3,7 +3,7 @@ Written Offer for Qt and Qt for Python Corresponding Source Code
 
 This offer applies to the copy of MyWB with which it is distributed.
 
-MyWB 0.5.0 for macOS includes dynamically linked components from Qt 6.11.1
+That macOS copy includes dynamically linked components from Qt 6.11.1
 and Qt for Python 6.11.1, including PySide6 and shiboken6, under the GNU
 Lesser General Public License version 3.0 (LGPL-3.0).
 
@@ -15,13 +15,13 @@ made for MyWB, and the scripts and configuration information controlled by
 the distributor that are needed to build the libraries.
 
 No modifications have been made to the Qt, PySide6, or shiboken6 source code
-for this release.
+in the copy covered by this offer.
 
 This offer is valid until the later of:
 
 - July 28, 2029; and
-- three years after the last distribution of this MyWB release by the
-  copyright holder.
+- three years after the last distribution by the copyright holder of a MyWB
+  copy accompanied by this offer.
 
 To request the source, open an issue at:
 

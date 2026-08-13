@@ -1,10 +1,10 @@
 Native Runtime Libraries
 ========================
 
-The current MyWB 0.5.0 macOS Nuitka bundles for the supported arm64 and
-x86_64 architectures include the native libraries listed below. The
-release-integrity check compares the selected application bundle against this
-inventory before distribution.
+This notice identifies the native libraries expected in the accompanying MyWB
+macOS Nuitka application bundle. It covers the supported arm64 and x86_64
+builds. The release-integrity check compares the selected application bundle
+against this inventory before distribution.
 
 Python runtime dependencies
 ---------------------------
