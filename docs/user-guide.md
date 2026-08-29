@@ -1,48 +1,84 @@
-# User Guide
+# How to use MyWB
 
-[← Back to README](../README.md)
+[← Back to MyWB](../README.md)
 
-## From Blot to Figure
+## Common workflows
 
-1. Open your marker and blot images in the **Marker/blot view**.
+<a id="from-blot-to-figure"></a>
 
-2. Select the region of interest (ROI).
+- **[Create a figure from a blot](user-guide/from-blot-to-figure.md)** — open the blot image and an optional marker image, select the figure area, add labels, preview, and save the result.
 
-3. Add molecular-weight values and sample labels.
+<a id="quantification-access"></a>
 
-   <img src="assets/marker-and-blot-workspace.png" alt="Marker and blot images aligned in the MyWB workspace" width="900">
+- **[Quantify bands](user-guide/quantify-bands.md)** <a href="user-guide/premium-access.md"><img src="assets/premium-badge.svg" alt="Premium" height="18" align="absmiddle"></a> — select an ROI, check lane boundaries, and copy or export the measurements.
+- **[Manage MyWB files](user-guide/manage-mywb-files.md#common-mywb-file-operations)** — reopen a `.mywb.svg` file with its MyWB data.
 
-4. Select the **SVG Preview button** (the eye icon in the left-hand toolbar) to review your figure.
+<a id="powerpoint-workflow"></a>
 
-   **Your polished figure is now ready for presentation!**
+- **[Use MyWB with PowerPoint](user-guide/powerpoint-workflow.md#powerpoint-workflow)** — copy figures to PowerPoint and restore them later in MyWB.
+  - Copying a figure is a Basic feature; restoring one figure or importing all recoverable figures uses Premium Access. <a href="user-guide/premium-access.md"><img src="assets/premium-badge.svg" alt="Premium" height="18" align="absmiddle"></a>
 
-   <img src="assets/svg-preview.png" alt="A labeled western blot figure in the MyWB SVG preview" width="900">
+## Prepare images
 
-Save your work as a MyWB SVG file (`.mywb.svg`), which can be reopened in MyWB or edited in tools such as Inkscape.
+- [Open a marker or blot image](user-guide/open-images.md#open-a-marker-or-blot-image)
+  - Open images from the image selectors, File menu, keyboard shortcuts, or by drag and drop.
+- [Select an RGB channel](user-guide/open-images.md#select-an-rgb-channel)
+- [Supported images](user-guide/open-images.md#supported-images)
+- [ROI management](user-guide/edit-roi-and-labels.md#roi-management)
+  - Create, move, resize, or delete an ROI.
+- [Contrast](user-guide/adjust-images.md#contrast)
+  - Adjust or reset contrast and change the histogram display.
+- [Image controls and export settings](user-guide/adjust-images.md#image-controls-and-export-settings)
+  - Check saturated pixels; invert, flip, or rotate images; link matching Marker and Blot controls; and select export bit depth.
 
-## Quantification Access
+## Add labels and design the figure
 
-After selecting an ROI, select the **Quantification button** (the third button in the left-hand toolbar) to open Quantification.
+- [Add marker and sample positions](user-guide/edit-roi-and-labels.md#add-marker-and-sample-positions)
+  - Add marker and sample positions, then enter molecular-weight values and sample details.
+- [Modify marker or sample positions](user-guide/edit-roi-and-labels.md#modify-marker-or-sample-positions)
+  - Move positions individually or together, or align and distribute selected positions.
+- [Delete marker or sample positions](user-guide/edit-roi-and-labels.md#delete-marker-or-sample-positions)
+- [Preview of the figure](user-guide/design-and-preview-figure.md#preview-of-the-figure)
+- [Edit sample labels](user-guide/design-and-preview-figure.md#edit-sample-labels)
+  - Choose Basic, Rotated, or table-based layouts and adjust their layout options.
+- [Edit SVG style](user-guide/design-and-preview-figure.md#edit-svg-style)
+  - Adjust margins, fonts, image size, marker and label positions, details, and annotations.
 
-Quantification and PowerPoint-to-MyWB paste (`Paste MyWB from PowerPoint`) are Premium features. Premium Access for them is currently provided at no charge for personal, academic, and internal research uses permitted by the MyWB License. **Copy SVG for PowerPoint** remains a Basic feature.
+## Save, export, and reuse
 
-An internet connection is required the first time you use a Premium feature and at least once every 30 days afterward to verify continued availability. After a successful check, the Premium features can be used offline for up to 30 days.
+- [Common MyWB file operations](user-guide/manage-mywb-files.md#common-mywb-file-operations)
+  - Create, open, save, discard, duplicate, rename, or move MyWB files to Trash.
+- [Use the MyWB Files panel](user-guide/manage-mywb-files.md#use-the-mywb-files-panel)
+  - Switch between files in a folder or figures imported from PowerPoint.
+- [Add notes to a MyWB file](user-guide/manage-mywb-files.md#add-notes-to-a-mywb-file)
+- [Export a cropped image](user-guide/export-cropped-image.md#steps)
+- [PowerPoint workflow](user-guide/powerpoint-workflow.md#powerpoint-workflow)
+  - Copy a figure to PowerPoint; restore one figure or import all recoverable figures with Premium Access. <a href="user-guide/premium-access.md"><img src="assets/premium-badge.svg" alt="Premium" height="18" align="absmiddle"></a>
 
-If verification cannot be completed after the cached authorization expires, the Premium features become temporarily unavailable. Basic features and your local files remain available.
+## Quantification
 
-## PowerPoint Workflow
+- [Quantification steps](user-guide/quantify-bands.md#steps) <a href="user-guide/premium-access.md"><img src="assets/premium-badge.svg" alt="Premium" height="18" align="absmiddle"></a>
+  - Set the number of lanes; choose automatic, semi-automatic, or full-manual lane detection; invert the signal; adjust background subtraction; and copy or export the results.
+  - Result labels show `unknown` when the number of sample positions in the ROI does not match the number of lanes.
 
-You can add a MyWB SVG figure to PowerPoint in either of two ways:
+## Settings and Premium Access
 
-1. **Copy and paste:** In MyWB, click the **Copy SVG for PowerPoint** button at the bottom of the left-hand toolbar. Then switch to PowerPoint and paste the figure onto your slide.
-2. **Insert a saved file:** In MyWB, save the figure as a `.mywb.svg` file. Then switch to PowerPoint and use **Insert > Pictures**, or drag the saved file onto your slide.
+- [Open Settings](user-guide/settings.md#open-settings)
+- [Auto Fill presets](user-guide/settings.md#auto-fill-presets)
+  - Reuse marker labels and sample label prefixes.
+- [SVG Style presets](user-guide/settings.md#svg-style-presets)
+  - Save and reuse figure styles.
+- [PowerPoint Copy settings](user-guide/settings.md#powerpoint-copy-settings)
+- [Features that use Premium Access](user-guide/premium-access.md#features-that-use-premium-access)
+- [Premium Access verification](user-guide/premium-access.md#verification)
 
-Both methods retain the figure's MyWB document data and recoverable source images when PowerPoint preserves the SVG data unchanged.
+## FAQ and support
 
-To restore a figure now, select and copy the SVG figure in PowerPoint. Then switch to MyWB and choose **Edit > Paste MyWB from PowerPoint** (`Command/Ctrl+Shift+V`). The figure opens as a new unsaved MyWB document.
-
-**Paste MyWB from PowerPoint** is also a Premium feature and uses the same Premium Access verification described under [Quantification Access](#quantification-access). **Copy SVG for PowerPoint** remains a Basic feature.
-
-A future major update to MyWB is planned to open PowerPoint files directly, making it easier to identify MyWB SVG figures throughout a presentation and trace them back to their original source images. Preserving MyWB data in figures now prepares them for that future capability.
-
-PowerPoint controls how SVG content is stored and copied, so compatibility with all future versions of PowerPoint cannot be guaranteed.
+- [The app does not open](troubleshooting.md#the-app-does-not-open)
+- [The app cannot access files](troubleshooting.md#the-app-cannot-access-files)
+- [PowerPoint troubleshooting](user-guide/powerpoint-workflow.md#troubleshooting)
+  - Check why a MyWB figure cannot be restored or what to do when a figure is too large to copy.
+- [Premium Access is unavailable](user-guide/premium-access.md#if-premium-features-are-unavailable)
+- [Install or update MyWB](installation.md)
+- [Legal and privacy information](legal-and-privacy.md)
+- [Report a bug or ask a question](troubleshooting.md#report-a-bug-or-ask-a-question)

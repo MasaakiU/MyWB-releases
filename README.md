@@ -24,71 +24,25 @@ Leave the back-and-forth behind. MyWB unites everything from source images to an
 
 ## Documentation
 
+- [Introduction](docs/introduction.md)
 - [Installation](docs/installation.md)
-- [User Guide](docs/user-guide.md)
+- [How to use MyWB](docs/user-guide.md)
 - [Troubleshooting](docs/troubleshooting.md)
+- [Legal and Privacy](docs/legal-and-privacy.md)
 
 ## Features
 
 ### Four Controls, One Workflow
 
-From image preparation to analysis and presentation, every step stays within easy reach.
-
-<table>
-  <thead>
-    <tr>
-      <th align="left">Button</th>
-      <th align="left">What it does</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td valign="middle" nowrap="nowrap">
-        <a href="docs/user-guide.md#from-blot-to-figure" aria-label="Marker/blot view"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/assets/table-columns-solid_gray20.svg"><img src="docs/assets/table-columns-solid.svg" alt="" width="28" height="28" align="middle"></picture></a>&nbsp;<a href="docs/user-guide.md#from-blot-to-figure"><strong>Marker/blot&nbsp;view</strong></a>
-      </td>
-      <td valign="middle">Adjust marker and blot images, select an ROI, and add labels.</td>
-    </tr>
-    <tr>
-      <td valign="middle" nowrap="nowrap">
-        <a href="docs/user-guide.md#from-blot-to-figure" aria-label="SVG preview"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/assets/eye-solid_gray20.svg"><img src="docs/assets/eye-solid.svg" alt="" width="28" height="28" align="middle"></picture></a>&nbsp;<a href="docs/user-guide.md#from-blot-to-figure"><strong>SVG&nbsp;preview</strong></a>
-      </td>
-      <td valign="middle">Review the SVG output and edit its styles before saving.</td>
-    </tr>
-    <tr>
-      <td valign="middle" nowrap="nowrap">
-        <a href="docs/user-guide.md#quantification-access" aria-label="Quantification"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/assets/square-minus-regular_WB_gray20.svg"><img src="docs/assets/square-minus-regular_WB.svg" alt="" width="28" height="28" align="middle"></picture></a>&nbsp;<a href="docs/user-guide.md#quantification-access"><strong>Quantification</strong></a>
-      </td>
-      <td valign="middle">Analyze lanes in the selected ROI (Premium feature).</td>
-    </tr>
-    <tr>
-      <td valign="middle" nowrap="nowrap">
-        <a href="docs/user-guide.md#powerpoint-workflow" aria-label="Copy SVG for PowerPoint"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/assets/copy_to_powerpoint_gray20.svg"><img src="docs/assets/copy_to_powerpoint.svg" alt="" width="28" height="28" align="middle"></picture></a>&nbsp;<a href="docs/user-guide.md#powerpoint-workflow"><strong>Copy&nbsp;for&nbsp;PowerPoint</strong></a>&nbsp;&nbsp;
-      </td>
-      <td valign="middle">More than a simple image copy—preserve MyWB metadata for future traceability.</td>
-    </tr>
-  </tbody>
-</table>
+| Button | What it does |
+| --- | --- |
+| <picture><source media="(prefers-color-scheme: dark)" srcset="docs/assets/table-columns-solid_gray20.svg"><img src="docs/assets/table-columns-solid.svg" alt="" width="28" height="28" align="absmiddle"></picture> [**Marker/blot&nbsp;view**](docs/user-guide.md#from-blot-to-figure) | Adjust marker and blot images, select an ROI, and add labels. |
+| <picture><source media="(prefers-color-scheme: dark)" srcset="docs/assets/eye-solid_gray20.svg"><img src="docs/assets/eye-solid.svg" alt="" width="28" height="28" align="absmiddle"></picture> [**SVG&nbsp;preview**](docs/user-guide.md#from-blot-to-figure) | Review the SVG output and edit its styles before saving. |
+| <picture><source media="(prefers-color-scheme: dark)" srcset="docs/assets/square-minus-regular_WB_gray20.svg"><img src="docs/assets/square-minus-regular_WB.svg" alt="" width="28" height="28" align="absmiddle"></picture> [**Quantification**](docs/user-guide.md#quantification-access) | Analyze lanes in the selected ROI. |
+| <picture><source media="(prefers-color-scheme: dark)" srcset="docs/assets/copy_to_powerpoint_gray20.svg"><img src="docs/assets/copy_to_powerpoint.svg" alt="" width="28" height="28" align="absmiddle"></picture> [**Copy&nbsp;for&nbsp;PowerPoint**](docs/user-guide.md#powerpoint-workflow) | More than a simple image copy—preserve MyWB metadata for future traceability. |
 
 ### Flexible output layouts
 
 Choose from a variety of sample-label layouts—with more to come!
 
-<p align="center"><img src="docs/assets/sample_label_layout_basic.svg" alt="Basic sample-label layout" width="510"></p>
-
-<p align="center"><img src="docs/assets/sample_label_layout_rotated.svg" alt="Rotated sample-label layout" width="510"></p>
-
-<p align="center"><img src="docs/assets/sample_label_layout_table_per_lane.svg" alt="Table sample-label layout with per-lane labels" width="510"></p>
-
-<p align="center"><img src="docs/assets/sample_label_layout_table_line_span.svg" alt="Table sample-label layout with line spans" width="510"></p>
-
-<p align="center"><img src="docs/assets/sample_label_layout_table_bracket_span.svg" alt="Table sample-label layout with bracket spans" width="510"></p>
-
-## Legal and Privacy
-
-- See [`LICENSE`](LICENSE) for the MyWB license.
-- See the [MyWB Privacy Policy](docs/legal/privacy-policy.md).
-- See the [macOS third-party software notices](docs/legal/THIRD_PARTY_NOTICES.txt).
-- For macOS, see the Qt/PySide6 [corresponding-source offer](docs/legal/third_party/qt/SOURCE-CODE-OFFER.txt)
-  and [replacement and re-signing instructions](docs/legal/third_party/qt/RELINKING-INSTRUCTIONS.txt)
-  for exercising the rights provided by their LGPL terms.
-- Windows-specific notices and legal materials are included with the Windows application and are available through **Help > About > Legal Information**.
+<p align="center"><img src="docs/assets/sample_label_layout_all.svg" alt="Basic sample-label layout" width="510"></p>

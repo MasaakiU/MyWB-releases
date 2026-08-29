@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="68"
+  height="18"
+  viewBox="0 0 68 18"
+  role="img"
+  aria-labelledby="title"
+  aria-describedby="description">
+  <title id="title">Premium</title>
+  <desc id="description">Premium feature</desc>
+  <style>
+    .badge {
+      fill: #f4effa;
+      stroke: #a58ab8;
+    }
+
+    .label {
+      fill: #68437d;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      .badge {
+        fill: #2d2433;
+        stroke: #a98abe;
+      }
+
+      .label {
+        fill: #dec8eb;
+      }
+    }
+  </style>
+  <rect
+    class="badge"
+    x="0.5"
+    y="0.5"
+    width="67"
+    height="17"
+    rx="4"
+    stroke-width="1" />
+  <text
+    class="label"
+    x="34"
+    y="12.25"
+    text-anchor="middle"
+    font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+    font-size="11"
+    font-weight="600">Premium</text>
+</svg>

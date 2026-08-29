@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="318.10001" viewBox="-170 -78 638.23529 290" role="img" aria-label="SVG style guide using the Default SVG style preset">
+  <defs id="defs1">
+    <pattern id="wb-hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#e6e6e6" id="rect1" />
+      <line x1="0" y1="0" x2="0" y2="8" stroke="#bdbdbd" stroke-width="2" id="line1" />
+    </pattern>
+    <marker id="red-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" viewBox="0 0 8 8" preserveAspectRatio="xMidYMid">
+      <path d="M 0,0 8,4 0,8 Z" fill="#c00000" id="path1" />
+    </marker>
+    <style id="style1">
+      .wb-placeholder { fill: url(#wb-hatch); }
+      .svg-outside { fill: #eeeeee; }
+      .svg-inside { fill: #ffffff; }
+      .svg-guide { fill: none; stroke: #000000; stroke-width: 1.2; }
+      .content-guide { fill: none; stroke: #c00000; stroke-width: 1.2; stroke-dasharray: 4 3; }
+      .red-text { fill: #c00000; font-size: 11px; font-family: Helvetica, Arial, sans-serif; }
+      .red-line { stroke: #c00000; stroke-width: 1.2; fill: none; marker-end: url(#red-arrow); }
+    </style>
+    <marker id="red-arrow-3" markerWidth="7" markerHeight="7" refX="12" refY="4" orient="auto-start-reverse" viewBox="0 0 8 8" preserveAspectRatio="xMidYMid">
+      <path d="M 8,0 0,4 8,8 Z" fill="#c00000" id="path1-8" />
+    </marker>
+    <marker id="red-arrow-3-9" markerWidth="7" markerHeight="7" refX="12" refY="4" orient="auto-start-reverse" viewBox="0 0 8 8" preserveAspectRatio="xMidYMid">
+      <path d="M 8,0 0,4 8,8 Z" fill="#c00000" id="path1-8-4" />
+    </marker>
+    <marker id="red-arrow-3-5" markerWidth="7" markerHeight="7" refX="12" refY="4" orient="auto-start-reverse" viewBox="0 0 8 8" preserveAspectRatio="xMidYMid">
+      <path d="M 8,0 0,4 8,8 Z" fill="#c00000" id="path1-8-6" />
+    </marker>
+    <marker id="red-arrow-3-5-6" markerWidth="7" markerHeight="7" refX="12" refY="4" orient="auto-start-reverse" viewBox="0 0 8 8" preserveAspectRatio="xMidYMid">
+      <path d="M 8,0 0,4 8,8 Z" fill="#c00000" id="path1-8-6-5" />
+    </marker>
+    <marker id="red-arrow-3-3" markerWidth="7" markerHeight="7" refX="0" refY="4" orient="auto-start-reverse" viewBox="0 0 8 8" preserveAspectRatio="xMidYMid">
+      <path d="M 0,0 8,4 0,8 Z" fill="#c00000" id="path1-8-0" />
+    </marker>
+  </defs>
+  <g id="layer1">
+    <rect class="svg-outside" x="-170" y="-78" width="638.23529" height="290" id="svg-guide-background" style="stroke-width:1" />
+    <g id="g1" transform="translate(58.926491,-9)">
+      <rect class="svg-inside" x="-116.52941" y="-36" width="413.44113" height="224" id="svg-guide-inside" style="stroke-width:0.999983" />
+      <rect class="wb-placeholder" width="250" height="50" x="0" y="0" id="image17" />
+      <text style="font-size:20px;font-family:Helvetica, Arial, 'Liberation Sans', 'DejaVu Sans', sans-serif;text-anchor:middle" x="125" y="32" id="wb-image-label">wb image</text>
+      <line x1="250" y1="17" x2="258" y2="17" style="stroke:#000000;stroke-width:2;stroke-linecap:butt" id="marker-tick1" />
+      <text style="font-size:20px;font-family:Helvetica, Arial, 'Liberation Sans', 'DejaVu Sans', sans-serif;text-anchor:start" x="260" y="24" id="text1">37</text>
+      <line x1="250" y1="41" x2="258" y2="41" style="stroke:#000000;stroke-width:2;stroke-linecap:butt" id="marker-tick2" />
+      <text style="font-size:20px;font-family:Helvetica, Arial, 'Liberation Sans', 'DejaVu Sans', sans-serif;text-anchor:start" x="260" y="48" id="text2">25</text>
+      <text style="font-size:20px;font-family:Helvetica, Arial, 'Liberation Sans', 'DejaVu Sans', sans-serif;text-anchor:end" x="-10" y="30" id="annotation-text" xml:space="preserve">blot: demo</text>
+      <text style="font-size:20px;font-family:Helvetica, Arial, 'Liberation Sans', 'DejaVu Sans', sans-serif;text-anchor:middle" x="24.299999" y="-8" id="sample-text1">1</text>
+      <text style="font-size:20px;font-family:Helvetica, Arial, 'Liberation Sans', 'DejaVu Sans', sans-serif;text-anchor:middle" x="64.5" y="-8" id="sample-text2">2</text>
+      <text style="font-size:20px;font-family:Helvetica, Arial, 'Liberation Sans', 'DejaVu Sans', sans-serif;text-anchor:middle" x="104.7" y="-8" id="sample-text3">3</text>
+      <text style="font-size:20px;font-family:Helvetica, Arial, 'Liberation Sans', 'DejaVu Sans', sans-serif;text-anchor:middle" x="144.8" y="-8" id="sample-text4">4</text>
+      <text style="font-size:20px;font-family:Helvetica, Arial, 'Liberation Sans', 'DejaVu Sans', sans-serif;text-anchor:middle" x="185" y="-8" id="sample-text5">5</text>
+      <text style="font-size:20px;font-family:Helvetica, Arial, 'Liberation Sans', 'DejaVu Sans', sans-serif;text-anchor:middle" x="225" y="-8" id="sample-text6">6</text>
+      <text style="font-size:20px;line-height:1;font-family:Helvetica, Arial, 'Liberation Sans', 'DejaVu Sans', sans-serif;text-anchor:start" x="0" y="76" id="details-text1">1: Sample 1</text>
+      <text style="font-size:20px;line-height:1;font-family:Helvetica, Arial, 'Liberation Sans', 'DejaVu Sans', sans-serif;text-anchor:start" x="0" y="96" id="details-text2">2: Sample 2</text>
+      <text style="font-size:20px;line-height:1;font-family:Helvetica, Arial, 'Liberation Sans', 'DejaVu Sans', sans-serif;text-anchor:start" x="0" y="116" id="details-text3">3: Sample 3</text>
+      <text style="font-size:20px;line-height:1;font-family:Helvetica, Arial, 'Liberation Sans', 'DejaVu Sans', sans-serif;text-anchor:start" x="0" y="136" id="details-text4">4: Sample 4</text>
+      <text style="font-size:20px;line-height:1;font-family:Helvetica, Arial, 'Liberation Sans', 'DejaVu Sans', sans-serif;text-anchor:start" x="0" y="156" id="details-text5">5: Sample 5</text>
+      <text style="font-size:20px;line-height:1;font-family:Helvetica, Arial, 'Liberation Sans', 'DejaVu Sans', sans-serif;text-anchor:start" x="0" y="176" id="details-text6">6: Sample 6</text>
+      <path style="fill:none;stroke:#000000;stroke-width:1;stroke-linejoin:miter" d="m -0.5,-0.5 h 251 v 51 h -251 z" id="rect0" />
+      <rect class="svg-guide" x="-116.52941" y="-36" width="413.44113" height="224" id="svg-margin-guide" />
+      <rect class="content-guide" x="-103" y="-22" width="385" height="198.61769" id="svg-content-guide" />
+    </g>
+    <g id="g2" transform="translate(52.882343,45.588227)">
+      <text class="red-text" x="306.99643" y="111.37108" id="right-margin-arrow-label" style="font-size:18.2353px">Right margin</text>
+      <text class="red-text" x="170.6414" y="155.03864" id="right-margin-arrow-label-9" style="font-size:18.2353px;font-family:Helvetica, Arial, sans-serif;fill:#c00000">Bottom margin</text>
+      <text class="red-text" x="-32.989895" y="-100.7655" id="right-margin-arrow-label-9-5" style="font-size:18.2353px;font-family:Helvetica, Arial, sans-serif;fill:#c00000">Top margin</text>
+      <text class="red-text" x="-211.78966" y="72.573929" id="right-margin-arrow-label-8" style="font-size:18.2353px;font-family:Helvetica, Arial, sans-serif;fill:#c00000">Left margin</text>
+      <path class="red-line" d="M 321.14707,87.833196 H 270.38236" id="right-margin-arrow-2" style="fill:none;stroke:#c00000;stroke-width:1.82353;stroke-dasharray:none;marker-start:url(#red-arrow-3);marker-end:url(#red-arrow-3)" />
+      <path class="red-line" d="M 171.61765,22.943177 H 146.23529 L 133.61765,6.5314124" id="right-margin-arrow-2-97" style="fill:none;stroke:#c00000;stroke-width:1.82353;stroke-dasharray:none;marker-end:url(#red-arrow-3-3)" />
+      <path class="red-line" d="M 160.82354,151.60147 V 104.48382" id="right-margin-arrow-2-9" style="fill:none;stroke:#c00000;stroke-width:1.82353;stroke-dasharray:none;marker-start:url(#red-arrow-3-5);marker-end:url(#red-arrow-3-5)" />
+      <text class="red-text" x="175.58792" y="29.181246" id="right-margin-arrow-label-0" style="font-size:18.2353px;font-family:Helvetica, Arial, sans-serif;fill:#c00000">Border width</text>
+      <path class="red-line" d="M -45.08823,-59.163229 V -108.10441" id="right-margin-arrow-2-9-3" style="fill:none;stroke:#c00000;stroke-width:1.82353;stroke-dasharray:none;marker-start:url(#red-arrow-3-5-6);marker-end:url(#red-arrow-3-5-6)" />
+      <path class="red-line" d="m -79.57352,88.83677 h -48.94117" id="right-margin-arrow-2-6" style="fill:none;stroke:#c00000;stroke-width:1.82353;stroke-dasharray:none;marker-start:url(#red-arrow-3-9);marker-end:url(#red-arrow-3-9)" />
+    </g>
+  </g>
+</svg>

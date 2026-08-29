@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 1857.027 1050"
+   version="1.1"
+   id="svg134"
+   sodipodi:docname="toggle-link-on.svg"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   width="1857.027"
+   height="1050"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs138" />
+  <sodipodi:namedview
+     id="namedview136"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.088388348"
+     inkscape:cx="-605.2834"
+     inkscape:cy="1951.6147"
+     inkscape:window-width="1680"
+     inkscape:window-height="992"
+     inkscape:window-x="0"
+     inkscape:window-y="30"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g1086" />
+  <!--! Modified or combined from Font Awesome Free icons - https://fontawesome.com/license/free Copyright Fonticons, Inc. -->
+  <g
+     id="g1086">
+    <g
+       id="g4446-4-8-3"
+       transform="translate(1371.3338,1403.36)" />
+    <g
+       id="g1926"
+       transform="translate(-188.28336,67.84961)">
+      <path
+         id="path471-8-5-5-1-1"
+         style="fill:#808080;fill-opacity:1;stroke:none;stroke-width:46.6667;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         d="M 713.2832,-67.849609 C 574.04453,-67.849641 440.50871,-12.53731 342.05211,85.919295 243.5955,184.3759 188.28317,317.91172 188.2832,457.15039 c -3e-5,139.23867 55.3123,272.77449 153.7689,371.2311 98.45661,98.4566 231.99243,153.76893 371.2311,153.7689 h 807.0273 c 139.2387,3e-5 272.7745,-55.3123 371.2311,-153.7689 98.4566,-98.45661 153.7689,-231.99243 153.7689,-371.2311 0,-139.23867 -55.3123,-272.77449 -153.7689,-371.231095 -98.4566,-98.456605 -231.9924,-153.768936 -371.2311,-153.768904 -350.612,0 -474.4064,0 -807.0273,0 z"
+         sodipodi:nodetypes="csssccssscc" />
+      <path
+         id="path471-8-5-5-0"
+         style="fill:#0a80ff;fill-opacity:1;stroke:none;stroke-width:46.6667;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         d="M 713.2832,7.1503906 C 593.93577,7.1503694 479.4765,54.560941 395.08513,138.95232 310.69375,223.34369 263.28318,337.80296 263.2832,457.15039 c -2e-5,119.34743 47.41055,233.8067 131.80193,318.19807 84.39137,84.39138 198.85064,131.80195 318.19807,131.80193 365.0963,0 445.141,0 807.0273,0 119.3474,2e-5 233.8067,-47.41055 318.1981,-131.80193 84.3913,-84.39137 131.8019,-198.85064 131.8019,-318.19807 0,-119.34743 -47.4106,-233.8067 -131.8019,-318.19807 C 1754.1172,54.560941 1639.6579,7.1503694 1520.3105,7.1503906 c -379.7798,0 -437.6077,0 -807.0273,0 z"
+         sodipodi:nodetypes="csssccssscc" />
+      <g
+         id="g1139-7"
+         transform="translate(17.056992,-952.71795)">
+        <path
+           id="path471-8-5-1"
+           style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:46.6667;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+           d="m 1878.2541,1409.8685 a 375,375 0 0 1 -375,375 375,375 0 0 1 -375.0001,-375 375,375 0 0 1 375.0001,-375.0001 375,375 0 0 1 375,375.0001 z" />
+        <path
+           d="m 1355.7374,1284.9667 c 55.6,-55.59 148,-55.59 203.6,0 50,50 57.4,129.7 16.3,187.2 l -1.1,1.6 c -10.3,14.3 -30.3,17.7 -44.6,7.4 -14.4,-10.3 -17.8,-30.3 -7.5,-44.6 l 1.1,-1.6 c 22.9,-32.1 19.3,-76 -8.6,-103.9 -31.4,-31.4 -82.5,-31.4 -114,0 l -112.2,112.3 c -31.51,30.6 -31.51,82.5 0,114 27.8,27.9 71.8,31.5 103.8,8.6 l 1.6,-2 c 14.4,-9.4 34.4,-6.1 44.6,8.3 10.3,14.4 7,34.4 -7.4,44.7 l -1.6,1.1 c -58.4,41.1 -136.3,34.5 -186.29,-15.4 -56.469,-56.5 -56.469,-148.1 0,-204.5 z m 295,248.9 c -56.5,56.5 -148,56.5 -204.5,0 -50,-50 -56.5,-128.8 -15.4,-186.3 l 1.1,-1.6 c 9.4,-14.3 29.4,-17.7 44.6,-7.4 14.4,9.4 17.8,29.4 7.5,44.6 l -1.1,1.6 c -22.9,31.2 -19.3,76 8.6,103.9 31.4,31.4 82.5,31.4 114,0 l 112.2,-112.3 c 31.5,-31.5 31.5,-83.4 0,-114 -27.8,-27.87 -71.8,-31.51 -103.8,-8.6 l -1.6,1.1 c -14.4,10.3 -34.4,6.1 -44.6,-7.42 -10.3,-14.38 -7,-34.37 7.4,-44.64 l 1.6,-1.12 c 57.5,-41.089 136.3,-34.57 186.3,15.42 56.5,56.46 56.5,148.06 0,204.46 z"
+           id="path132-5-8-7"
+           style="fill:#000000" />
+      </g>
+    </g>
+  </g>
+</svg>

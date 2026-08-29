@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="700"
+   height="318.10001"
+   viewBox="-170 -78 638.23529 290"
+   role="img"
+   aria-label="SVG style guide using the Default SVG style preset"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="svg_style_guide_Overview.svg"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="2.5597265"
+     inkscape:cx="184.9807"
+     inkscape:cy="145.91402"
+     inkscape:window-width="1680"
+     inkscape:window-height="992"
+     inkscape:window-x="0"
+     inkscape:window-y="672"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <pattern
+       id="wb-hatch"
+       width="8"
+       height="8"
+       patternUnits="userSpaceOnUse"
+       patternTransform="rotate(45)">
+      <rect
+         width="8"
+         height="8"
+         fill="#e6e6e6"
+         id="rect1" />
+      <line
+         x1="0"
+         y1="0"
+         x2="0"
+         y2="8"
+         stroke="#bdbdbd"
+         stroke-width="2"
+         id="line1" />
+    </pattern>
+    <marker
+       id="red-arrow"
+       markerWidth="8"
+       markerHeight="8"
+       refX="7"
+       refY="4"
+       orient="auto"
+       viewBox="0 0 8 8"
+       preserveAspectRatio="xMidYMid">
+      <path
+         d="M 0,0 8,4 0,8 Z"
+         fill="#c00000"
+         id="path1" />
+    </marker>
+    <style
+       id="style1">
+      .wb-placeholder { fill: url(#wb-hatch); }
+      .svg-outside { fill: #eeeeee; }
+      .svg-inside { fill: #ffffff; }
+      .svg-guide { fill: none; stroke: #000000; stroke-width: 1.2; }
+      .content-guide { fill: none; stroke: #c00000; stroke-width: 1.2; stroke-dasharray: 4 3; }
+      .red-text { fill: #c00000; font-size: 11px; font-family: Helvetica, Arial, sans-serif; }
+      .red-line { stroke: #c00000; stroke-width: 1.2; fill: none; marker-end: url(#red-arrow); }
+    </style>
+    <marker
+       id="red-arrow-3"
+       markerWidth="7"
+       markerHeight="7"
+       refX="12"
+       refY="4"
+       orient="auto-start-reverse"
+       viewBox="0 0 8 8"
+       preserveAspectRatio="xMidYMid">
+      <path
+         d="M 8,0 0,4 8,8 Z"
+         fill="#c00000"
+         id="path1-8" />
+    </marker>
+    <marker
+       id="red-arrow-3-9"
+       markerWidth="7"
+       markerHeight="7"
+       refX="12"
+       refY="4"
+       orient="auto-start-reverse"
+       viewBox="0 0 8 8"
+       preserveAspectRatio="xMidYMid">
+      <path
+         d="M 8,0 0,4 8,8 Z"
+         fill="#c00000"
+         id="path1-8-4" />
+    </marker>
+    <marker
+       id="red-arrow-3-5"
+       markerWidth="7"
+       markerHeight="7"
+       refX="12"
+       refY="4"
+       orient="auto-start-reverse"
+       viewBox="0 0 8 8"
+       preserveAspectRatio="xMidYMid">
+      <path
+         d="M 8,0 0,4 8,8 Z"
+         fill="#c00000"
+         id="path1-8-6" />
+    </marker>
+    <marker
+       id="red-arrow-3-5-6"
+       markerWidth="7"
+       markerHeight="7"
+       refX="12"
+       refY="4"
+       orient="auto-start-reverse"
+       viewBox="0 0 8 8"
+       preserveAspectRatio="xMidYMid">
+      <path
+         d="M 8,0 0,4 8,8 Z"
+         fill="#c00000"
+         id="path1-8-6-5" />
+    </marker>
+    <marker
+       id="red-arrow-3-3"
+       markerWidth="7"
+       markerHeight="7"
+       refX="0"
+       refY="4"
+       orient="auto-start-reverse"
+       viewBox="0 0 8 8"
+       preserveAspectRatio="xMidYMid">
+      <path
+         d="M 0,0 8,4 0,8 Z"
+         fill="#c00000"
+         id="path1-8-0" />
+    </marker>
+    <marker
+       id="red-arrow-3-3-2"
+       markerWidth="7"
+       markerHeight="7"
+       refX="0"
+       refY="4"
+       orient="auto-start-reverse"
+       viewBox="0 0 8 8"
+       preserveAspectRatio="xMidYMid">
+      <path
+         d="M 0,0 8,4 0,8 Z"
+         fill="#c00000"
+         id="path1-8-0-6" />
+    </marker>
+    <marker
+       id="red-arrow-3-3-8"
+       markerWidth="7"
+       markerHeight="7"
+       refX="0"
+       refY="4"
+       orient="auto-start-reverse"
+       viewBox="0 0 8 8"
+       preserveAspectRatio="xMidYMid">
+      <path
+         d="M 0,0 8,4 0,8 Z"
+         fill="#c00000"
+         id="path1-8-0-7" />
+    </marker>
+    <marker
+       id="red-arrow-3-3-4"
+       markerWidth="7"
+       markerHeight="7"
+       refX="0"
+       refY="4"
+       orient="auto-start-reverse"
+       viewBox="0 0 8 8"
+       preserveAspectRatio="xMidYMid">
+      <path
+         d="M 0,0 8,4 0,8 Z"
+         fill="#c00000"
+         id="path1-8-0-9" />
+    </marker>
+    <marker
+       id="red-arrow-3-3-7"
+       markerWidth="7"
+       markerHeight="7"
+       refX="0"
+       refY="4"
+       orient="auto-start-reverse"
+       viewBox="0 0 8 8"
+       preserveAspectRatio="xMidYMid">
+      <path
+         d="M 0,0 8,4 0,8 Z"
+         fill="#c00000"
+         id="path1-8-0-3" />
+    </marker>
+  </defs>
+  <g
+     id="layer1">
+    <rect
+       class="svg-outside"
+       x="-170"
+       y="-78"
+       width="638.23529"
+       height="290"
+       id="svg-guide-background"
+       style="stroke-width:1" />
+    <g
+       id="g1"
+       transform="translate(58.926491,-9)">
+      <rect
+         class="svg-inside"
+         x="-116.52941"
+         y="-36"
+         width="413.44113"
+         height="224"
+         id="svg-guide-inside"
+         style="stroke-width:0.999983" />
+      <rect
+         class="wb-placeholder"
+         width="250"
+         height="50"
+         x="0"
+         y="0"
+         id="image17" />
+      <text
+         style="font-size:20px;font-family:Helvetica, Arial, 'Liberation Sans', 'DejaVu Sans', sans-serif;text-anchor:middle"
+         x="125"
+         y="32"
+         id="wb-image-label">wb image</text>
+      <line
+         x1="250"
+         y1="17"
+         x2="258"
+         y2="17"
+         style="stroke:#000000;stroke-width:2;stroke-linecap:butt"
+         id="marker-tick1" />
+      <text
+         style="font-size:20px;font-family:Helvetica, Arial, 'Liberation Sans', 'DejaVu Sans', sans-serif;text-anchor:start"
+         x="260"
+         y="24"
+         id="text1">37</text>
+      <line
+         x1="250"
+         y1="41"
+         x2="258"
+         y2="41"
+         style="stroke:#000000;stroke-width:2;stroke-linecap:butt"
+         id="marker-tick2" />
+      <text
+         style="font-size:20px;font-family:Helvetica, Arial, 'Liberation Sans', 'DejaVu Sans', sans-serif;text-anchor:start"
+         x="260"
+         y="48"
+         id="text2">25</text>
+      <text
+         style="font-size:20px;font-family:Helvetica, Arial, 'Liberation Sans', 'DejaVu Sans', sans-serif;text-anchor:end"
+         x="-10"
+         y="30"
+         id="annotation-text"
+         xml:space="preserve">blot: demo</text>
+      <text
+         style="font-size:20px;font-family:Helvetica, Arial, 'Liberation Sans', 'DejaVu Sans', sans-serif;text-anchor:middle"
+         x="24.299999"
+         y="-8"
+         id="sample-text1">1</text>
+      <text
+         style="font-size:20px;font-family:Helvetica, Arial, 'Liberation Sans', 'DejaVu Sans', sans-serif;text-anchor:middle"
+         x="64.5"
+         y="-8"
+         id="sample-text2">2</text>
+      <text
+         style="font-size:20px;font-family:Helvetica, Arial, 'Liberation Sans', 'DejaVu Sans', sans-serif;text-anchor:middle"
+         x="104.7"
+         y="-8"
+         id="sample-text3">3</text>
+      <text
+         style="font-size:20px;font-family:Helvetica, Arial, 'Liberation Sans', 'DejaVu Sans', sans-serif;text-anchor:middle"
+         x="144.8"
+         y="-8"
+         id="sample-text4">4</text>
+      <text
+         style="font-size:20px;font-family:Helvetica, Arial, 'Liberation Sans', 'DejaVu Sans', sans-serif;text-anchor:middle"
+         x="185"
+         y="-8"
+         id="sample-text5">5</text>
+      <text
+         style="font-size:20px;font-family:Helvetica, Arial, 'Liberation Sans', 'DejaVu Sans', sans-serif;text-anchor:middle"
+         x="225"
+         y="-8"
+         id="sample-text6">6</text>
+      <text
+         style="font-size:20px;line-height:1;font-family:Helvetica, Arial, 'Liberation Sans', 'DejaVu Sans', sans-serif;text-anchor:start"
+         x="0"
+         y="76"
+         id="details-text1">1: Sample 1</text>
+      <text
+         style="font-size:20px;line-height:1;font-family:Helvetica, Arial, 'Liberation Sans', 'DejaVu Sans', sans-serif;text-anchor:start"
+         x="0"
+         y="96"
+         id="details-text2">2: Sample 2</text>
+      <text
+         style="font-size:20px;line-height:1;font-family:Helvetica, Arial, 'Liberation Sans', 'DejaVu Sans', sans-serif;text-anchor:start"
+         x="0"
+         y="116"
+         id="details-text3">3: Sample 3</text>
+      <text
+         style="font-size:20px;line-height:1;font-family:Helvetica, Arial, 'Liberation Sans', 'DejaVu Sans', sans-serif;text-anchor:start"
+         x="0"
+         y="136"
+         id="details-text4">4: Sample 4</text>
+      <text
+         style="font-size:20px;line-height:1;font-family:Helvetica, Arial, 'Liberation Sans', 'DejaVu Sans', sans-serif;text-anchor:start"
+         x="0"
+         y="156"
+         id="details-text5">5: Sample 5</text>
+      <text
+         style="font-size:20px;line-height:1;font-family:Helvetica, Arial, 'Liberation Sans', 'DejaVu Sans', sans-serif;text-anchor:start"
+         x="0"
+         y="176"
+         id="details-text6">6: Sample 6</text>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linejoin:miter"
+         d="m -0.5,-0.5 h 251 v 51 h -251 z"
+         id="rect0" />
+      <rect
+         class="svg-guide"
+         x="-116.52941"
+         y="-36"
+         width="413.44113"
+         height="224"
+         id="svg-margin-guide" />
+      <rect
+         class="content-guide"
+         x="-0.39585114"
+         y="-28.168116"
+         width="250.7917"
+         height="22.921055"
+         id="svg-content-guide" />
+    </g>
+    <g
+       id="g2"
+       transform="translate(52.882343,45.588227)">
+      <text
+         class="red-text"
+         x="337.24011"
+         y="29.056961"
+         id="right-margin-arrow-label"
+         style="font-size:18.2353px">Marker</text>
+      <text
+         class="red-text"
+         x="159.44975"
+         y="156.04611"
+         id="right-margin-arrow-label-9"
+         style="font-size:18.2353px;font-family:Helvetica, Arial, sans-serif;fill:#c00000">Details</text>
+      <text
+         class="red-text"
+         x="285.38986"
+         y="-98.984528"
+         id="right-margin-arrow-label-9-5"
+         style="font-size:18.2353px;font-family:Helvetica, Arial, sans-serif;fill:#c00000">Sample label</text>
+      <text
+         class="red-text"
+         x="-212.02098"
+         y="28.049412"
+         id="right-margin-arrow-label-8"
+         style="font-size:18.2353px;font-family:Helvetica, Arial, sans-serif;fill:#c00000">Annotation</text>
+      <path
+         class="red-line"
+         d="m 157.27184,150.1284 h -18.37301 l -9.13327,-10.95454"
+         id="right-margin-arrow-2-97"
+         style="fill:none;stroke:#c00000;stroke-width:1.82353;stroke-dasharray:none;marker-end:url(#red-arrow-3-3)" />
+      <path
+         class="red-line"
+         d="m -122.37061,22.943061 h 25.382358 L -84.37061,6.5312915"
+         id="right-margin-arrow-2-97-1"
+         style="fill:none;stroke:#c00000;stroke-width:1.82353;stroke-dasharray:none;marker-end:url(#red-arrow-3-3-2)" />
+      <path
+         class="red-line"
+         d="M 334.93757,22.943062 H 309.55521 L 296.93757,6.5312913"
+         id="right-margin-arrow-2-97-0"
+         style="fill:none;stroke:#c00000;stroke-width:1.82353;stroke-dasharray:none;marker-end:url(#red-arrow-3-3-4)" />
+      <path
+         class="red-line"
+         d="M 282.59761,-104.11503 H 264.2246 l -9.13327,10.954542"
+         id="right-margin-arrow-2-97-6"
+         style="fill:none;stroke:#c00000;stroke-width:1.82353;stroke-dasharray:none;marker-end:url(#red-arrow-3-3-7)" />
+    </g>
+    <rect
+       class="content-guide"
+       x="58.53064"
+       y="47.49556"
+       width="250.79169"
+       height="126.86238"
+       id="svg-content-guide-0"
+       style="fill:none;stroke:#c00000;stroke-width:1.2;stroke-dasharray:4, 3" />
+    <rect
+       class="content-guide"
+       x="-49.958778"
+       y="-9.3998814"
+       width="103.32649"
+       height="50.799759"
+       id="svg-content-guide-7"
+       style="fill:none;stroke:#c00000;stroke-width:1.2;stroke-dasharray:4, 3" />
+    <rect
+       class="content-guide"
+       x="312.70471"
+       y="-9.3998814"
+       width="35.649223"
+       height="50.799759"
+       id="svg-content-guide-7-4"
+       style="fill:none;stroke:#c00000;stroke-width:1.2;stroke-dasharray:4, 3" />
+  </g>
+</svg>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 448 448"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="floppy-disk-regular-full.svg"
+   width="448"
+   height="448"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.04625"
+     inkscape:cx="312.06691"
+     inkscape:cy="350.29869"
+     inkscape:window-width="1680"
+     inkscape:window-height="992"
+     inkscape:window-x="0"
+     inkscape:window-y="30"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <!--!Font Awesome Free 7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.-->
+  <path
+     d="m 64,48 c -8.8,0 -16,7.2 -16,16 v 320 c 0,8.8 7.2,16 16,16 h 320 c 8.8,0 16,-7.2 16,-16 V 141.3 c 0,-4.2 -1.7,-8.3 -4.7,-11.3 L 320,54.6 V 144 c 0,17.7 -14.3,32 -32,32 H 128 C 110.3,176 96,161.7 96,144 V 48 Z m 80,0 v 80 H 272 V 48 Z M 0,64 C 0,28.7 28.7,0 64,0 h 242.7 c 17,0 33.3,6.7 45.3,18.7 L 429.3,96 c 12,12 18.7,28.3 18.7,45.3 V 384 c 0,35.3 -28.7,64 -64,64 H 64 C 28.7,448 0,419.3 0,384 Z m 160,224 c 0,-35.3 28.7,-64 64,-64 35.3,0 64,28.7 64,64 0,35.3 -28.7,64 -64,64 -35.3,0 -64,-28.7 -64,-64 z"
+     id="path1" />
+</svg>
