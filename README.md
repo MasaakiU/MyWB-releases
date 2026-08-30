@@ -32,14 +32,20 @@ Leave the back-and-forth behind. MyWB unites everything from source images to an
 
 ## Features
 
-### Four Controls, One Workflow
+### Bidirectional Workflow
+
+From raw data to figure, and trace it back to the source.
+
+<p align="center"><img src="docs/assets/workflow_overview.svg" alt="Basic sample-label layout" width="917"></p>
+
+### Four Controls, One Interface
 
 | Button | What it does |
 | --- | --- |
-| <picture><source media="(prefers-color-scheme: dark)" srcset="docs/assets/table-columns-solid_gray20.svg"><img src="docs/assets/table-columns-solid.svg" alt="" width="28" height="28" align="absmiddle"></picture> [**Marker/blot&nbsp;view**](docs/user-guide.md#from-blot-to-figure) | Adjust marker and blot images, select an ROI, and add labels. |
-| <picture><source media="(prefers-color-scheme: dark)" srcset="docs/assets/eye-solid_gray20.svg"><img src="docs/assets/eye-solid.svg" alt="" width="28" height="28" align="absmiddle"></picture> [**SVG&nbsp;preview**](docs/user-guide.md#from-blot-to-figure) | Review the SVG output and edit its styles before saving. |
-| <picture><source media="(prefers-color-scheme: dark)" srcset="docs/assets/square-minus-regular_WB_gray20.svg"><img src="docs/assets/square-minus-regular_WB.svg" alt="" width="28" height="28" align="absmiddle"></picture> [**Quantification**](docs/user-guide.md#quantification-access) | Analyze lanes in the selected ROI. |
-| <picture><source media="(prefers-color-scheme: dark)" srcset="docs/assets/copy_to_powerpoint_gray20.svg"><img src="docs/assets/copy_to_powerpoint.svg" alt="" width="28" height="28" align="absmiddle"></picture> [**Copy&nbsp;for&nbsp;PowerPoint**](docs/user-guide.md#powerpoint-workflow) | More than a simple image copy—preserve MyWB metadata for future traceability. |
+| <picture><source media="(prefers-color-scheme: dark)" srcset="docs/assets/table-columns-solid_gray20.svg"><img src="docs/assets/table-columns-solid.svg" alt="" width="28" height="28" align="absmiddle"></picture> [**Marker/blot&nbsp;view**](docs/user-guide/from-blot-to-figure.md) | Adjust marker and blot images, select an ROI, and add labels. |
+| <picture><source media="(prefers-color-scheme: dark)" srcset="docs/assets/eye-solid_gray20.svg"><img src="docs/assets/eye-solid.svg" alt="" width="28" height="28" align="absmiddle"></picture> [**SVG&nbsp;preview**](docs/user-guide/design-and-preview-figure.md) | Review the SVG output and edit its styles before saving. |
+| <picture><source media="(prefers-color-scheme: dark)" srcset="docs/assets/square-minus-regular_WB_gray20.svg"><img src="docs/assets/square-minus-regular_WB.svg" alt="" width="28" height="28" align="absmiddle"></picture> [**Quantification**](docs/user-guide/quantify-bands.md) | Analyze lanes in the selected ROI. |
+| <picture><source media="(prefers-color-scheme: dark)" srcset="docs/assets/copy_to_powerpoint_gray20.svg"><img src="docs/assets/copy_to_powerpoint.svg" alt="" width="28" height="28" align="absmiddle"></picture> [**Copy&nbsp;for&nbsp;PowerPoint**](docs/user-guide/powerpoint-workflow.md) | More than a simple image copy—preserve MyWB metadata for future traceability. |
 
 ### Flexible output layouts
 
