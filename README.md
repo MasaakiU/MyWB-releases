@@ -40,12 +40,40 @@ From raw data to figure, and trace it back to the source.
 
 ### Four Controls, One Interface
 
-| Button | What it does |
-| --- | --- |
-| <picture><source media="(prefers-color-scheme: dark)" srcset="docs/assets/table-columns-solid_gray20.svg"><img src="docs/assets/table-columns-solid.svg" alt="" width="28" height="28" align="absmiddle"></picture> [**Marker/blot&nbsp;view**](docs/user-guide/from-blot-to-figure.md) | Adjust marker and blot images, select an ROI, and add labels. |
-| <picture><source media="(prefers-color-scheme: dark)" srcset="docs/assets/eye-solid_gray20.svg"><img src="docs/assets/eye-solid.svg" alt="" width="28" height="28" align="absmiddle"></picture> [**SVG&nbsp;preview**](docs/user-guide/design-and-preview-figure.md) | Review the SVG output and edit its styles before saving. |
-| <picture><source media="(prefers-color-scheme: dark)" srcset="docs/assets/square-minus-regular_WB_gray20.svg"><img src="docs/assets/square-minus-regular_WB.svg" alt="" width="28" height="28" align="absmiddle"></picture> [**Quantification**](docs/user-guide/quantify-bands.md) | Analyze lanes in the selected ROI. |
-| <picture><source media="(prefers-color-scheme: dark)" srcset="docs/assets/copy_to_powerpoint_gray20.svg"><img src="docs/assets/copy_to_powerpoint.svg" alt="" width="28" height="28" align="absmiddle"></picture> [**Copy&nbsp;for&nbsp;PowerPoint**](docs/user-guide/powerpoint-workflow.md) | More than a simple image copy—preserve MyWB metadata for future traceability. |
+<table>
+  <thead>
+    <tr>
+      <th align="left">Button</th>
+      <th align="left">What it does</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td valign="middle" nowrap="nowrap">
+        <a href="docs/user-guide/from-blot-to-figure.md" aria-label="Marker/blot view"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/assets/table-columns-solid_gray20.svg"><img src="docs/assets/table-columns-solid.svg" alt="" width="28" height="28" align="absmiddle"></picture></a>&nbsp;<a href="docs/user-guide/from-blot-to-figure.md"><strong>Marker/blot&nbsp;view</strong></a>
+      </td>
+      <td valign="middle">Adjust marker and blot images, select an ROI, and add labels.</td>
+    </tr>
+    <tr>
+      <td valign="middle" nowrap="nowrap">
+        <a href="docs/user-guide/design-and-preview-figure.md" aria-label="SVG preview"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/assets/eye-solid_gray20.svg"><img src="docs/assets/eye-solid.svg" alt="" width="28" height="28" align="absmiddle"></picture></a>&nbsp;<a href="docs/user-guide/design-and-preview-figure.md"><strong>SVG&nbsp;preview</strong></a>
+      </td>
+      <td valign="middle">Review the SVG output and edit its styles before saving.</td>
+    </tr>
+    <tr>
+      <td valign="middle" nowrap="nowrap">
+        <a href="docs/user-guide/quantify-bands.md" aria-label="Quantification"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/assets/square-minus-regular_WB_gray20.svg"><img src="docs/assets/square-minus-regular_WB.svg" alt="" width="28" height="28" align="absmiddle"></picture></a>&nbsp;<a href="docs/user-guide/quantify-bands.md"><strong>Quantification</strong></a>
+      </td>
+      <td valign="middle">Analyze lanes in the selected ROI.</td>
+    </tr>
+    <tr>
+      <td valign="middle" nowrap="nowrap">
+        <a href="docs/user-guide/powerpoint-workflow.md" aria-label="Copy for PowerPoint"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/assets/copy_to_powerpoint_gray20.svg"><img src="docs/assets/copy_to_powerpoint.svg" alt="" width="28" height="28" align="absmiddle"></picture></a>&nbsp;<a href="docs/user-guide/powerpoint-workflow.md"><strong>Copy&nbsp;for&nbsp;PowerPoint</strong></a>
+      </td>
+      <td valign="middle">More than a simple image copy—preserve MyWB metadata for future traceability.</td>
+    </tr>
+  </tbody>
+</table>
 
 ### Flexible output layouts
 
