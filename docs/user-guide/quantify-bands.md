@@ -84,7 +84,7 @@ In the **Vertical projection**, the gray area indicates the portion identified a
 2. Click the <picture><source media="(prefers-color-scheme: dark)" srcset="../assets/clone-regular_gray20.svg"><img src="../assets/clone-regular.svg" alt="" width="18" height="18" align="absmiddle"></picture> **Copy Results** button to copy the table to the clipboard, or the <picture><source media="(prefers-color-scheme: dark)" srcset="../assets/arrow-up-from-bracket-solid_gray20.svg"><img src="../assets/arrow-up-from-bracket-solid.svg" alt="" width="18" height="18" align="absmiddle"></picture> **Export Results** button to save the results and graph.
     - **Output location:** MyWB creates a new `_quantification` folder, usually beside the blot image. The completion message shows the exact location.
     - **Files:** MyWB saves a tab-separated values (TSV) result table with a `.csv` filename extension, a single SVG graph containing the **Horizontal projection** and the **Vertical projection**, and a `.mywb.svg` snapshot.
-    - The **Label** column of the table shows `unknown` when the number of sample positions within the ROI's horizontal range does not match **# lanes**. To change sample positions, return to **Marker/blot view** and add, remove, or move [sample positions](edit-roi-and-labels.md#add-sample-positions).
+    - The **Label** column of the table shows `unknown` when the number of sample positions within the ROI's horizontal range does not match **# lanes**. To change sample positions, return to **Marker/blot view** and add, remove, or move [sample positions](edit-roi-and-labels.md#add-marker-and-sample-positions).
 
 ## Continue with
 

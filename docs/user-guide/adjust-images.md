@@ -89,6 +89,6 @@ The following controls are available:
 ## Continue with
 
 - [Select or adjust an ROI](edit-roi-and-labels.md#roi-management)
-- [Add marker positions](edit-roi-and-labels.md#add-marker-positions)
+- [Add marker positions](edit-roi-and-labels.md#add-marker-and-sample-positions)
 - [Preview the figure](design-and-preview-figure.md#preview-of-the-figure)
 - [Add notes to a MyWB file](manage-mywb-files.md#add-notes-to-a-mywb-file)

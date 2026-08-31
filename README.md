@@ -34,7 +34,7 @@ Leave the back-and-forth behind. MyWB unites everything from source images to an
 
 ### Bidirectional Workflow
 
-From raw data to figure, and trace it back to the source.
+From raw data to presentations, and trace it back to the source.
 
 <p align="center"><img src="docs/assets/workflow_overview.svg" alt="Basic sample-label layout" width="917"></p>
 
@@ -74,6 +74,11 @@ From raw data to figure, and trace it back to the source.
     </tr>
   </tbody>
 </table>
+### Single-Image Multi-Membrane Management
+
+No more scattered ROI files and label spreadsheets. Swap membranes, labels, and layouts in a single click.
+
+<p align="center"><img src="docs/assets/screen_shots/mywb_files_panel_switching.webp" alt="Basic sample-label layout" width="710"></p>
 
 ### Flexible output layouts
 

@@ -10,7 +10,7 @@ Use the live SVG Preview to arrange labels and adjust the figure's appearance.
 2. [Open a blot image](open-images.md).
 3. [Open a marker image](open-images.md) if you want to compare or transform both images.
 4. [Adjust marker and blot images](adjust-images.md) if necessary.
-5. Add [marker positions](edit-roi-and-labels.md#add-marker-positions) and [sample positions](edit-roi-and-labels.md#add-sample-positions).
+5. Add [marker positions](edit-roi-and-labels.md#add-marker-and-sample-positions) and [sample positions](edit-roi-and-labels.md#add-marker-and-sample-positions).
 
 ## Preview of the figure
 
@@ -23,7 +23,7 @@ Click <picture><source media="(prefers-color-scheme: dark)" srcset="../assets/ey
 
 ## Edit sample labels
 
-You can select a **Layout** in the **Sample Label** tab when at least one applicable [Sample position](edit-roi-and-labels.md#add-sample-positions) is available. With an ROI, only Sample positions within the ROI's horizontal range are used; without an ROI, all Sample positions are used with the full blot.
+You can select a **Layout** in the **Sample Label** tab when at least one applicable [Sample position](edit-roi-and-labels.md#add-marker-and-sample-positions) is available. With an ROI, only Sample positions within the ROI's horizontal range are used; without an ROI, all Sample positions are used with the full blot.
 
 <table>
   <tr>

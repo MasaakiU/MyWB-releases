@@ -28,9 +28,6 @@ Hold <img src="../assets/shortcut-roi-command.svg" alt="Command" height="18" ali
 
 The ROI cannot extend outside the blot image. An ROI is required to [quantify bands](quantify-bands.md) or [export a cropped image](export-cropped-image.md). It is optional for SVG Preview, saving, and copying to PowerPoint; without one, the full blot is used.
 
-<a id="add-marker-positions"></a>
-<a id="add-sample-positions"></a>
-
 ## Add marker and sample positions
 
 Hold the shortcut for the desired type and click in either image pane to add a position. A point appears in both panes. Repeat for each reference or lane you want to label.

@@ -4,17 +4,9 @@
 
 ## Common workflows
 
-<a id="from-blot-to-figure"></a>
-
 - **[Create a figure from a blot](user-guide/from-blot-to-figure.md)** — open the blot image and an optional marker image, select the figure area, add labels, preview, and save the result.
-
-<a id="quantification-access"></a>
-
 - **[Quantify bands](user-guide/quantify-bands.md)** <a href="user-guide/premium-access.md"><img src="assets/premium-badge.svg" alt="Premium" height="18" align="absmiddle"></a> — select an ROI, check lane boundaries, and copy or export the measurements.
 - **[Manage MyWB files](user-guide/manage-mywb-files.md#common-mywb-file-operations)** — reopen a `.mywb.svg` file with its MyWB data.
-
-<a id="powerpoint-workflow"></a>
-
 - **[Use MyWB with PowerPoint](user-guide/powerpoint-workflow.md#powerpoint-workflow)** — copy figures to PowerPoint and restore them later in MyWB.
   - Copying a figure is a Basic feature; restoring one figure or importing all recoverable figures uses Premium Access. <a href="user-guide/premium-access.md"><img src="assets/premium-badge.svg" alt="Premium" height="18" align="absmiddle"></a>
 
