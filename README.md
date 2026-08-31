@@ -74,6 +74,7 @@ From raw data to presentations, and trace it back to the source.
     </tr>
   </tbody>
 </table>
+
 ### Single-Image Multi-Membrane Management
 
 No more scattered ROI files and label spreadsheets. Swap membranes, labels, and layouts in a single click.
