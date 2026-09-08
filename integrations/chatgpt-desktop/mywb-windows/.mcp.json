@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "mywb": {
+      "command": "cmd",
+      "args": [
+        "/c",
+        "%USERPROFILE%\\AppData\\Local\\MyWB\\bin\\mywb-mcp-relay.cmd"
+      ]
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "mywb": {
+      "command": "/bin/sh",
+      "args": [
+        "-c",
+        "exec \"$HOME/Library/Application Support/MyWB/bin/mywb-mcp-relay\""
+      ]
+    }
+  }
+}

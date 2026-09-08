@@ -1,0 +1,38 @@
+{
+  "name": "mywb-macos",
+  "version": "0.6.0",
+  "description": "Read and adjust the Western blot document open in MyWB.",
+  "author": {
+    "name": "Masaaki Uematsu",
+    "url": "https://github.com/MasaakiU/MyWB-releases"
+  },
+  "homepage": "https://github.com/MasaakiU/MyWB-releases",
+  "repository": "https://github.com/MasaakiU/MyWB-releases",
+  "license": "Proprietary",
+  "keywords": [
+    "western blot",
+    "image analysis",
+    "quantification",
+    "microscopy"
+  ],
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "MyWB (macOS)",
+    "shortDescription": "Read and adjust the Western blot document open in MyWB.",
+    "longDescription": "Lets an assistant work in the MyWB window you have open: read the active\ndocument, adjust the ROI, rename marker and sample labels, and run lane\nquantification.\n\nMyWB has to be running with `AI assistant access` switched on -- the AI button\nbeside `Copy SVG for PowerPoint`. It is a Premium feature and is off by\ndefault. Nothing leaves this computer: MyWB listens on 127.0.0.1 only and every\nrequest carries an access token regenerated each time it starts.\n\nEvery change an assistant makes lands as one step in the Edit menu, so Ctrl+Z\ntakes back one action at a time. Saving is never done for you.\n",
+    "developerName": "Masaaki Uematsu",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/MasaakiU/MyWB-releases",
+    "privacyPolicyURL": "https://github.com/MasaakiU/MyWB-releases/blob/master/docs/legal/privacy-policy.md",
+    "defaultPrompt": [
+      "What does MyWB have open right now?",
+      "Quantify the lanes in the current ROI.",
+      "Rename the sample labels to my treatment groups."
+    ],
+    "logo": "./assets/logo.png"
+  }
+}
