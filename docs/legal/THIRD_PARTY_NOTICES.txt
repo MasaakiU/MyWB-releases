@@ -161,11 +161,26 @@ cryptography
 ------------
 
 This distribution includes cryptography 49.0.0, licensed under either the
-Apache License 2.0 or the BSD 3-Clause License.
+Apache License 2.0 or the BSD 3-Clause License. Its compiled extension uses
+OpenSSL, licensed under the Apache License 2.0. Depending on the build,
+OpenSSL is either compiled into the extension or loaded from the OpenSSL
+libraries included in this distribution.
+
+The compiled extension also contains the following Rust libraries, in the
+versions locked by cryptography 49.0.0:
+
+- asn1, licensed under the BSD 3-Clause License
+- openssl-sys and pem, licensed under the MIT License
+- openssl, licensed under the Apache License 2.0
+- base64, bitflags, cfg-if, foreign-types, foreign-types-shared, itoa, libc,
+  once_cell, portable-atomic, PyO3, pyo3-ffi, self_cell, and the Rust
+  standard library, each offered under a choice of licenses that includes
+  the Apache License 2.0, and used under the Apache License 2.0
 
 License texts:
 
 third_party/cryptography/
+third_party/native/openssl-LICENSE.txt
 
 CFFI
 ----
@@ -176,6 +191,53 @@ License.
 License text:
 
 third_party/cffi/LICENSE
+
+ONNX Runtime
+------------
+
+This distribution includes ONNX Runtime 1.23.2, licensed under the MIT
+License. ONNX Runtime bundles further third-party components, whose notices
+are reproduced in full. Among them is Eigen, which is compiled into ONNX
+Runtime and is licensed under the Mozilla Public License 2.0. The source code
+of the Eigen version used by ONNX Runtime 1.23.2 is available at
+https://github.com/eigen-mirror/eigen/tree/1d8b82b0740839c0de7f1242a3585e3390ff5f33
+
+ONNX Runtime's reporting of usage events to Microsoft, which is on by default
+in its Windows builds, is switched off by MyWB before the runtime is used.
+
+License text and notices:
+
+third_party/onnxruntime/LICENSE
+third_party/onnxruntime/ThirdPartyNotices.txt
+third_party/onnxruntime/Privacy.md
+
+RF-DETR
+-------
+
+The band detection model in this distribution was fine-tuned from the
+RF-DETR Small pretrained weights (https://github.com/roboflow/rf-detr),
+Copyright 2025 Roboflow, Inc., licensed under the Apache License 2.0. The
+weights were further trained on gel images to detect bands and exported to
+ONNX. The rfdetr package itself is not included in this distribution.
+
+License text:
+
+third_party/rfdetr/LICENSE
+
+GelGenie Dataset
+----------------
+
+The band detection model in this distribution was trained in part on
+"Segmented Gel Electrophoresis Images used for Training GelGenie Models" by
+Matthew Aquilina et al. (https://doi.org/10.5281/zenodo.14641893), licensed
+under the Creative Commons Attribution 4.0 International License. For
+training, its segmentation masks were converted to bounding boxes and
+corrected by hand, and its images were augmented. Neither the dataset nor any
+GelGenie model or code is included in this distribution.
+
+License text:
+
+third_party/fontawesome/CC-BY-4.0.txt
 
 Font Awesome SVG Icons
 ----------------------

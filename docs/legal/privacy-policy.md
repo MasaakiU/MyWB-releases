@@ -1,6 +1,6 @@
 # MyWB Privacy Policy
 
-Effective date: August 11, 2026
+Effective date: October 4, 2026
 
 MyWB is a local desktop application for research use. It is designed to run
 on your computer and process files that you choose to open, create, or save.
@@ -30,10 +30,23 @@ When you use PowerPoint-to-MyWB import, SVG data is read either from the local
 clipboard by `Paste MyWB from PowerPoint` or from the `.pptx` file you select
 by `Import MyWB from PowerPoint File`. The selected PowerPoint file, its file
 name and path, and the imported SVG data are processed locally and are not
-transmitted as part of license verification.
+transmitted as part of license verification. Band detection likewise analyses
+the image on your computer; the image and the document are not transmitted.
 
 Some MyWB SVG files may contain embedded image data and MyWB session metadata.
 This allows a session to be reopened later.
+
+## Local Diagnostic Logs
+
+MyWB writes diagnostic logs to a `logs` folder inside its application data
+folder on your computer. These record what MyWB was doing, including the file
+paths involved, and a technical traceback if MyWB stops unexpectedly. They are
+kept so that a problem can be investigated after the fact.
+
+These logs stay on your computer. MyWB does not transmit them to the developer
+or to any service; they are sent only if you choose to attach them yourself
+when contacting support. Older entries are discarded automatically as new ones
+are written, so the logs do not grow without limit.
 
 ## Local Settings
 
@@ -89,11 +102,12 @@ periodically afterward, including when a locally cached authorization is due
 for renewal, near expiry, or expired. The check may also retrieve service
 notices, including advance notice of licensing changes.
 
-Quantification and PowerPoint-to-MyWB import (`Paste MyWB from PowerPoint` and
-`Import MyWB from PowerPoint File`) require a successful online verification
-before first use of a Premium Feature and at least once every 30 days afterward
-to remain continuously available. A successful check permits offline use of
-both Premium Features for up to 30 days. That period may be shorter if a
+Quantification, PowerPoint-to-MyWB import (`Paste MyWB from PowerPoint` and
+`Import MyWB from PowerPoint File`), and band detection require a
+successful online verification before first use of a Premium Feature and at
+least once every 30 days afterward to remain continuously available. A
+successful check permits offline use of the Premium Features for up to 30
+days. That period may be shorter if a
 previously announced change to access takes effect sooner. If the cached
 authorization expires before verification succeeds, the Premium Features
 remain unavailable until a new authorization is obtained.

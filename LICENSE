@@ -1,7 +1,7 @@
 MyWB Proprietary Software License and Premium Access Terms
 
-License version 2.2
-Effective date: August 11, 2026
+License version 2.3
+Effective date: October 4, 2026
 
 Copyright (c) 2026 Masaaki Uematsu. All rights reserved.
 
@@ -19,16 +19,25 @@ retroactively amend the terms supplied with an earlier copy.
 2. Definitions
 
 "Basic Features" means every function included in this copy of the Software
-other than Quantification and PowerPoint-to-MyWB import. "PowerPoint-to-MyWB
-import" means both the "Paste MyWB from PowerPoint" function and the "Import
-MyWB from PowerPoint File" function. Basic Features include, without
-limitation, Marker/Blot View, SVG Preview, Copy SVG for PowerPoint, and the
-normal ability to open and save supported MyWB files. A Basic Feature in this
-copy will not later be redesignated as a Premium Feature for this copy.
+other than Quantification, PowerPoint-to-MyWB import, and band detection.
+"PowerPoint-to-MyWB import" means both the "Paste MyWB from PowerPoint"
+function and the "Import MyWB from PowerPoint File" function. "Band detection"
+means the "Auto Detect" function: everything done through the window it opens
+and through the panel in which its results are checked and placed. That is
+locating bands in an image and placing bands and marker labels at the
+positions found; grouping bands, including bands already in the document,
+into sample lanes and placing a sample label for each lane; and fitting ROIs
+around the bands, including turning the image to level an ROI and writing
+each ROI after the first to a new MyWB file. Adding, moving, or editing
+bands, labels, and ROIs yourself, including in the band table, is not band
+detection. Basic Features include, without limitation, Marker/Blot View, SVG
+Preview, Copy SVG for PowerPoint, and the normal ability to open and save
+supported MyWB files. A Basic Feature in this copy will not later be
+redesignated as a Premium Feature for this copy.
 
 "Premium Features" means functions for which Premium Access is required.
-Quantification and PowerPoint-to-MyWB import are the only Premium Features in
-this copy of the Software.
+Quantification, PowerPoint-to-MyWB import, and band detection are the only
+Premium Features in this copy of the Software.
 
 "Premium Access" means a current authorization to use one or more Premium
 Features, whether provided at no charge or through a separately agreed paid
@@ -51,12 +60,17 @@ Software for your own permitted use. No other rights are granted.
 
 4. Premium designation and advance notice
 
-Premium Access for Quantification and PowerPoint-to-MyWB import is currently
-provided without a subscription fee. No end date for this access at no charge
-is scheduled as of the effective date of this license. If the copyright holder
-schedules an end to access to either Premium Feature at no charge for this
-copy, the copyright holder will provide at least 90 days' advance notice before
-paid Premium Access is required.
+Premium Access for Quantification, PowerPoint-to-MyWB import, and band
+detection is currently provided without a subscription fee. No end date
+for this access at no charge is scheduled as of the effective date of this
+license. If the copyright holder schedules an end to access to any of those
+Premium Features at no charge for this copy, the copyright holder will provide
+at least 90 days' advance notice before paid Premium Access is required.
+
+Band detection is introduced in the release distributed with this license
+and is identified as a Premium Feature from the time it is introduced. It was
+not a Basic Feature in an earlier copy, so the advance notice described below
+for changing a Basic Feature into a Premium Feature does not apply to it.
 
 A function first introduced in a later release may be identified as a Premium
 Feature from the time it is introduced. A later release may also be offered
@@ -135,6 +149,9 @@ You may not:
   Premium access controls;
 - forge, alter, share without authorization, or misuse an authorization,
   entitlement, or license token;
+- extract, decrypt, or copy any machine-learning model included with the
+  Software, including the band detection model, or use such a model other
+  than through the Software;
 - gain unauthorized access to, disrupt, or abuse a MyWB licensing service; or
 - reverse engineer, decompile, disassemble, or attempt to derive source code
   from the Software, except to the extent such restriction is prohibited by
