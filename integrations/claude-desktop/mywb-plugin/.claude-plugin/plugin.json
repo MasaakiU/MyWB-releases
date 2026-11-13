@@ -1,0 +1,21 @@
+{
+  "name": "mywb",
+  "displayName": "MyWB",
+  "version": "0.6.0",
+  "description": "Read and adjust the Western blot document open in MyWB.",
+  "author": {
+    "name": "Masaaki Uematsu",
+    "url": "https://github.com/MasaakiU/MyWB-releases"
+  },
+  "homepage": "https://github.com/MasaakiU/MyWB-releases",
+  "repository": "https://github.com/MasaakiU/MyWB-releases",
+  "license": "Proprietary",
+  "keywords": [
+    "western blot",
+    "image analysis",
+    "quantification",
+    "microscopy"
+  ],
+  "icon": "./icon.png",
+  "mcpServers": "./mywb.mcpb"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "mywb",
+  "owner": {
+    "name": "Masaaki Uematsu",
+    "url": "https://github.com/MasaakiU/MyWB-releases"
+  },
+  "description": "MyWB for Claude.",
+  "plugins": [
+    {
+      "name": "mywb",
+      "source": "./integrations/claude-desktop/mywb-plugin",
+      "description": "Read and adjust the Western blot document open in MyWB."
+    }
+  ]
+}

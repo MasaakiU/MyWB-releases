@@ -1,2 +1,5 @@
 .DS_Store
 /.github/scripts/
+# Claude Code unpacks a plugin's .mcpb here when the plugin is installed
+# from this checkout as a local marketplace.
+.mcpb-cache/
