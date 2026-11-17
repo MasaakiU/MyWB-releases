@@ -1,6 +1,6 @@
 {
   "name": "mywb-windows",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "Read and adjust the Western blot document open in MyWB.",
   "author": {
     "name": "Masaaki Uematsu",
@@ -16,10 +16,11 @@
     "microscopy"
   ],
   "mcpServers": "./.mcp.json",
+  "requires_local_executor": true,
   "interface": {
     "displayName": "MyWB (Windows)",
     "shortDescription": "Read and adjust the Western blot document open in MyWB.",
-    "longDescription": "Lets an assistant work in the MyWB window you have open: read the active\ndocument, adjust the ROI, rename marker and sample labels, and run lane\nquantification.\n\nMyWB has to be running with `AI assistant access` switched on -- the AI button\nbeside `Copy SVG for PowerPoint`. It is a Premium feature and is off by\ndefault. Nothing leaves this computer: MyWB listens on 127.0.0.1 only and every\nrequest carries an access token regenerated each time it starts.\n\nEvery change an assistant makes lands as one step in the Edit menu, so Ctrl+Z\ntakes back one action at a time. Saving is never done for you.\n",
+    "longDescription": "Lets an assistant work in the MyWB window you have open: read the documents\nand look at the window, set the ROI, label markers and samples, edit the band\ntable, adjust images and fluorescent channels, run Auto Detect, arrange panels\ninto a figure, style it, quantify lanes, and save and export.\n\nMyWB has to be running with `AI assistant access` switched on -- the AI button\nbeside `Copy SVG for PowerPoint`. It is a Premium feature and is off by\ndefault. MyWB listens on 127.0.0.1 only, and every request carries an access\ntoken regenerated each time it starts. An assistant that runs its model on a\nremote service sends what it reads from MyWB there; the Privacy Policy lists\nwhat MyWB hands over.\n\nEvery change an assistant makes lands as one step in the Edit menu, so Ctrl+Z\ntakes back one action at a time. It saves to a new name and exports by\nitself, and saves over a file it made itself in that window until anything\nelse writes to it. Writing over any other file, moving a file to the Trash\nand discarding unsaved work wait for your answer in MyWB's own window, unless\nyou have set them to Allow without asking.\n",
     "developerName": "Masaaki Uematsu",
     "category": "Productivity",
     "capabilities": [
