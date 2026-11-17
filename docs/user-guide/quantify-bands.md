@@ -26,7 +26,9 @@ See **[Create a figure from a blot](from-blot-to-figure.md)** for the complete f
 - [Open a blot image](open-images.md).
 - [Create an ROI](edit-roi-and-labels.md#roi-management).
 
-All other parts of the workflow—including opening a marker image, adding marker or sample positions, previewing or styling the figure, and saving a `.mywb.svg` file—are optional for Quantification.
+All other parts of the workflow—including opening a marker image, adding marker or sample positions, previewing or styling the figure, and saving a `.gel.svg` file—are optional for Quantification.
+
+[Auto Detect](detect-bands.md) <a href="premium-access.md"><img src="../assets/premium-badge.svg" alt="Premium" height="18" align="absmiddle"></a> can place the sample positions and the ROI for you.
 
 ## Steps
 
@@ -81,10 +83,20 @@ In the **Vertical projection**, the gray area indicates the portion identified a
 ### Review and export the results
 
 1. Check the results table. MyWB recalculates automatically when you change settings; there is no separate "Run" button.
+    - With several [channels](fluorescent-channels.md), every channel is measured with the same lanes. Tabs show one channel at a time.
 2. Click the <picture><source media="(prefers-color-scheme: dark)" srcset="../assets/clone-regular_gray20.svg"><img src="../assets/clone-regular.svg" alt="" width="18" height="18" align="absmiddle"></picture> **Copy Results** button to copy the table to the clipboard, or the <picture><source media="(prefers-color-scheme: dark)" srcset="../assets/arrow-up-from-bracket-solid_gray20.svg"><img src="../assets/arrow-up-from-bracket-solid.svg" alt="" width="18" height="18" align="absmiddle"></picture> **Export Results** button to save the results and graph.
     - **Output location:** MyWB creates a new `_quantification` folder, usually beside the blot image. The completion message shows the exact location.
-    - **Files:** MyWB saves a tab-separated values (TSV) result table with a `.csv` filename extension, a single SVG graph containing the **Horizontal projection** and the **Vertical projection**, and a `.mywb.svg` snapshot.
+    - **Files:** MyWB saves a tab-separated values (TSV) result table with a `.csv` filename extension, an SVG graph containing the **Horizontal projection** and the **Vertical projection** (one for each channel), and a `.gel.svg` snapshot.
+    - **Columns:** the table starts with a `Channel` column and has a row for each lane of each channel, whatever the number of channels.
     - The **Label** column of the table shows `unknown` when the number of sample positions within the ROI's horizontal range does not match **# lanes**. To change sample positions, return to **Marker/blot view** and add, remove, or move [sample positions](edit-roi-and-labels.md#add-marker-and-sample-positions).
+
+### Keep the results in the document
+
+**Save Results with the Document**, at the top of the Quantification page (also in the **Quantification** menu), is on by default. The results shown on the page are written into the document's file when it is saved, one set for each channel, and read back with it. New results mark the document as changed.
+
+- Results are measured only while the Quantification page is open. A change elsewhere that leaves them out of date, such as moving the ROI, asks first: **Continue** makes the change, **Undo** takes it back.
+- When the number of lanes differs from the number of sample positions in the ROI, the results are saved without being linked to the samples.
+- Untick **Save Results with the Document** to keep no results in the file.
 
 ## Continue with
 

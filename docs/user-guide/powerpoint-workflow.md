@@ -6,7 +6,7 @@ Copy MyWB figures to PowerPoint while retaining the data needed to reopen them l
 
 ## Before you start
 
-See **[Create a figure from a blot](from-blot-to-figure.md)** for the complete figure workflow. A saved `.mywb.svg` file is not required when you use **Copy SVG for PowerPoint** and paste the figure. Save the figure first only when you use the **File** method below to insert or drag the `.mywb.svg` file into PowerPoint.
+See **[Create a figure from a blot](from-blot-to-figure.md)** for the complete figure workflow. A saved `.gel.svg` file is not required when you use **Copy SVG for PowerPoint** and paste the figure. Save the figure first only when you use the **File** method below to insert or drag the `.gel.svg` file into PowerPoint.
 
 ## PowerPoint workflow
 
@@ -52,8 +52,8 @@ See **[Create a figure from a blot](from-blot-to-figure.md)** for the complete f
       <td valign="top"><b>File</b></td>
       <td>
         <ol>
-          <li><a href="manage-mywb-files.md#common-mywb-file-operations">Save the figure as a <code>.mywb.svg</code> file</a>.</li>
-          <li>In PowerPoint, use <b>Insert &gt; Pictures</b>, or drag the <code>.mywb.svg</code> file onto a slide.</li>
+          <li><a href="manage-mywb-files.md#common-mywb-file-operations">Save the figure as a <code>.gel.svg</code> file</a>.</li>
+          <li>In PowerPoint, use <b>Insert &gt; Pictures</b>, or drag the <code>.gel.svg</code> file onto a slide.</li>
         </ol>
       </td>
     </tr>
@@ -77,21 +77,21 @@ See **[Create a figure from a blot](from-blot-to-figure.md)** for the complete f
       </td>
     </tr>
     <tr>
-      <td rowspan="3" valign="top"><b>Import all recoverable figures from a PowerPoint file</b><br><a href="premium-access.md"><img src="../assets/premium-badge.svg" alt="Premium" height="18" align="absmiddle"></a></td>
-      <td valign="top"><b>Menu</b></td>
+      <td rowspan="3" valign="top"><b>Open the figures in a PowerPoint file</b><br><a href="premium-access.md"><img src="../assets/premium-badge.svg" alt="Premium" height="18" align="absmiddle"></a></td>
+      <td valign="top"><b>Files panel</b></td>
       <td>
         <ol>
-          <li>Select <b>File &gt; Import MyWB from PowerPoint File...</b>.</li>
-          <li>Choose a <code>.pptx</code> file.</li>
+          <li>In the <b>Files</b> panel on the right side of the window, click a <code>.pptx</code> file to list the MyWB figures in it.</li>
+          <li>Click a figure, or a panel of a figure of several panels.</li>
         </ol>
       </td>
     </tr>
     <tr>
-      <td valign="top"><b>Keyboard</b></td>
+      <td valign="top"><b>Menu</b></td>
       <td>
         <ol>
-          <li>Press <kbd>Command+I</kbd> on macOS or <kbd>Ctrl+I</kbd> on Windows.</li>
-          <li>Choose a <code>.pptx</code> file.</li>
+          <li>Select <b>File &gt; Open MyWB File</b> (<kbd>Command+O</kbd> on macOS or <kbd>Ctrl+O</kbd> on Windows).</li>
+          <li>Choose a <code>.pptx</code> file. MyWB shows its folder, lists its figures, and opens the first one.</li>
         </ol>
       </td>
     </tr>
@@ -107,14 +107,11 @@ See **[Create a figure from a blot](from-blot-to-figure.md)** for the complete f
 </table>
 
 
-### Save figures imported from a PowerPoint file
+### Save figures opened from a PowerPoint file
 
-When you import a `.pptx` file, MyWB lists each recoverable figure as an editable, unsaved document in the **MyWB Files** panel. The presentation is used only as the source of the recovered figures; editing or saving them does not modify the original `.pptx` file.
+The **Files** panel lists a `.pptx` file like a folder. Open it to see the MyWB figures it holds, named by slide. A figure of several panels lists its panels, and its assemblies, under it. Selecting one of its panels shows the whole figure in the Assembly View.
 
-When you select **Save**, **Save As**, or **Save All**, MyWB opens the **Save Imported MyWB Files** dialog. Select the figures to save and the destination folder. Each selected figure is saved as a separate `.mywb.svg` file.
-
-> [!CAUTION]
-> After saving, MyWB leaves the PowerPoint workspace and opens the folder containing the saved `.mywb.svg` files. Unchecked figures are not saved, and edits to them are discarded. MyWB asks for confirmation before discarding edited unchecked figures.
+MyWB never changes the `.pptx` file. A figure you open and leave unedited needs no saving. A figure you edit is marked with `*`: use **Save As** to save it as a `.gel.svg` file, beside the presentation by default. To update the slide, copy the saved figure with **Copy SVG for PowerPoint** and paste it into PowerPoint again.
 
 ## Troubleshooting
 
@@ -130,11 +127,11 @@ See [Premium Access](premium-access.md) if MyWB detects a recoverable figure but
 
 ### A figure is too large to copy
 
-**Copy SVG for PowerPoint** can copy up to 256 MiB. If a figure exceeds this limit, MyWB offers **Copy Without Source Images**, which applies only to that copy. See [PowerPoint Copy settings](settings.md#powerpoint-copy-settings) for details and editing limitations.
+**Copy SVG for PowerPoint** can copy up to 256 MiB. Every copy carries the figure's source images, so that it can be reopened in MyWB with its pixels. If a figure exceeds this limit, MyWB says it is too large and copies nothing. Reduce the output image size, or save it as a MyWB File instead.
 
 ### PowerPoint becomes slow after pasting a figure
 
-Source image data can increase the PowerPoint file size. If PowerPoint becomes slow after pasting a figure, go to **Settings > PowerPoint > Copy** and turn off **Include source image data in PowerPoint copies**. See [PowerPoint Copy settings](settings.md#powerpoint-copy-settings) for details and editing limitations.
+Every copy carries the figure's source image data, so that the figure can always be reopened in MyWB with its pixels, and this data increases the PowerPoint file size. MyWB has no setting to leave it out.
 
 ## Continue with
 

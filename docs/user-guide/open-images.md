@@ -14,7 +14,7 @@ You can open each image in any of the following ways:
 
 | Method | Marker image | Blot image |
 | --- | --- | --- |
-| Click | **Open marker image...** from the marker image selector at the top left of the window | **Open blot image...** from the blot image selector at the top right of the window |
+| Click | **Open marker image...** from the selector above the left image pane | **Open blot image...** from the selector above the right image pane |
 | Menu | **File > Open Marker Image** | **File > Open Blot Image** |
 | Keyboard shortcut<sup>†</sup> | <kbd>Command+Option+O</kbd> (macOS) or <kbd>Ctrl+Alt+O</kbd> (Windows) | <kbd>Command+Shift+O</kbd> (macOS) or <kbd>Ctrl+Shift+O</kbd> (Windows) |
 | Drag and drop | Drag an image into the Marker pane | Drag an image into the Blot pane |
@@ -28,7 +28,7 @@ MyWB fits the marker image to the blot coordinate space so both panes can share 
 
 Use the mouse wheel or trackpad to zoom, and drag to pan. Both actions are synchronized between the panes and do not change the exported image. To reset both panes, right-click either image and select **Reset View**.
 
-<p align="center"><img src="../assets/screen_shots/open-a-blot-or-marker-image.svg" alt="Empty Marker and Blot workspace with the marker and blot image selectors, each showing an Open image... option, at the top of the window" width="917"></p>
+<p align="center"><img src="../assets/screen_shots/open-a-blot-or-marker-image.svg" alt="Empty Marker and Blot workspace with image selectors above the two image panes" width="917"></p>
 
 ## Select an RGB channel
 
@@ -38,9 +38,10 @@ When you open an RGB or RGBA image, **Select RGB channels** appears. Choose a va
 - **Red**
 - **Green**
 - **Blue**
+- **Composite** (Blot) or **Color** (Marker): every channel, each in its colour. See [Show a fluorescent blot's channels](fluorescent-channels.md).
 - **Do not load**
 
-<p align="center"><img src="../assets/screen_shots/rgb-channel-dialog.svg" alt="Select RGB channels dialog showing the marker image preview, Average gray, and Do not load choices" width="662"></p>
+<p align="center"><img src="../assets/screen_shots/rgb-channel-dialog.svg" alt="Select RGB channels dialog with an image preview and channel choices for Marker and Blot" width="662"></p>
 
 Choose the channel for each image role before clicking **OK**. You can load two channels from one image—for example, Green as the marker and Red as the blot. After loading, use the channel field beside the filename to switch channels.
 

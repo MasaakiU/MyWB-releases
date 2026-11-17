@@ -22,9 +22,9 @@ Hold <img src="../assets/shortcut-roi-command.svg" alt="Command" height="18" ali
 - Drag inside the green rectangle to move it.
 - Drag a green handle to resize it.
 - Hold <kbd>Shift</kbd> while moving it to constrain movement horizontally or vertically.
-- Enter exact values in the `x`, `y`, `w`, and `h` fields in the right panel.
+- Click the ROI, then enter exact values in the `x`, `y`, `w`, and `h` fields at the bottom of the window.
 - With an `x`, `y`, `w`, or `h` field focused, press <kbd>↑</kbd> or <kbd>↓</kbd> to increase or decrease its value.
-- To delete the ROI, click the <picture><source media="(prefers-color-scheme: dark)" srcset="../assets/trash-can-regular_gray20.svg"><img src="../assets/trash-can-regular.svg" alt="" width="18" height="18" align="absmiddle"></picture> **Trash** button beside the ROI coordinates.
+- To delete the ROI, click the <picture><source media="(prefers-color-scheme: dark)" srcset="../assets/trash-can-regular_gray20.svg"><img src="../assets/trash-can-regular.svg" alt="" width="18" height="18" align="absmiddle"></picture> **Trash** button beside **ROI** below the tables.
 
 The ROI cannot extend outside the blot image. An ROI is required to [quantify bands](quantify-bands.md) or [export a cropped image](export-cropped-image.md). It is optional for SVG Preview, saving, and copying to PowerPoint; without one, the full blot is used.
 
@@ -37,12 +37,12 @@ Hold the shortcut for the desired type and click in either image pane to add a p
 | Marker | <img src="../assets/shortcut-marker-command-ctrl-click.svg" alt="Command/Ctrl+click" height="18" align="absmiddle"> | The vertical (y) position determines the molecular-weight level. |
 | Sample | <img src="../assets/shortcut-sample-command-ctrl-shift-click.svg" alt="Command/Ctrl+Shift+click" height="18" align="absmiddle"> | The horizontal (x) position determines the lane position.    |
 
-When you add a Marker or Sample position, a new row appears in the corresponding **Markers** or **Sample Details** panel at the bottom of the window. Enter text in the corresponding field.
+When you add a Marker or Sample position, a new row appears in the corresponding **Markers** or **Sample Lane Details** panel at the bottom of the window. Enter text in the corresponding field.
 
 - For a Marker position, enter a molecular-weight value.
 - For a Sample position, enter sample details. These are separate from the [sample label](design-and-preview-figure.md#edit-sample-labels) displayed in the figure. You can show or hide the details using the corresponding option. See [Hide details](design-and-preview-figure.md#edit-svg-style) for more information.
 
-To edit multiple labels at once, click the **Label** button above the table and enter one value per line. You can also use the [Marker Auto Fill](settings.md#auto-fill-presets) or [Sample Prefix Auto Fill](settings.md#auto-fill-presets) presets to reuse frequently used labels.
+To edit multiple labels at once, click the <picture><source media="(prefers-color-scheme: dark)" srcset="../assets/pen-solid_gray20.svg"><img src="../assets/pen-solid.svg" alt="" width="18" height="18" align="absmiddle"></picture> **Edit all marker labels...** button above the **Markers** table or the <picture><source media="(prefers-color-scheme: dark)" srcset="../assets/pen-solid_gray20.svg"><img src="../assets/pen-solid.svg" alt="" width="18" height="18" align="absmiddle"></picture> **Edit All...** button above the **Sample Lane Details** table, and enter one value per line. You can also use the [Marker Auto Fill](settings.md#auto-fill-presets) or [Sample Prefix Auto Fill](settings.md#auto-fill-presets) presets to reuse frequently used labels.
 
 ## Modify marker or sample positions
 

@@ -4,6 +4,9 @@
 
 - See [`LICENSE`](../LICENSE) for the MyWB license.
 - See the [MyWB Privacy Policy](legal/privacy-policy.md).
+  - If you use [AI assistant access](user-guide/ai-assistant.md), see
+    [what MyWB hands to an assistant](legal/privacy-policy.md#ai-assistant-access)
+    and what that assistant may do with it.
 - See the [macOS third-party software notices](legal/THIRD_PARTY_NOTICES.txt).
 - For macOS, see the Qt/PySide6 [corresponding-source offer](legal/third_party/qt/SOURCE-CODE-OFFER.txt)
   and [replacement and re-signing instructions](legal/third_party/qt/RELINKING-INSTRUCTIONS.txt)

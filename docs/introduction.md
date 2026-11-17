@@ -8,7 +8,7 @@ MyWB is an end-to-end desktop app for preparing and analyzing western blot and
 other gel images, then turning them into presentation-ready figures. It brings
 image alignment, ROI selection, labeling, figure design, band quantification,
 export, and PowerPoint workflows into one place. You can save a figure as an
-editable `.mywb.svg` file, reopen it later, and continue working without
+editable `.gel.svg` file, reopen it later, and continue working without
 rebuilding it from scratch.
 
 ## What can it do?
@@ -22,7 +22,7 @@ The core steps from image preparation to analysis and presentation stay within e
 | <a href="user-guide/from-blot-to-figure.md" aria-label="Marker/blot view"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/table-columns-solid_gray20.svg"><img src="assets/table-columns-solid.svg" alt="" width="28" height="28" align="absmiddle"></picture></a>&nbsp;**[Marker/blot&nbsp;view](user-guide/from-blot-to-figure.md)** | Adjust marker and blot images, select an ROI, and add labels. |
 | <a href="user-guide/design-and-preview-figure.md#preview-of-the-figure" aria-label="SVG preview"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/eye-solid_gray20.svg"><img src="assets/eye-solid.svg" alt="" width="28" height="28" align="absmiddle"></picture></a>&nbsp;**[SVG&nbsp;preview](user-guide/design-and-preview-figure.md#preview-of-the-figure)** | Review the SVG output and edit its styles before saving.     |
 | <a href="user-guide/quantify-bands.md" aria-label="Quantification"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/square-minus-regular_WB_gray20.svg"><img src="assets/square-minus-regular_WB.svg" alt="" width="28" height="28" align="absmiddle"></picture></a>&nbsp;**[Quantification](user-guide/quantify-bands.md)**&nbsp;<a href="user-guide/premium-access.md"><img src="assets/premium-badge.svg" alt="Premium" height="18" align="absmiddle"></a> | Analyze lanes in the selected ROI.                           |
-| <a href="user-guide/powerpoint-workflow.md#powerpoint-workflow" aria-label="Copy SVG for PowerPoint"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/copy_to_powerpoint_gray20.svg"><img src="assets/copy_to_powerpoint.svg" alt="" width="28" height="28" align="absmiddle"></picture></a>&nbsp;**[Copy&nbsp;for&nbsp;PowerPoint](user-guide/powerpoint-workflow.md#powerpoint-workflow)** | More than a simple image copy—preserve MyWB metadata for future traceability. |
+| <a href="user-guide/powerpoint-workflow.md#powerpoint-workflow" aria-label="Copy SVG for PowerPoint"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/copy_to_powerpoint_gray20.svg"><img src="assets/copy_to_powerpoint.svg" alt="" width="28" height="28" align="absmiddle"></picture></a>&nbsp;**[Copy&nbsp;SVG&nbsp;for&nbsp;PowerPoint](user-guide/powerpoint-workflow.md#powerpoint-workflow)** | More than a simple image copy—preserve MyWB metadata for future traceability. |
 
 
 ### Flexible output layouts

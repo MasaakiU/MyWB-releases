@@ -29,7 +29,7 @@ The 16-bit choices are available only when every original image in the export is
 
 **Output:** MyWB creates a folder beside the source image. Its name ends in `_cropped_area` or `_cropped_area_contrast_adjusted`; if that folder exists, MyWB adds a number instead of overwriting it.
 
-The folder contains the available Marker and Blot crops and, when possible, an [editable `.mywb.svg` snapshot](manage-mywb-files.md#common-mywb-file-operations) of the exported state.
+The folder contains the available Marker and Blot crops and, when possible, an [editable `.gel.svg` snapshot](manage-mywb-files.md#common-mywb-file-operations) of the exported state.
 
 ## Continue with
 

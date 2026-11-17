@@ -14,6 +14,11 @@ Make sure MyWB has permission to access the folder containing your images or out
 
 For help using MyWB features — opening images, labeling, quantification, PowerPoint, and Premium Access — see [FAQ and support in the User Guide](user-guide.md#faq-and-support).
 
+Two features have troubleshooting sections of their own:
+
+- [PowerPoint troubleshooting](user-guide/powerpoint-workflow.md#troubleshooting)
+- [AI assistant troubleshooting](user-guide/ai-assistant.md#troubleshooting)
+
 ## Report a bug or ask a question
 
 Questions about using MyWB are welcome, not only bug reports. Check the existing threads on [MyWB GitHub Issues](https://github.com/MasaakiU/MyWB-releases/issues) and open a new issue if you don't find an answer.

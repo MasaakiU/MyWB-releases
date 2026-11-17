@@ -16,8 +16,9 @@ Use the live SVG Preview to arrange labels and adjust the figure's appearance.
 
 Click <picture><source media="(prefers-color-scheme: dark)" srcset="../assets/eye-solid_gray20.svg"><img src="../assets/eye-solid.svg" alt="" width="18" height="18" align="absmiddle"></picture> **SVG Preview** in the left sidebar to check the live figure preview. It uses the ROI when one exists and the full blot otherwise.
 
-- Sample-label layout and content can be edited on the **Sample Label** tab.
-- Figure appearance can be edited on the **SVG Style** tab under **Global**, **Image**, **Markers**, **Labels**, **Details**, and **Annotation**.
+- Use the **Sample Label** tab on the left to edit sample-label layout and content.
+- Figure appearance can be edited on the **SVG Style** tab under **Global**, **Image**, **Markers**, **Marker Unit**, **Bands**, **Labels**, **Details**, and **Annotation**.
+- Click a part of the preview to bring up the setting that changes it. See [Find a setting from the preview](#find-a-setting-from-the-preview).
 
 <p align="center"><img src="../assets/svg_style_guide_Overview.svg" alt="Generated figure areas for the annotation, sample labels, blot image, molecular-weight markers, and sample details" width="550"></p>
 
@@ -61,11 +62,11 @@ Below are several examples of table layouts.
 
 - Enter a value in **Angle** to set the label rotation angle (−90° ≤ Angle ≤ 90°).
 - Select **Anchor** to set the reference point for label rotation. The **automatic** option works well in most cases.
-- By default, the rotated label uses the same text as **Sample Details**.
-- To use a label different from **Sample Details**, enter custom text in the **Rotated label** field.
-- Click the <picture><source media="(prefers-color-scheme: dark)" srcset="../assets/link-solid_gray20.svg"><img src="../assets/link-solid.svg" alt="" width="18" height="18" align="absmiddle"></picture> **Link** button to restore the label from **Sample Details**.
+- By default, the rotated label uses the same text as **Sample Lane Details**.
+- To use a label different from **Sample Lane Details**, enter custom text in the **Rotated label** field.
+- Click the <picture><source media="(prefers-color-scheme: dark)" srcset="../assets/link-solid_gray20.svg"><img src="../assets/link-solid.svg" alt="" width="18" height="18" align="absmiddle"></picture> **Link** button to restore the label from **Sample Lane Details**.
 
-<p align="center"><img src="../assets/screen_shots/angle-layout.svg" alt="Rotated sample label" width="700"></p>
+<p align="center"><img src="../assets/screen_shots/angle-layout.svg" alt="Rotated sample-label settings and the resulting figure" width="800"></p>
 
 ### Settings by layout
 
@@ -96,18 +97,18 @@ The table below shows which settings are available for each layout.
 The following settings can be edited:
 
 - **Global:** margins and font family
-- **Image<sup>†</sup>:** pixel width, pixel height, scale (%), and border width
-- **Markers<sup>‡</sup>:** position, gap, font size, baseline offset, tick width, and tick length
-- **Labels<sup>§</sup>:** position, font size, and gap
+- **Image<sup>†</sup>:** pixel width, pixel height, scale (%), [**Fit to Lanes**](#fit-to-lanes), and border width
+- **Markers:** position, gap, font size, baseline offset, tick width, and tick length
+- **Marker Unit:** the unit of the marker sizes, and its position, font size, angle, gap, and shift. See [Marker unit](#marker-unit).
+- **Bands:** which band-table rows are named, the position, font size, and gap of the band names, and the style of their ticks. See [Band names and ticks](#band-names-and-ticks).
+- **Labels<sup>‡</sup>:** position, font size, and gap
 - **Details:** visibility, font size, and gap
-- **Annotation<sup>¶</sup>:** text, position, font size, gap, and text alignment
+- **Annotation:** one text for each of the four sides (**Left**, **Right**, **Top** and **Bottom**; an empty box draws nothing on that side), and the font size, gap, and text alignment they share
 
 † **Pixel width**, **Pixel height**, and **Scale (%)** are linked to one another.<br>
-‡ **Position** is linked to **Annotation > Position** and uses the opposite side.<br>
-§ **Position** is linked to **Sample Label > Position**.<br>
-¶ **Position** is linked to **Markers > Position** and uses the opposite side.
+‡ **Position** is linked to **Sample Label > Position**.
 
-<p align="center"><img src="../assets/screen_shots/svg-style.svg" alt="SVG Style panel showing Global margin and font settings and Image size, scale, and border settings" width="300"></p>
+<p align="center"><img src="../assets/screen_shots/svg-style.svg" alt="SVG Style panel showing Global margin and font settings and Image size, scale, and border settings" width="340"></p>
 
 On the **SVG Style** tab, use the **...** menu to select **Load System Default**, **Toggle Previous Style**, or **Save Current Style As...**.
 
@@ -115,8 +116,44 @@ On the **SVG Style** tab, use the **...** menu to select **Load System Default**
 
 <p align="center"><img src="../assets/svg_style_guide_Markers-Labels-Details-Annotation.svg" alt="Figure diagram showing gaps for the annotation, sample labels, markers, and details, plus marker tick and baseline settings" width="550"></p>
 
+### Marker unit
+
+Type the unit of the marker sizes, such as `kDa` or `bp`, once in **Unit** under **Marker Unit**. It is drawn beside the marker numbers, so the numbers themselves need no unit. The unit belongs to the document and is not part of an SVG Style preset; where it is drawn is.
+
+- **Position:** **Above** or **Below** the marker numbers, or beside the picture at its **Top**, **Middle**, or **Bottom**.
+- **Font size:** left empty, the unit is drawn at the markers' font size and follows it.
+- **Angle**, **Gap**, and **Shift** turn and move it.
+
+A marker label that has a unit of its own keeps it.
+
+<p align="center"><img src="../assets/screen_shots/marker-unit.svg" alt="SVG Preview with a marker unit beside the figure and the Marker Unit controls" width="700"></p>
+
+### Band names and ticks
+
+The **Bands** section draws the names of the band-table rows beside the picture, each with a tick pointing at its band.
+
+- The list of rows chooses which rows are named. **Show All** and **Hide All** tick or untick every row. Which rows are named belongs to the document, not to the SVG Style preset.
+- **Position**, **Font size**, and **Gap** place the names.
+- **Tick style** is **Solid**, **Dashed**, **← Left**, or **→ Right**. **Arrow size** and **Dash length** (in tick widths) appear only for the styles that use them. **Tick color** and **Tick width** set its colour and width.
+- **Auto length**, on by default, draws the tick from the picture's edge to past the marker labels. Untick it to set **Tick length**, the tick's whole length from the picture's edge.
+- **Tick inset** sets how far the tick reaches into the picture.
+
+<p align="center"><img src="../assets/screen_shots/band-names-ticks.svg" alt="SVG Preview with named bands, ticks, and the Bands style controls" width="700"></p>
+
+### Fit to Lanes
+
+**Fit to Lanes**, under **Image** (also **SVG > Fit to Lanes**), sets **Scale (%)** in one press so that neighbouring sample lanes inside the ROI stand two sample-label font sizes apart, measured as the median gap between lanes. It needs at least two sample positions within the ROI, and is one step of **Edit > Undo**.
+
+### Find a setting from the preview
+
+- Move the mouse over the preview: the part of the figure under it is tinted. Click it to bring up what sets it: a sample's or marker's row in the label panel, a cell of a table layout, or its **SVG Style** section, tinted for a moment so that it is easy to find.
+- Hovering a field or an **SVG Style** section tints the parts of the figure it sets.
+- Parts that are not drawn at the moment, such as an empty annotation side, hidden details, or band names left out, are shown faintly where they would go. They appear in the preview only, never in what is saved or copied, and can be clicked like the rest.
+- A zoomed-in preview stays zoomed as the figure changes, and pans to keep what you type in view.
+
 ## Continue with
 
+- [Put panels together as an assembly](assemblies.md)
 - [Save the editable MyWB file](manage-mywb-files.md#common-mywb-file-operations)
 - [Copy the figure to PowerPoint](powerpoint-workflow.md#powerpoint-workflow)
 - [Adjust marker and blot images](adjust-images.md)

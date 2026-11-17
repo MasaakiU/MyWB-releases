@@ -12,7 +12,7 @@ Correct image orientation, reverse band polarity, and adjust contrast without ch
 
 ## Contrast
 
-The following adjustments are available:
+Use **Image Adjustments** on the right side of the window:
 
 <table>
   <tr>
@@ -22,7 +22,7 @@ The following adjustments are available:
   <tr>
     <td rowspan="2">Automatically adjust the contrast for</td>
     <td>both Marker and Blot images</td>
-    <td>Click the <strong>Auto</strong> button in the right control panel.</td>
+    <td>Click the <strong>Auto</strong> button.</td>
   </tr>
   <tr>
     <td>only the Marker or Blot image</td>
@@ -66,11 +66,11 @@ The following adjustments are available:
 
 † The **ROI** option for the histogram source is available after you [create an ROI](edit-roi-and-labels.md#roi-management).
 
-<p align="center"><img src="../assets/screen_shots/contrast.svg" alt="Cropped contrast panel showing automatic contrast, histograms, and minimum and maximum values for Marker and Blot" width="600"></p>
+<p align="center"><img src="../assets/screen_shots/contrast.svg" alt="Cropped contrast panel showing automatic contrast, histograms, and minimum and maximum values for Marker and Blot" width="540"></p>
 
 ## Image controls and export settings
 
-The following controls are available:
+These controls are below the histograms in **Image Adjustments**:
 
 | Buttons                                                      | Description                                                  |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -78,7 +78,7 @@ The following controls are available:
 | **saturated**                                                | Highlight pixels outside the current [contrast](#contrast) range. Pixels saturated at the upper limit are shown in magenta, and pixels saturated at the lower limit are shown in cyan. |
 | **invert**                                                   | Invert the image intensity so that dark and bright regions are reversed. The [contrast](#contrast) range is automatically adjusted to match the inverted image. |
 | **flip**                                                     | Flip the image horizontally.                                 |
-| **rotate 90°**<sup>†</sup>                                   | Rotate the image by the same fixed 90° step each time. Because **flip** mirrors the image, the step appears counterclockwise when **flip** is off and clockwise when **flip** is on. |
+| **rotate 90°**<sup>†</sup>                                   | Click the <picture><source media="(prefers-color-scheme: dark)" srcset="../assets/rotate-90-left_gray20.svg"><img src="../assets/rotate-90-left.svg" alt="" width="18" height="18" align="absmiddle"></picture> button to rotate the image 90° counterclockwise, as it appears on screen. This is the same whether **flip** is on or off. |
 | **rotate**                                                   | Fine-tune the image rotation by the selected angle (−180° < angle ≤ 180°). The adjustment is always applied to both **Marker** and **Blot** so that they remain in the same coordinate space. |
 | **export**                                                   | Specify the bit depth used when exporting the image.         |
 
