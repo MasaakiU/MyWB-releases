@@ -84,6 +84,11 @@ These controls are below the histograms in **Image Adjustments**:
 
 † The **rotate 90°** operation is normally used with <img src="../assets/toggle-link-on.svg" alt="Link controls enabled" width="32" height="15"> **Link controls** enabled. Because the Marker image size is constrained to match the Blot image, rotating only one image while the controls are unlinked may change the aspect ratio of the Marker image.
 
+> [!NOTE]
+> When you rotate or flip both images together, marker positions, sample positions, and bands move with them. When you change only one image with **Link controls** off, these positions stay in place.
+>
+> The ROI follows linked **rotate 90°** operations. During fine rotation or when flipping an already rotated image, it may stay in place. Check the ROI after changing orientation and adjust it if needed.
+
 <p align="center"><img src="../assets/screen_shots/control.svg" alt="Image adjustment controls for contrast, saturation highlighting, inversion, flipping, rotation, and export bit depth" width="380"></p>
 
 ## Continue with

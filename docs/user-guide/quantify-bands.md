@@ -16,6 +16,9 @@ Detect lanes, inspect their profiles, and export measurements from an ROI. Quant
 
     Background is subtracted from each generated densitogram, and the area under the curve (AUC) is calculated.
 
+> [!NOTE]
+> Quantification measures each lane across the full height of the ROI. Band positions and selections in the band table do not limit the measured area. If a lane contains several bands within the ROI, they contribute to the same result. Quantification of individual bands is planned for a future release.
+
 > [!TIP]
 > To improve accuracy, rotate the image in **Marker/blot view** so that the bands are horizontal before opening **Quantification**.
 
@@ -47,7 +50,9 @@ All other parts of the workflow—including opening a marker image, adding marke
     - **automatic:** You do not have to do anything when the red vertical lane boundaries match the visible lanes. If they do not, use another mode.
     - **semi-automatic:** The red horizontal dashed line in the **Horizontal projection** becomes movable. As you move the line up or down, the red vertical lane boundaries are updated accordingly.
 
-        If no threshold produces the number of lane regions specified in **# lanes**, **semi-automatic** is unavailable; MyWB either keeps the previous mode or returns to **automatic**.
+        If the threshold produces more lane regions than specified in **# lanes**, MyWB selects the required number with the largest signal areas above the threshold.
+
+        If no threshold produces at least the number of lane regions specified in **# lanes**, **semi-automatic** is unavailable; MyWB either keeps the previous mode or returns to **automatic**.
 
         > [!TIP]
         >
@@ -82,13 +87,25 @@ In the **Vertical projection**, the gray area indicates the portion identified a
 
 ### Review and export the results
 
+The results table contains the following measurements:
+
+| Column | Meaning |
+|---|---|
+| **Signal AUC** | Area under the background-subtracted lane profile across the full ROI height. |
+| **Peak height** | Maximum height of the background-subtracted lane profile. |
+| **Lane width** | Lane width in pixels. |
+| **BG height** | Background level subtracted from the summed lane profile. |
+| **BG AUC** | BG height multiplied by the ROI height. |
+
+Projection and AUC values are based on summed intensity, not width- or height-averaged intensity.
+
 1. Check the results table. MyWB recalculates automatically when you change settings; there is no separate "Run" button.
     - With several [channels](fluorescent-channels.md), every channel is measured with the same lanes. Tabs show one channel at a time.
 2. Click the <picture><source media="(prefers-color-scheme: dark)" srcset="../assets/clone-regular_gray20.svg"><img src="../assets/clone-regular.svg" alt="" width="18" height="18" align="absmiddle"></picture> **Copy Results** button to copy the table to the clipboard, or the <picture><source media="(prefers-color-scheme: dark)" srcset="../assets/arrow-up-from-bracket-solid_gray20.svg"><img src="../assets/arrow-up-from-bracket-solid.svg" alt="" width="18" height="18" align="absmiddle"></picture> **Export Results** button to save the results and graph.
     - **Output location:** MyWB creates a new `_quantification` folder, usually beside the blot image. The completion message shows the exact location.
     - **Files:** MyWB saves a tab-separated values (TSV) result table with a `.csv` filename extension, an SVG graph containing the **Horizontal projection** and the **Vertical projection** (one for each channel), and a `.gel.svg` snapshot.
     - **Columns:** the table starts with a `Channel` column and has a row for each lane of each channel, whatever the number of channels.
-    - The **Label** column of the table shows `unknown` when the number of sample positions within the ROI's horizontal range does not match **# lanes**. To change sample positions, return to **Marker/blot view** and add, remove, or move [sample positions](edit-roi-and-labels.md#add-marker-and-sample-positions).
+    - The **Label** column of the table shows `unknown` when the number of sample positions within the ROI's horizontal range does not match **# lanes**. To change sample positions, return to <picture><source media="(prefers-color-scheme: dark)" srcset="../assets/table-columns-solid_gray20.svg"><img src="../assets/table-columns-solid.svg" alt="" width="18" height="18" align="absmiddle"></picture> **Marker/blot view** and add, remove, or move [sample positions](edit-roi-and-labels.md#add-marker-and-sample-positions).
 
 ### Keep the results in the document
 

@@ -63,6 +63,19 @@ The **SVG Style (All Panels)** tab changes every panel's [SVG style](design-and-
 
 For one panel, select it and click **Edit in SVG Preview**.
 
+## Apply image adjustments to multiple panels
+
+1. Open the assembly in <picture><source media="(prefers-color-scheme: dark)" srcset="../assets/assembly-stack_gray20.svg"><img src="../assets/assembly-stack.svg" alt="" width="18" height="18" align="absmiddle"></picture> **Assembly View**.
+2. In **Files**, select a panel, then <kbd>Command</kbd>-click (macOS) or <kbd>Ctrl</kbd>-click (Windows) other panels of the same assembly. To adjust every panel, select the assembly's file row.
+3. Use **Image Adjustments** to change the selected panels' Blot contrast, inversion, saturation highlighting, fine rotation angle, or export bit depth.
+
+Blank fields or a dash indicate that the panels have different values. Changing a setting applies it to the selected panels; other settings keep their individual values.
+
+Use **Edit > Undo** in **Assembly View** to undo a shared adjustment across the affected panels. After changing the rotation angle, check each panel's ROI.
+
+> [!NOTE]
+> Shared contrast adjustment requires single-channel blot images with the same bit depth and **invert** setting. Otherwise, adjust each panel separately.
+
 ## Save the assembly
 
 **Save** updates the existing file. In Assembly View, **Save As** saves the assembly to a new file. Layout and style changes can be undone with **Edit > Undo**.

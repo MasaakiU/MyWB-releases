@@ -125,13 +125,12 @@ A figure can be restored only while PowerPoint keeps it as an SVG with its MyWB 
 
 See [Premium Access](premium-access.md) if MyWB detects a recoverable figure but the Premium operation is unavailable.
 
-### A figure is too large to copy
+### A figure is too large to copy or slows down PowerPoint
 
-**Copy SVG for PowerPoint** can copy up to 256 MiB. Every copy carries the figure's source images, so that it can be reopened in MyWB with its pixels. If a figure exceeds this limit, MyWB says it is too large and copies nothing. Reduce the output image size, or save it as a MyWB File instead.
+**Copy SVG for PowerPoint** includes the figure's source images, which increase the presentation's file size and may slow down PowerPoint. The 256 MiB limit applies to the complete SVG data copied in one operation, including all embedded source images and metadata. If this total exceeds the limit, MyWB copies nothing. To export the figure without source images, choose **File > Export SVG Without Source Images...**. The exported file is a plain `.svg`, not a GelSVG (`.gel.svg`) file. Insert it into PowerPoint using **Insert > Pictures**.
 
-### PowerPoint becomes slow after pasting a figure
-
-Every copy carries the figure's source image data, so that the figure can always be reopened in MyWB with its pixels, and this data increases the PowerPoint file size. MyWB has no setting to leave it out.
+> [!NOTE]
+> The exported plain SVG keeps the figure's appearance, settings, labels, and source files' metadata. MyWB can reopen it, but it does not conform to the GelSVG format. Other software may be unable to read its embedded document data, even if it can display the SVG. The original image files are needed to redraw or quantify the figure in MyWB. Save the MyWB File (`.gel.svg`) as well to keep the source images with it.
 
 ## Continue with
 

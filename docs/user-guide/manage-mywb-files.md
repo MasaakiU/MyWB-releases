@@ -34,6 +34,20 @@ MyWB saves documents as **GelSVG** (`.gel.svg`), an open format for gel and blot
 
 MyWB still opens files saved by earlier versions (`.mywb.svg`, `.my_wb.svg`, and `.wb`) but does not write over them. **Save** opens **Save As** with `<name>.gel.svg` beside the old file, and the old file stays as it was. **Save All** does the same for each of them. If you used an earlier version of MyWB, it tells you this once, before your first save; it tells you also when the first file you save is one of these old files. **Cancel** there stops the save, and you are told again next time; **Continue** saves, and you are not told again. **Help > Reset “Do Not Show Again” Choices…** brings it back.
 
+## Find a source image
+
+Open the MyWB document and switch to <picture><source media="(prefers-color-scheme: dark)" srcset="../assets/table-columns-solid_gray20.svg"><img src="../assets/table-columns-solid.svg" alt="" width="18" height="18" align="absmiddle"></picture> **Marker/blot view**.
+
+1. Choose **File > Find Blot Source Image...** or **File > Find Marker Source Image...**.
+2. Select a folder and how many levels of subfolders to search, then click **Search**.
+3. Use **Show in Finder** (macOS) or **Show in File Explorer** (Windows) beside a result to locate the file.
+
+Files are matched by their contents, so renamed copies can be found. The search only lists matching files; it does not change the document.
+
+The command is unavailable if MyWB already knows the file's location or the document lacks the information needed to identify it.
+
+To rebuild a source image file from the document, see [Export a source image](export-cropped-image.md#export-a-source-image).
+
 <a id="use-the-mywb-files-panel"></a>
 
 ## Use the Files panel

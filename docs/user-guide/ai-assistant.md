@@ -5,7 +5,7 @@
 Let an AI assistant read and adjust the document you have. It works with the Claude or ChatGPT desktop app on the same computer as MyWB; Claude Code, Codex and other MCP clients work too. [Premium Access](premium-access.md) must be verified on MyWB side. <img src="../assets/premium-badge.svg" alt="Premium" height="18" align="absmiddle">
 
 > [!CAUTION]
-> Most AI assistants run their model on a remote service, such as servers of Anthropic or OpenAI, so what AI assistants read from MyWB may be sent to that service. Read [What the assistant can see and do](#what-the-assistant-can-see-and-do) before you switch access on.
+> MyWB itself does not send your document or images off your computer. However, it does pass them to the AI assistant on your computer, and the assistant may send them on to its company's servers, as Claude and ChatGPT do. Read [What the assistant can see and do](#what-the-assistant-can-see-and-do) before you switch access on.
 
 **On this page**
 
@@ -194,9 +194,9 @@ The [MyWB Privacy Policy](../legal/privacy-policy.md#ai-assistant-access) gives 
 
 ### Where that information goes
 
-MyWB passes information to the assistant's app on your computer, such as Claude Desktop or the ChatGPT desktop app. It does not send it to MyWB's developer or a MyWB service. The connection accepts requests only from the computer MyWB runs on (`127.0.0.1`), with an access token that changes each time MyWB starts.
+MyWB itself does not send your document or images off your computer. However, it does pass them, with the other information above, to the AI assistant on your computer, such as Claude Desktop or the ChatGPT desktop app. The connection accepts requests only from the computer MyWB runs on (`127.0.0.1`), with an access token that changes each time MyWB starts.
 
-**The assistant may then send that information to its provider's servers (e.g., Anthropic or OpenAI).** Most assistants run their model on a remote service, under that provider's terms and privacy policy. MyWB cannot control what happens to information after handing it to the assistant. Before switching access on, decide whether the images, labels, and measurements in your document may be shared with that provider, especially if they are unpublished or confidential.
+**The assistant may then send all of that on to its company's servers, as Claude and ChatGPT do,** under that company's terms and privacy policy. MyWB cannot control what happens to information after handing it to the assistant. Before switching access on, decide whether the images, labels, and measurements in your document may be shared with that company, especially if they are unpublished or confidential.
 
 ### What it can do
 
@@ -205,7 +205,7 @@ MyWB passes information to the assistant's app on your computer, such as Claude 
 - **Analyze bands:** run [quantification](quantify-bands.md) and Auto Detect.
 - **Undo and redo edits:** use **Edit > Undo** and **Edit > Redo**, including edits you made yourself. It is instructed to tell you what it undid.
 
-Document edits appear as individual steps in the Edit menu. Use <kbd>Ctrl+Z</kbd> to undo one assistant action at a time.
+Document edits appear as individual steps in the Edit menu. Use <kbd>Command+Z</kbd> on macOS or <kbd>Ctrl+Z</kbd> on Windows to undo one assistant action at a time.
 
 **Auto Detect shows a preview before applying results.** Nothing is added to the document until **Place** is pressed. You can press **Place** or **Cancel** yourself; the assistant is instructed to ask before replacing existing marks. If Auto Detect fits several ROIs, each ROI after the first is saved in a new MyWB file beside the document.
 

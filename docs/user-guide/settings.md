@@ -12,7 +12,7 @@ Manage reusable presets, how much memory undo history may use, and whether an AI
 You can also open the relevant settings directly from:
 
 - The <picture><source media="(prefers-color-scheme: dark)" srcset="../assets/gear-solid_gray20.svg"><img src="../assets/gear-solid.svg" alt="" width="18" height="18" align="absmiddle"></picture> **Settings** button beside **Auto Fill** in the marker or sample label batch editor
-- **SVG Preview > SVG Style > ... > Settings...**
+- <picture><source media="(prefers-color-scheme: dark)" srcset="../assets/eye-solid_gray20.svg"><img src="../assets/eye-solid.svg" alt="" width="18" height="18" align="absmiddle"></picture> **SVG Preview > SVG Style > ... > Settings...**
 
 ## Settings pages
 
@@ -129,7 +129,7 @@ Undo history is kept per document and is bounded by one memory limit shared acro
 2. Set the limit. The default is 512 MB, and the range is 64 MB to 8192 MB.
 3. Click **Save Settings**.
 
-Lowering the limit takes effect immediately: MyWB gives up the steps it can spare — redo steps first, then the oldest undo steps of whichever document holds the most — until the retained history fits. Every open document always keeps at least one undo step, whatever the limit says, so <kbd>Ctrl+Z</kbd> works once on each of them.
+Lowering the limit takes effect immediately: MyWB gives up the steps it can spare — redo steps first, then the oldest undo steps of whichever document holds the most — until the retained history fits. Every open document always keeps at least one undo step, whatever the limit says, so you can undo at least once in each document with <kbd>Command+Z</kbd> on macOS or <kbd>Ctrl+Z</kbd> on Windows.
 
 ## AI Assistant Access settings
 

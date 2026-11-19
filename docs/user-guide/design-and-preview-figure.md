@@ -92,6 +92,24 @@ The table below shows which settings are available for each layout.
 § These settings appear when you click the gear icon for a row.<br>
 ¶ This setting is unavailable when there is only one row, or when two rows are split between the top and bottom of the blot.
 
+### Reuse sample labels in another figure
+
+Reuse sample-label text and layout settings in another MyWB document.
+
+1. In the source document, open <picture><source media="(prefers-color-scheme: dark)" srcset="../assets/eye-solid_gray20.svg"><img src="../assets/eye-solid.svg" alt="" width="18" height="18" align="absmiddle"></picture> **SVG Preview** and choose **Edit > Copy Sample Labels**.
+2. Open the destination document and add sample positions if needed. Then open <picture><source media="(prefers-color-scheme: dark)" srcset="../assets/eye-solid_gray20.svg"><img src="../assets/eye-solid.svg" alt="" width="18" height="18" align="absmiddle"></picture> **SVG Preview**.
+3. Choose **Edit > Paste Sample Labels**.
+
+To paste only the text or layout settings, use:
+
+- **Edit > Paste Sample Label Text Only**
+- **Edit > Paste Sample Label Style Only**
+
+> [!NOTE]
+> Copying and pasting use samples within the ROI's horizontal range, or all samples if there is no ROI. Labels are pasted in left-to-right order. If the sample counts or layouts differ, MyWB asks how to proceed.
+
+To reuse figure-wide settings such as fonts and font sizes, use an [SVG Style preset](settings.md#svg-style-presets).
+
 ## Edit SVG style
 
 The following settings can be edited:

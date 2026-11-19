@@ -31,6 +31,12 @@ Leave the back-and-forth behind. MyWB unites everything from source images to an
 
 ## Features
 
+### Let AI Do the Work
+
+<p align="center"><img src="docs/assets/ai_assistant_demo.gif" alt="An AI assistant preparing a western blot figure in MyWB" width="917"></p>
+
+<p align="center">4× speed · <a href="https://github.com/user-attachments/assets/bdf30f11-3f61-4cb4-a22e-d143ff96d427">Watch the video version</a></p>
+
 ### Bidirectional Workflow
 
 From raw data to presentations, and trace it back to the source.

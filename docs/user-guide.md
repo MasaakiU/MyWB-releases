@@ -36,6 +36,8 @@
 - [Preview of the figure](user-guide/design-and-preview-figure.md#preview-of-the-figure)
 - [Edit sample labels](user-guide/design-and-preview-figure.md#edit-sample-labels)
   - Choose Basic, Rotated, or table-based layouts and adjust their layout options.
+- [Reuse sample labels in another figure](user-guide/design-and-preview-figure.md#reuse-sample-labels-in-another-figure)
+  - Copy and paste sample-label text and layout settings between MyWB documents.
 - [Edit SVG style](user-guide/design-and-preview-figure.md#edit-svg-style)
   - Adjust margins, fonts, image size, marker and label positions, the marker unit, band names and ticks, details, and annotations.
 - [Find a setting from the preview](user-guide/design-and-preview-figure.md#find-a-setting-from-the-preview)
@@ -47,6 +49,8 @@
   - Show several channels together as Composite, set their colours and names, choose the reference channel, and detect and quantify each channel.
 - [Put panels together as an assembly](user-guide/assemblies.md)
   - Combine MyWB files into one figure, arrange the panels in a grid, line up their lanes, and set how each panel looks.
+- [Apply image adjustments to multiple panels](user-guide/assemblies.md#apply-image-adjustments-to-multiple-panels)
+  - Apply image adjustments to selected panels of an assembly.
 
 ## Save, export, and reuse
 
@@ -55,7 +59,12 @@
 - [Use the Files panel](user-guide/manage-mywb-files.md#use-the-files-panel)
   - Browse folders, open the panels of a file of several panels, and open the MyWB figures in a PowerPoint file.
 - [Add notes to a MyWB file](user-guide/manage-mywb-files.md#add-notes-to-a-mywb-file)
+- [Find a source image](user-guide/manage-mywb-files.md#find-a-source-image)
+  - Locate the original file by matching its contents, even if it has been renamed.
 - [Export a cropped image](user-guide/export-cropped-image.md#steps)
+  - Export the selected ROI, with optional contrast adjustment.
+- [Export a source image](user-guide/export-cropped-image.md#export-a-source-image)
+  - Rebuild the full source image from the data held by the document.
 - [PowerPoint workflow](user-guide/powerpoint-workflow.md#powerpoint-workflow)
   - Copy a figure to PowerPoint; restore one by pasting it or by opening the `.pptx` file, with Premium Access. <a href="user-guide/premium-access.md"><img src="assets/premium-badge.svg" alt="Premium" height="18" align="absmiddle"></a>
 
@@ -99,4 +108,5 @@
 - [AI assistant troubleshooting](user-guide/ai-assistant.md#troubleshooting)
 - [Install or update MyWB](installation.md)
 - [Legal and privacy information](legal-and-privacy.md)
+- [Find diagnostic logs](troubleshooting.md#find-diagnostic-logs)
 - [Report a bug or ask a question](troubleshooting.md#report-a-bug-or-ask-a-question)

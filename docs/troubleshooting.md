@@ -32,3 +32,17 @@ For bug reports, please include:
 - the exact error message or a screenshot, when available.
 
 Do not include confidential research data, credentials, or personal information in the report.
+
+### Find diagnostic logs
+
+Logs can help diagnose crashes and unexpected errors.
+
+- **macOS:** In Finder, press <kbd>Command+Shift+G</kbd> and enter `~/Library/Application Support/MyWB/logs`.
+- **Windows:** Press <kbd>Win+R</kbd> and enter `%LOCALAPPDATA%\MyWB\logs`.
+
+`mywb.log` records application activity and errors. `mywb-faults.log` records crash tracebacks when available. Additional windows use numbered names such as `mywb-2.log` and `mywb-2-faults.log`.
+
+If requested, provide the logs covering the time when the problem occurred.
+
+> [!NOTE]
+> Logs stay on your computer and are not sent automatically. They can contain file paths and technical details, so check their contents before sharing them.

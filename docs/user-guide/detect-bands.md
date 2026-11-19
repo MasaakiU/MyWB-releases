@@ -35,10 +35,13 @@ When the run finds something, nothing is placed yet. What it found is drawn over
 - **Confidence threshold:** for each image, a histogram shows how confident the model is in each band. Drag the threshold line, or type a value, to keep fewer or more bands. The pictures and the count follow at once, without running the model again.
 - **Lane grouping** (with Sample lanes ticked) sets how far apart two bands may sit and still be one lane.
 - **ROI padding** (with ROIs ticked) sets how far each ROI reaches past the top and bottom of its bands.
-- Untick **Show overlay** for a clear look at the picture. The circular-arrow button beside **Cancel** puts the threshold and sliders back.
+- Untick **Show overlay** for a clear look at the picture. The <picture><source media="(prefers-color-scheme: dark)" srcset="../assets/rotate-left-solid_gray20.svg"><img src="../assets/rotate-left-solid.svg" alt="" width="18" height="18" align="absmiddle"></picture> circular-arrow button beside **Cancel** puts the threshold and sliders back.
 - You can still zoom and change the contrast while you look.
 
 Click **Place** to put down what is drawn, as one step of **Edit > Undo**. **Cancel**, <kbd>Esc</kbd>, or leaving for another page or document asks first, because getting the result back means detecting again.
+
+> [!NOTE]
+> If Auto Detect creates multiple ROIs, each ROI after the first is saved as a separate MyWB file beside the current document. **Edit > Undo** reverses the changes to the current document, but the new files remain.
 
 > [!TIP]
 > Missing bands is how the model usually fails. Before you place the result, compare the drawn bands with the picture, and lower the threshold if bands you can see are left out.
@@ -53,7 +56,7 @@ The band table, between **Markers** and **Sample Lane Details** under the pictur
 - **Move a band:** drag it on the picture, or type its **x** and **y** in the boxes under the tables. Its cell follows.
 - **Rearrange the table:** drag a band to an empty cell to put it in that lane and row without moving it on the picture. Drop it on the line between two columns or two rows to give it a lane or a row of its own. Cells that would not take it are dimmed while you drag.
 - **Choose bands:** click a band; <kbd>Shift</kbd>-click chooses a range, and <kbd>Command</kbd>-click (macOS) or <kbd>Ctrl</kbd>-click (Windows) adds or removes one. A row's name chooses the row's bands, and the **Band name** heading chooses every band. On the picture, <kbd>Shift</kbd>-click adds a band to the choice or takes it away.
-- **Delete bands:** click the trash-can button, or choose **Marker/Blot > Bands > Delete Selected Bands**.
+- **Delete bands:** click the <picture><source media="(prefers-color-scheme: dark)" srcset="../assets/trash-can-regular_gray20.svg"><img src="../assets/trash-can-regular.svg" alt="" width="18" height="18" align="absmiddle"></picture> trash-can button, or choose **Marker/Blot > Bands > Delete Selected Bands**.
 - **ROI only** (also **Marker/Blot > Bands > Show Only Bands in ROI**) shows only the bands inside the ROI. A band whose centre lies outside the ROI is greyed in its cell.
 
 With several [channels](fluorescent-channels.md), each band belongs to a channel, and a row never mixes channels.
