@@ -192,6 +192,18 @@ License text:
 
 third_party/cffi/LICENSE
 
+gelsvg
+------
+
+This distribution includes gelsvg 0.1.0, the GelSVG library
+(https://github.com/gelsvg/gelsvg), licensed under the MIT License. It is
+written by the copyright holder of MyWB and published separately; its
+license applies to it, including any part of it contributed by others.
+
+License text:
+
+third_party/gelsvg/LICENSE
+
 ONNX Runtime
 ------------
 
